@@ -13,11 +13,12 @@ Let's try to make this list as useful as possible to researchers, engineers and 
 - [Mobile-First LLMs](#Mobile-First-LLMs)
 - [Infrastructure / Deployment of LLMs on Device](#Infrastructure-/-Deployment-of-LLMs-on-Device)
 - [Benchmarking LLMs on Device](#Benchmarking-LLMs-on-Device)
+- [Applications](#Applications)
+- [Multimodal LLMs](#Multimodal-LLMs)
 - [Surveys on Efficient LLMs](#Surveys-on-Efficient-LLMs)
 - [Training LLMs on Device](#Training-LLMs-on-Device)
 - [Mobile-Related Use-Cases](#Mobile-Related-Use-Cases)
 - [Related Awesome Repositories](#Related-Awesome-Repositories)
-
 
 
 ## Mobile-First LLMs
@@ -110,6 +111,22 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 #### 2023
 
 - Towards an On-device Agent for Text Rewriting ([paper](https://arxiv.org/abs/2308.11807))
+
+## Multimodal LLMs
+
+This section refers to multimodal LLMs, which integrate vision or other modalities in their tasks.
+
+### Ppaers
+
+#### 2024
+
+- TinyLLaVA: A Framework of Small-scale Large Multimodal Models ([paper](https://arxiv.org/abs/2402.14289), [code](https://github.com/DLCV-BUAA/TinyLLaVABench))
+- MobileVLM V2: Faster and Stronger Baseline for Vision Language Model ([paper](https://arxiv.org/abs/2402.03766), [code](https://github.com/Meituan-AutoML/MobileVLM))
+
+#### 2023
+
+- MobileVLM : A Fast, Strong and Open Vision Language Assistant for Mobile Devices ([paper](https://arxiv.org/abs/2312.16886), [code](https://github.com/Meituan-AutoML/MobileVLM))
+
 
 ## Surveys on Efficient LLMs
 
