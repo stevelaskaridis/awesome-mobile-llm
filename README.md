@@ -153,7 +153,8 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
 
 #### 2023
 
-- FwdLLM: Efficient FedLLM using Forward Gradient ([paper](https://arxiv.org/abs/2308.13894))
+- **[MobiCom'23]** Federated Few-Shot Learning for Mobile NLP ([paper](https://arxiv.org/abs/2212.05974), [code](https://github.com/UbiquitousLearning/FeS))
+- FwdLLM: Efficient FedLLM using Forward Gradient ([paper](https://arxiv.org/abs/2308.13894), [code](https://github.com/UbiquitousLearning/FwdLLM))
 - **[Electronics'24]** Forward Learning of Large Language Models by Consumer Devices ([paper](https://www.mdpi.com/2079-9292/13/2/402))
 - Federated Fine-Tuning of LLMs on the Very Edge: The Good, the Bad, the Ugly ([paper](https://arxiv.org/pdf/2310.03150.pdf))
 - Federated Full-Parameter Tuning of Billion-Sized Language Models with Communication Cost under 18 Kilobytes ([paper](https://arxiv.org/abs/2312.06353), [code](https://github.com/alibaba/FederatedScope/tree/FedKSeed))
@@ -172,6 +173,7 @@ This section includes paper that are mobile-related, but not necessarily run on 
 #### 2023
 
 - [NeurIPS'23] AndroidInTheWild: A Large-Scale Dataset For Android Device Control ([paper](https://arxiv.org/abs/2307.10088), [code](https://github.com/google-research/google-research/tree/master/android_in_the_wild))
+- GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation ([paper](https://arxiv.org/abs/2311.07562), [code](https://github.com/zzxslp/MM-Navigator))
 
 #### Older
 
