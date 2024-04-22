@@ -116,7 +116,7 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 This section refers to multimodal LLMs, which integrate vision or other modalities in their tasks.
 
-### Ppaers
+### Papers
 
 #### 2024
 
