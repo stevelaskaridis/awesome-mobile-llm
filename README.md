@@ -62,6 +62,7 @@ This section showcases frameworks and contributions for supporting LLM inference
     - [LLMFarm](https://github.com/guinmoon/LLMFarm): iOS frontend for llama.cpp
     - [Sherpa](https://github.com/Bip-Rep/sherpa): Android frontend for llama.cpp
     - [dusty-nv's llama.cpp](https://github.com/dusty-nv/jetson-containers/tree/master/packages/llm/llama_cpp): Containers for Jetson deployment of llama.cpp
+    - [iAkashPaul/Portal](https://github.com/iakashpaul/portal): Wraps the example android app with tweaked UI, configs & additional model support 
 - [MLC-LLM](https://github.com/mlc-ai/mlc-llm)
     - [Android App](https://llm.mlc.ai/#android): MLC Android app
     - [iOS App](https://llm.mlc.ai/#ios): MLC iOS app
