@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 10th April 2024
+Last update: 24th April 2024
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to @stevelaskaridis.
 
