@@ -112,6 +112,7 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 #### 2024
 
+- Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent ([paper](https://arxiv.org/abs/2404.11459))
 - Octopus v2: On-device language model for super agent ([paper](https://arxiv.org/abs/2404.01744))
 
 #### 2023
