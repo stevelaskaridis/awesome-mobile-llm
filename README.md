@@ -27,6 +27,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
+| Qwen2 | 2024 | 500M, 1.5B, ... | Qwen Team | [paper](https://arxiv.org/abs/2309.16609) | [code](https://github.com/QwenLM/Qwen2) | [huggingface](https://huggingface.co/Qwen/Qwen2-0.5B) |
 | OpenELM | 2024 | 270M, 450M, 1.08B, 3.04B | Apple | [paper](https://arxiv.org/abs/2404.14619)  | [code](https://github.com/apple/corenet) | [huggingface](https://huggingface.co/apple/OpenELM) |
 | Phi-3 | 2024 | 3.8B | Microsoft | [whitepaper](https://arxiv.org/abs/2404.14219) |  - | [huggingface](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct) |
 | OLMo | 2024 | 1B, ... | AllenAI | [paper](https://arxiv.org/abs/2402.00838) | [code](https://github.com/allenai/OLMo) | [huggingface](https://huggingface.co/allenai/OLMo-7B) |
