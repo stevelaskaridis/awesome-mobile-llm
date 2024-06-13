@@ -27,6 +27,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
+| Fox | 2024 | 1.6B | TensorOpera | [blog](https://blog.tensoropera.ai/tensoropera-unveils-fox-foundation-model-a-pioneering-open-source-slm-leading-the-way-against-tech-giants/) | - | [huggingface](https://huggingface.co/tensoropera/Fox-1-1.6B) |
 | Qwen2 | 2024 | 500M, 1.5B, ... | Qwen Team | [paper](https://arxiv.org/abs/2309.16609) | [code](https://github.com/QwenLM/Qwen2) | [huggingface](https://huggingface.co/Qwen/Qwen2-0.5B) |
 | OpenELM | 2024 | 270M, 450M, 1.08B, 3.04B | Apple | [paper](https://arxiv.org/abs/2404.14619)  | [code](https://github.com/apple/corenet) | [huggingface](https://huggingface.co/apple/OpenELM) |
 | Phi-3 | 2024 | 3.8B | Microsoft | [whitepaper](https://arxiv.org/abs/2404.14219) |  - | [huggingface](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct) |
@@ -34,8 +35,10 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | Mobile LLMs | 2024 | 125M, 250M | Meta                                            | [paper](https://arxiv.org/abs/2402.14905)   | -                                                  | -                                                           |
 | Gemma | 2024 | 2B, ...             | Google                                          | [website](https://ai.google.dev/gemma)      | [code](https://github.com/google-deepmind/gemma), [gemma.cpp](https://github.com/google/gemma.cpp) | [huggingface](https://huggingface.co/google/gemma-2b) |
 | MobiLlama | 2024 | 0.5B, 1B        | MBZUAI | [paper](https://arxiv.org/abs/2402.16840)   | [code](https://github.com/mbzuai-oryx/MobiLlama) | [huggingface](https://huggingface.co/MBZUAI/MobiLlama-1B) |
+| Stable LM 2 (Zephyr) | 2024 | 1.6B | Stability.ai | [paper](https://drive.google.com/file/d/1JYJHszhS8EFChTbNAf8xmqhKjogWRrQF/view) | - | [huggingface](https://huggingface.co/stabilityai/stablelm-2-1_6b) |
 | TinyLlama | 2024 | 1.1B            | Singapore University of Technology and Design   | [paper](https://arxiv.org/abs/2401.02385)   | [code](https://github.com/jzhang38/TinyLlama)    | [huggingface](https://huggingface.co/TinyLlama)           |
 | Gemini-Nano | 2024 | 1.8B, 3.25B  | Google                                          | [paper](https://arxiv.org/abs/2312.11805)      | - | - |
+| Stable LM (Zephyr) | 3B           | Stability | [blog](https://stability.ai/news/stablelm-zephyr-3b-stability-llm) | [code](https://github.com/Stability-AI/StableLM) | [huggingface](https://huggingface.co/stabilityai/stablelm-zephyr-3b) |
 | OpenLM | 2023 | 11M, 25M, 87M, 160M, 411M, 830M, 1B, 3B, ... | OpenLM team | - | [code](https://github.com/mlfoundations/open_lm/) | [huggingface](https://huggingface.co/mlfoundations/open_lm_1B) |
 | Phi-2  | 2023 | 2.7B               | Microsoft                                       | [website](https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/)      | - | [huggingface](https://huggingface.co/microsoft/phi-2) |
 | Phi-1.5 | 2023 | 1.3B             | Microsoft                                       | [paper](https://arxiv.org/abs/2309.05463)   | - | [huggingface](https://huggingface.co/microsoft/phi-1_5) |
@@ -73,6 +76,7 @@ This section showcases frameworks and contributions for supporting LLM inference
     - [Android App](https://llm.mlc.ai/#android): MLC Android app
     - [iOS App](https://llm.mlc.ai/#ios): MLC iOS app
     - [dusty-nv's MLC](https://github.com/dusty-nv/jetson-containers/tree/master/packages/llm/mlc): Containers for Jetson deployment of MLC
+- [PyTorch ExecuTorch Alpha](https://github.com/pytorch/executorch)
 - [Google MediaPipe](https://github.com/google/mediapipe)
 - [Apple MLX](https://github.com/ml-explore/mlx)
 - [Alibaba MNN](https://github.com/alibaba/MNN)
@@ -186,6 +190,14 @@ This section includes paper that are mobile-related, but not necessarily run on 
 #### Older
 
 - [ACL'20] Mapping Natural Language Instructions to Mobile UI Action Sequences ([paper](https://arxiv.org/abs/2005.03776))
+
+## Industry announcements/blogs
+
+* [WWDC'24 - Apple Foundation Models](https://machinelearning.apple.com/research/introducing-apple-foundation-models)
+* [PyTorch Executorch Alpha](https://pytorch.org/blog/executorch-alpha/)
+* [Google - LLMs On-Device with MediaPipe and TFLite](https://developers.googleblog.com/en/large-language-models-on-device-with-mediapipe-and-tensorflow-lite/)
+* [Qualcomm - The future of AI is Hybrid](https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Whitepaper-The-future-of-AI-is-hybrid-Part-1-Unlocking-the-generative-AI-future-with-on-device-and-hybrid-AI.pdf)
+* [ARM - Generative AI on mobile](https://community.arm.com/arm-community-blogs/b/ai-and-ml-blog/posts/generative-ai-on-mobile-on-arm-cpu)
 
 ## Related Awesome Repositories
 
