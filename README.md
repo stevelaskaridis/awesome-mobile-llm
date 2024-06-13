@@ -191,6 +191,14 @@ This section includes paper that are mobile-related, but not necessarily run on 
 
 - [ACL'20] Mapping Natural Language Instructions to Mobile UI Action Sequences ([paper](https://arxiv.org/abs/2005.03776))
 
+## Industry announcements/blogs
+
+* [WWDC'24 - Apple Foundation Models](https://machinelearning.apple.com/research/introducing-apple-foundation-models)
+* [PyTorch Executorch Alpha](https://pytorch.org/blog/executorch-alpha/)
+* [Google - LLMs On-Device with MediaPipe and TFLite](https://developers.googleblog.com/en/large-language-models-on-device-with-mediapipe-and-tensorflow-lite/)
+* [Qualcomm - The future of AI is Hybrid](https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Whitepaper-The-future-of-AI-is-hybrid-Part-1-Unlocking-the-generative-AI-future-with-on-device-and-hybrid-AI.pdf)
+* [ARM - Generative AI on mobile](https://community.arm.com/arm-community-blogs/b/ai-and-ml-blog/posts/generative-ai-on-mobile-on-arm-cpu)
+
 ## Related Awesome Repositories
 
 If you want to read more about related topics, here are some tangential awesome repositories to visit:
