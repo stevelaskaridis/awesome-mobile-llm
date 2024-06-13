@@ -76,6 +76,7 @@ This section showcases frameworks and contributions for supporting LLM inference
     - [Android App](https://llm.mlc.ai/#android): MLC Android app
     - [iOS App](https://llm.mlc.ai/#ios): MLC iOS app
     - [dusty-nv's MLC](https://github.com/dusty-nv/jetson-containers/tree/master/packages/llm/mlc): Containers for Jetson deployment of MLC
+- [PyTorch ExecuTorch Alpha](https://github.com/pytorch/executorch)
 - [Google MediaPipe](https://github.com/google/mediapipe)
 - [Apple MLX](https://github.com/ml-explore/mlx)
 - [Alibaba MNN](https://github.com/alibaba/MNN)
