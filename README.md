@@ -101,7 +101,7 @@ This section showcases frameworks and contributions for supporting LLM inference
 
 #### 2022
 
-- The Future of Consumer Edge-AI Computing ([paper](https://arxiv.org/abs/2210.10514), [talk](https://www.youtube.com/watch?v=WyKxGKy_rnk))
+- **[IEEE Pervasive Computing]** The Future of Consumer Edge-AI Computing ([paper](https://arxiv.org/abs/2210.10514), [talk](https://www.youtube.com/watch?v=WyKxGKy_rnk))
 
 ## Benchmarking LLMs on Device
 
@@ -111,7 +111,7 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 #### 2024
 
-- MELTing point: Mobile Evaluation of Language Transformers ([paper](https://arxiv.org/abs/2403.12844))
+- **[MobiCom'24]** MELTing point: Mobile Evaluation of Language Transformers ([paper](https://arxiv.org/abs/2403.12844), [talk](https://www.youtube.com/watch?feature=shared&t=326&v=sohvvDFT3DU), [code](https://github.com/brave-experiments/MELT-public))
 
 ## Applications
 
