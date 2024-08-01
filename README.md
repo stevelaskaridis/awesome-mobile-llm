@@ -28,6 +28,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
+| Gemma 2 | 2024 | 2B, ... | Google | [blog](https://developers.googleblog.com/en/smaller-safer-more-transparent-advancing-responsible-ai-with-gemma/) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/google/gemma-2-2b-it) |
 | Apple Intelligence Foundation LMs | 2024 | 3B | Apple | [paper](https://machinelearning.apple.com/research/apple-intelligence-foundation-language-models) | - | - |
 | Fox | 2024 | 1.6B | TensorOpera | [blog](https://blog.tensoropera.ai/tensoropera-unveils-fox-foundation-model-a-pioneering-open-source-slm-leading-the-way-against-tech-giants/) | - | [huggingface](https://huggingface.co/tensoropera/Fox-1-1.6B) |
 | Qwen2 | 2024 | 500M, 1.5B, ... | Qwen Team | [paper](https://arxiv.org/abs/2309.16609) | [code](https://github.com/QwenLM/Qwen2) | [huggingface](https://huggingface.co/Qwen/Qwen2-0.5B) |
