@@ -79,10 +79,8 @@ This section showcases frameworks and contributions for supporting LLM inference
     - [Android App](https://llm.mlc.ai/#android): MLC Android app
     - [iOS App](https://llm.mlc.ai/#ios): MLC iOS app
     - [dusty-nv's MLC](https://github.com/dusty-nv/jetson-containers/tree/master/packages/llm/mlc): Containers for Jetson deployment of MLC
-- [PyTorch ExecuTorch Alpha](https://github.com/pytorch/executorch)
-- [Google MediaPipe](https://github.com/google/mediapipe)
-- [Apple MLX](https://github.com/ml-explore/mlx)
-- [Alibaba MNN](https://github.com/alibaba/MNN)
+- [PyTorch ExecuTorch](https://github.com/pytorch/executorch): Solution for enabling on-device inference capabilities across mobile and edge devices including wearables, embedded devices and microcontrollers.
+    - [TorchChat](https://github.com/pytorch/torchchat): Codebase showcasing the ability to run large language models (LLMs) seamlessly across iOS and Android
 - [llama2.c](https://github.com/karpathy/llama2.c) (More educational, see [here](https://github.com/Manuel030/llama2.c-android) for android port)
 - [tinygrad](https://github.com/tinygrad/tinygrad)
 - [TinyChatEngine](https://github.com/mit-hanlab/TinyChatEngine) (Targeted at Nvidia, Apple M1 and RPi)
