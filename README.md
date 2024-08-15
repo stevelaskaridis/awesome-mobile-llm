@@ -87,7 +87,7 @@ This section showcases frameworks and contributions for supporting LLM inference
 - [Alibaba MNN](https://github.com/alibaba/MNN): MNN supports inference and training of deep learning models and for inference and training on-device.
 - [llama2.c](https://github.com/karpathy/llama2.c) (More educational, see [here](https://github.com/Manuel030/llama2.c-android) for android port)
 - [tinygrad](https://github.com/tinygrad/tinygrad): Simple neural network framework from tinycorp and [@geohot](https://github.com/geohot)
-- [TinyChatEngine](https://github.com/mit-hanlab/TinyChatEngine): Targeted at Nvidia, Apple M1 and RPi, from Song Han's (MIT) ]group](https://hanlab.mit.edu/team).
+- [TinyChatEngine](https://github.com/mit-hanlab/TinyChatEngine): Targeted at Nvidia, Apple M1 and RPi, from Song Han's (MIT) [group](https://hanlab.mit.edu/team).
 
 ### Papers
 
