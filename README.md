@@ -93,6 +93,7 @@ This section showcases frameworks and contributions for supporting LLM inference
 
 #### 2024
 
+- PowerInfer-2: Fast Large Language Model Inference on a Smartphone ([paper](https://arxiv.org/abs/2406.06282), [code](https://github.com/SJTU-IPADS/PowerInfer))
 - **[MobiCom'24]** Mobile Foundation Model as Firmware ([paper](https://xumengwei.github.io/files/MobiCom24-MobileFM.pdf), [code](https://github.com/UbiquitousLearning/MobileFM))
 - Merino: Entropy-driven Design for Generative Language Models on IoT Devicess ([paper](https://arxiv.org/abs/2403.07921))
 - LLM as a System Service on Mobile Devices ([paper](https://arxiv.org/abs/2403.11805))
@@ -114,6 +115,7 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 #### 2024
 
+- MobileAIBench: Benchmarking LLMs and LMMs for On-Device Use Cases ([paper](https://arxiv.org/abs/2406.10290))
 - **[MobiCom'24]** MELTing point: Mobile Evaluation of Language Transformers ([paper](https://arxiv.org/abs/2403.12844), [talk](https://www.youtube.com/watch?feature=shared&t=326&v=sohvvDFT3DU), [code](https://github.com/brave-experiments/MELT-public))
 
 ## Applications
