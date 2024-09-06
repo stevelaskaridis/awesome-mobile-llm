@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 15th August 2024
+Last update: 6th September 2024
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to @stevelaskaridis.
 
@@ -153,6 +153,7 @@ This section includes survey papers on LLM efficiency, a topic very much related
 
 #### 2024
 
+- On-Device Language Models: A Comprehensive Review ([paper](https://arxiv.org/abs/2409.00088))
 - A Survey of Resource-efficient LLM and Multimodal Foundation Models ([paper](https://arxiv.org/pdf/2401.08092.pdf))
 
 #### 2023
@@ -208,6 +209,7 @@ This section includes paper that are mobile-related, but not necessarily run on 
 
 If you want to read more about related topics, here are some tangential awesome repositories to visit:
 
+* [NexaAI/Awesome-LLMs-on-device](https://github.com/NexaAI/Awesome-LLMs-on-device) on LLMs on Device
 * [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) on Large Language Models
 * [KennethanCeyer/awesome-llm](https://github.com/KennethanCeyer/awesome-llm) on  Large Language Models
 * [HuangOwen/Awesome-LLM-Compression](https://github.com/HuangOwen/Awesome-LLM-Compression) on Large Language Model Compression
