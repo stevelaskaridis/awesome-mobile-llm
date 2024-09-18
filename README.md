@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 6th September 2024
+Last update: 18th September 2024
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to @stevelaskaridis.
 
@@ -13,6 +13,7 @@ Let's try to make this list as useful as possible to researchers, engineers and 
 - [Mobile-First LLMs](#Mobile-First-LLMs)
 - [Infrastructure / Deployment of LLMs on Device](#Infrastructure-/-Deployment-of-LLMs-on-Device)
 - [Benchmarking LLMs on Device](#Benchmarking-LLMs-on-Device)
+- [Mobile-Specific Optimisations](#Mobile-Specific-Optimisations)
 - [Applications](#Applications)
 - [Multimodal LLMs](#Multimodal-LLMs)
 - [Surveys on Efficient LLMs](#Surveys-on-Efficient-LLMs)
@@ -28,15 +29,15 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
-| Gemma 2 | 2024 | 2B, ... | Google | [blog](https://developers.googleblog.com/en/smaller-safer-more-transparent-advancing-responsible-ai-with-gemma/) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/google/gemma-2-2b-it) |
+| Gemma 2 | 2024 | 2B, ... | Google | [paper](https://arxiv.org/abs/2408.00118) [blog](https://developers.googleblog.com/en/smaller-safer-more-transparent-advancing-responsible-ai-with-gemma/) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/google/gemma-2-2b-it) |
 | Apple Intelligence Foundation LMs | 2024 | 3B | Apple | [paper](https://machinelearning.apple.com/research/apple-intelligence-foundation-language-models) | - | - |
 | Fox | 2024 | 1.6B | TensorOpera | [blog](https://blog.tensoropera.ai/tensoropera-unveils-fox-foundation-model-a-pioneering-open-source-slm-leading-the-way-against-tech-giants/) | - | [huggingface](https://huggingface.co/tensoropera/Fox-1-1.6B) |
 | Qwen2 | 2024 | 500M, 1.5B, ... | Qwen Team | [paper](https://arxiv.org/abs/2309.16609) | [code](https://github.com/QwenLM/Qwen2) | [huggingface](https://huggingface.co/Qwen/Qwen2-0.5B) |
 | OpenELM | 2024 | 270M, 450M, 1.08B, 3.04B | Apple | [paper](https://arxiv.org/abs/2404.14619)  | [code](https://github.com/apple/corenet) | [huggingface](https://huggingface.co/apple/OpenELM) |
-| Phi-3 | 2024 | 3.8B | Microsoft | [whitepaper](https://arxiv.org/abs/2404.14219) |  - | [huggingface](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct) |
+| Phi-3 | 2024 | 3.8B | Microsoft | [whitepaper](https://arxiv.org/abs/2404.14219) | [code](https://github.com/microsoft/Phi-3CookBook) | [huggingface](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct) |
 | OLMo | 2024 | 1B, ... | AllenAI | [paper](https://arxiv.org/abs/2402.00838) | [code](https://github.com/allenai/OLMo) | [huggingface](https://huggingface.co/allenai/OLMo-7B) |
 | Mobile LLMs | 2024 | 125M, 250M | Meta                                      | [paper](https://arxiv.org/abs/2402.14905)   | [code](https://github.com/facebookresearch/MobileLLM)                           | -                                                           |
-| Gemma | 2024 | 2B, ...             | Google                                          | [website](https://ai.google.dev/gemma)      | [code](https://github.com/google-deepmind/gemma), [gemma.cpp](https://github.com/google/gemma.cpp) | [huggingface](https://huggingface.co/google/gemma-2b) |
+| Gemma | 2024 | 2B, ...             | Google                                          | [paper](https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf), [website](https://ai.google.dev/gemma)      | [code](https://github.com/google-deepmind/gemma), [gemma.cpp](https://github.com/google/gemma.cpp) | [huggingface](https://huggingface.co/google/gemma-2b) |
 | MobiLlama | 2024 | 0.5B, 1B        | MBZUAI | [paper](https://arxiv.org/abs/2402.16840)   | [code](https://github.com/mbzuai-oryx/MobiLlama) | [huggingface](https://huggingface.co/MBZUAI/MobiLlama-1B) |
 | Stable LM 2 (Zephyr) | 2024 | 1.6B | Stability.ai | [paper](https://drive.google.com/file/d/1JYJHszhS8EFChTbNAf8xmqhKjogWRrQF/view) | - | [huggingface](https://huggingface.co/stabilityai/stablelm-2-1_6b) |
 | TinyLlama | 2024 | 1.1B            | Singapore University of Technology and Design   | [paper](https://arxiv.org/abs/2401.02385)   | [code](https://github.com/jzhang38/TinyLlama)    | [huggingface](https://huggingface.co/TinyLlama)           |
@@ -117,6 +118,23 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 - MobileAIBench: Benchmarking LLMs and LMMs for On-Device Use Cases ([paper](https://arxiv.org/abs/2406.10290))
 - **[MobiCom'24]** MELTing point: Mobile Evaluation of Language Transformers ([paper](https://arxiv.org/abs/2403.12844), [talk](https://www.youtube.com/watch?feature=shared&t=326&v=sohvvDFT3DU), [code](https://github.com/brave-experiments/MELT-public))
+
+## Mobile-Specific Optimisations
+
+This section focuses on techniques and optimisations that target mobile-specific deployment.
+
+### Papers
+
+#### 2024
+
+- MobileQuant: Mobile-friendly Quantization for On-device Language Models ([paper](https://arxiv.org/abs/2408.13933), [code](https://github.com/saic-fi/MobileQuant))
+- Gemma 2: Improving Open Language Models at a Practical Size ([paper](https://arxiv.org/abs/2408.00118), [code](https://github.com/google/gemma_pytorch))
+- Apple Intelligence Foundation Language Models ([paper](https://arxiv.org/abs/2407.21075))
+- Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone ([paper](https://arxiv.org/abs/2404.14219), [code](https://github.com/microsoft/Phi-3CookBook))
+- Gemma: Open Models Based on Gemini Research and Technology ([paper](https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf), [code](https://github.com/google/gemma_pytorch))
+- MobiLlama: Towards Accurate and Lightweight Fully Transparent GPT ([paper](https://arxiv.org/abs/2402.16840), [code](https://github.com/mbzuai-oryx/MobiLlama))
+- **[ICML'24]** MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases ([paper](https://arxiv.org/abs/2402.14905), [code](https://github.com/facebookresearch/MobileLLM))
+- TinyLlama: An Open-Source Small Language Model ([paper](https://arxiv.org/abs/2401.02385), [code](https://github.com/jzhang38/TinyLlama))
 
 ## Applications
 
