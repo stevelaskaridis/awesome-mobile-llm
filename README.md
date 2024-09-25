@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 18th September 2024
+Last update: 26th September 2024
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to @stevelaskaridis.
 
@@ -29,6 +29,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
+| Llama 3.2 | 2024 | 1B, 3B | Meta | [blog](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) | [code](https://github.com/meta-llama/llama-models) | [huggingface](https://huggingface.co/meta-llama/Llama-3.2-1B) |
 | Gemma 2 | 2024 | 2B, ... | Google | [paper](https://arxiv.org/abs/2408.00118) [blog](https://developers.googleblog.com/en/smaller-safer-more-transparent-advancing-responsible-ai-with-gemma/) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/google/gemma-2-2b-it) |
 | Apple Intelligence Foundation LMs | 2024 | 3B | Apple | [paper](https://machinelearning.apple.com/research/apple-intelligence-foundation-language-models) | - | - |
 | Fox | 2024 | 1.6B | TensorOpera | [blog](https://blog.tensoropera.ai/tensoropera-unveils-fox-foundation-model-a-pioneering-open-source-slm-leading-the-way-against-tech-giants/) | - | [huggingface](https://huggingface.co/tensoropera/Fox-1-1.6B) |
