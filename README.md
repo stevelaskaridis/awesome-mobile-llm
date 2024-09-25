@@ -208,6 +208,8 @@ This section includes paper that are mobile-related, but not necessarily run on 
 
 - Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs ([paper](https://arxiv.org/abs/2404.05719))
 - Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception ([paper](https://arxiv.org/abs/2401.16158), [code](https://github.com/X-PLUG/MobileAgent))
+- **[MobiCom'24]** MobileGPT: Augmenting LLM with Human-like App Memory for Mobile Task Automation ([paper](https://arxiv.org/abs/2312.03003))
+- **[MobiCom'24]** AutoDroid: LLM-powered Task Automation in Android ([paper](https://arxiv.org/abs/2308.15272), [code](https://github.com/MobileLLM/AutoDroid))
 
 #### 2023
 
