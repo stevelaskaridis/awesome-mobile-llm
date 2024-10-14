@@ -2,9 +2,9 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 28th September 2024
+Last update: 14th October 2024
 
-If your publication/work is not included - and you think it should - please open an issue or reach out directly to @stevelaskaridis.
+If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
 Let's try to make this list as useful as possible to researchers, engineers and practitioners all around the world.
 
@@ -86,6 +86,7 @@ This section showcases frameworks and contributions for supporting LLM inference
 - [Google MediaPipe](https://github.com/google/mediapipe): A suite of libraries and tools for you to quickly apply artificial intelligence (AI) and machine learning (ML) techniques in your applications. Support Android, iOS, Python and Web.
 - [Apple MLX](https://github.com/ml-explore/mlx): MLX is an array framework for machine learning research on Apple silicon, brought to you by Apple machine learning research. Builds upon lazy evaluation and unified memory architecture.
     - [MLX Swift](https://github.com/ml-explore/mlx-swift): Swift API for MLX.
+- [HF Swift Transformers](https://github.com/huggingface/swift-transformers): Swift Package to implement a transformers-like API in Swift
 - [Alibaba MNN](https://github.com/alibaba/MNN): MNN supports inference and training of deep learning models and for inference and training on-device.
 - [llama2.c](https://github.com/karpathy/llama2.c) (More educational, see [here](https://github.com/Manuel030/llama2.c-android) for android port)
 - [tinygrad](https://github.com/tinygrad/tinygrad): Simple neural network framework from tinycorp and [@geohot](https://github.com/geohot)
