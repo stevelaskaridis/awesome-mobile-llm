@@ -19,6 +19,7 @@ Let's try to make this list as useful as possible to researchers, engineers and 
 - [Surveys on Efficient LLMs](#Surveys-on-Efficient-LLMs)
 - [Training LLMs on Device](#Training-LLMs-on-Device)
 - [Mobile-Related Use-Cases](#Mobile-Related-Use-Cases)
+- [Leaderboards](#Leaderboards)
 - [Industry Announcements](#Industry-Announcements)
 - [Related Awesome Repositories](#Related-Awesome-Repositories)
 
@@ -224,6 +225,12 @@ This section includes paper that are mobile-related, but not necessarily run on 
 #### Older
 
 - [ACL'20] Mapping Natural Language Instructions to Mobile UI Action Sequences ([paper](https://arxiv.org/abs/2005.03776))
+
+## Leaderboards
+
+* [HF Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)
+* [FlowerTune LLM Leaderboard](https://flower.ai/benchmarks/llm-leaderboard/)
+* [MLPerf Inference: Mobile Benchmark Suite](https://mlcommons.org/benchmarks/inference-mobile/)
 
 ## Industry Announcements
 
