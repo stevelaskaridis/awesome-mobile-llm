@@ -30,6 +30,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
+| AMD-Llama-135m | 2024 | 135M | AMD | [blog](https://community.amd.com/t5/ai/amd-unveils-its-first-small-language-model-amd-135m/ba-p/711368) | [code](https://github.com/AMD-AIG-AIMA/AMD-LLM) | [huggingface](https://huggingface.co/amd/AMD-Llama-135m) |
 | SmolLM2 | 2024 | 135M, 360M, 1.7B | Huggingface | - | - | [huggingface](https://huggingface.co/collections/HuggingFaceTB/smollm2-6723884218bcda64b34d7db9) |
 | Ministral | 2024 | 3B, ... | Mistral | [blog](https://mistral.ai/news/ministraux/) | - | [huggingface](https://huggingface.co/mistralai/Ministral-8B-Instruct-2410) |
 | Llama 3.2 | 2024 | 1B, 3B | Meta | [blog](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) | [code](https://github.com/meta-llama/llama-models) | [huggingface](https://huggingface.co/meta-llama/Llama-3.2-1B) |
