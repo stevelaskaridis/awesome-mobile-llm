@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 1st November 2024
+Last update: 8th November 2024
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -180,6 +180,7 @@ This section includes survey papers on LLM efficiency, a topic very much related
 
 #### 2024
 
+- A Comprehensive Survey of Small Language Models in the Era of Large Language Models: Techniques, Enhancements, Applications, Collaboration with LLMs, and Trustworthiness ([paper](https://arxiv.org/abs/2411.03350))
 - Small Language Models: Survey, Measurements, and Insights ([paper](https://arxiv.org/abs/2409.15790))
 - On-Device Language Models: A Comprehensive Review ([paper](https://arxiv.org/abs/2409.00088))
 - A Survey of Resource-efficient LLM and Multimodal Foundation Models ([paper](https://arxiv.org/pdf/2401.08092.pdf))
