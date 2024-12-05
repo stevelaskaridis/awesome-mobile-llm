@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 8th November 2024
+Last update: 5th December 2024
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -30,6 +30,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
+| PhoneLM | 2024 | 0.5B, 1.5B | BUPT | [paper](https://arxiv.org/abs/2411.05046) | [code](https://github.com/UbiquitousLearning/PhoneLM) | [huggingface](https://huggingface.co/mllmTeam/PhoneLM-0.5B) |
 | AMD-Llama-135m | 2024 | 135M | AMD | [blog](https://community.amd.com/t5/ai/amd-unveils-its-first-small-language-model-amd-135m/ba-p/711368) | [code](https://github.com/AMD-AIG-AIMA/AMD-LLM) | [huggingface](https://huggingface.co/amd/AMD-Llama-135m) |
 | SmolLM2 | 2024 | 135M, 360M, 1.7B | Huggingface | - | - | [huggingface](https://huggingface.co/collections/HuggingFaceTB/smollm2-6723884218bcda64b34d7db9) |
 | Ministral | 2024 | 3B, ... | Mistral | [blog](https://mistral.ai/news/ministraux/) | - | [huggingface](https://huggingface.co/mistralai/Ministral-8B-Instruct-2410) |
@@ -134,6 +135,8 @@ This section focuses on techniques and optimisations that target mobile-specific
 
 #### 2024
 
+
+- PhoneLM: An Efficient and Capable Small Language Model Family through Principled Pre-training ([paper](https://arxiv.org/abs/2411.05046), [code](https://github.com/UbiquitousLearning/PhoneLM))
 - MobileQuant: Mobile-friendly Quantization for On-device Language Models ([paper](https://arxiv.org/abs/2408.13933), [code](https://github.com/saic-fi/MobileQuant))
 - Gemma 2: Improving Open Language Models at a Practical Size ([paper](https://arxiv.org/abs/2408.00118), [code](https://github.com/google/gemma_pytorch))
 - Apple Intelligence Foundation Language Models ([paper](https://arxiv.org/abs/2407.21075))
