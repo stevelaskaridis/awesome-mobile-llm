@@ -135,7 +135,7 @@ This section focuses on techniques and optimisations that target mobile-specific
 
 #### 2024
 
-
+- Mixture of Cache-Conditional Experts for Efficient Mobile Device Inference ([paper](https://arxiv.org/abs/2412.00099))
 - PhoneLM: An Efficient and Capable Small Language Model Family through Principled Pre-training ([paper](https://arxiv.org/abs/2411.05046), [code](https://github.com/UbiquitousLearning/PhoneLM))
 - MobileQuant: Mobile-friendly Quantization for On-device Language Models ([paper](https://arxiv.org/abs/2408.13933), [code](https://github.com/saic-fi/MobileQuant))
 - Gemma 2: Improving Open Language Models at a Practical Size ([paper](https://arxiv.org/abs/2408.00118), [code](https://github.com/google/gemma_pytorch))
