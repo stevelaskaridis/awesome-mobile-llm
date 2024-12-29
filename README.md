@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 5th December 2024
+Last update: 29th December 2024
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -124,6 +124,9 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 #### 2024
 
+- PalmBench: A Comprehensive Benchmark of Compressed Large Language Models on Mobile Platforms ([paper](https://arxiv.org/abs/2410.05315))
+- Large Language Model Performance Benchmarking on Mobile Platforms: A Thorough Evaluation ([paper](https://arxiv.org/abs/2410.03613))
+- **[EdgeFM @ MobiSys'24]** Large Language Models on Mobile Devices: Measurements, Analysis, and Insights ([paper](https://dl.acm.org/doi/abs/10.1145/3662006.3662059?casa_token=lSWawSGkqzUAAAAA:QhHsJqnEw4i9v8dCGMtelbulm1PqwfbFW_28x4c64eTjuz4BKA76ag6s0NsnCZPm02UdMF68hd6F))
 - MobileAIBench: Benchmarking LLMs and LMMs for On-Device Use Cases ([paper](https://arxiv.org/abs/2406.10290))
 - **[MobiCom'24]** MELTing point: Mobile Evaluation of Language Transformers ([paper](https://arxiv.org/abs/2403.12844), [talk](https://www.youtube.com/watch?feature=shared&t=326&v=sohvvDFT3DU), [code](https://github.com/brave-experiments/MELT-public))
 
