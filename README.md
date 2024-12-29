@@ -205,6 +205,10 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
 
 ### Papers
 
+### 2024
+
+- **[Privacy in Natural Language Processing @ ACL'24]** PocketLLM: Enabling On-Device Fine-Tuning for Personalized LLMs ([paper](https://aclanthology.org/2024.privatenlp-1.10.pdf))
+
 #### 2023
 
 - **[MobiCom'23]** Federated Few-Shot Learning for Mobile NLP ([paper](https://arxiv.org/abs/2212.05974), [code](https://github.com/UbiquitousLearning/FeS))
