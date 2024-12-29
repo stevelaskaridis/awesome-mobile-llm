@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 5th December 2024
+Last update: 29th December 2024
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -30,6 +30,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
+| BlueLM-V | 2024 | 2.7B | CUHK, Vivo AI Lab | [paper](https://arxiv.org/abs/2411.10640) | [code](https://github.com/vivo-ai-lab/BlueLM) | - |
 | PhoneLM | 2024 | 0.5B, 1.5B | BUPT | [paper](https://arxiv.org/abs/2411.05046) | [code](https://github.com/UbiquitousLearning/PhoneLM) | [huggingface](https://huggingface.co/mllmTeam/PhoneLM-0.5B) |
 | AMD-Llama-135m | 2024 | 135M | AMD | [blog](https://community.amd.com/t5/ai/amd-unveils-its-first-small-language-model-amd-135m/ba-p/711368) | [code](https://github.com/AMD-AIG-AIMA/AMD-LLM) | [huggingface](https://huggingface.co/amd/AMD-Llama-135m) |
 | SmolLM2 | 2024 | 135M, 360M, 1.7B | Huggingface | - | - | [huggingface](https://huggingface.co/collections/HuggingFaceTB/smollm2-6723884218bcda64b34d7db9) |
@@ -124,6 +125,9 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 #### 2024
 
+- PalmBench: A Comprehensive Benchmark of Compressed Large Language Models on Mobile Platforms ([paper](https://arxiv.org/abs/2410.05315))
+- Large Language Model Performance Benchmarking on Mobile Platforms: A Thorough Evaluation ([paper](https://arxiv.org/abs/2410.03613))
+- **[EdgeFM @ MobiSys'24]** Large Language Models on Mobile Devices: Measurements, Analysis, and Insights ([paper](https://dl.acm.org/doi/abs/10.1145/3662006.3662059?casa_token=lSWawSGkqzUAAAAA:QhHsJqnEw4i9v8dCGMtelbulm1PqwfbFW_28x4c64eTjuz4BKA76ag6s0NsnCZPm02UdMF68hd6F))
 - MobileAIBench: Benchmarking LLMs and LMMs for On-Device Use Cases ([paper](https://arxiv.org/abs/2406.10290))
 - **[MobiCom'24]** MELTing point: Mobile Evaluation of Language Transformers ([paper](https://arxiv.org/abs/2403.12844), [talk](https://www.youtube.com/watch?feature=shared&t=326&v=sohvvDFT3DU), [code](https://github.com/brave-experiments/MELT-public))
 
@@ -200,6 +204,10 @@ This section includes survey papers on LLM efficiency, a topic very much related
 This section refers to papers attempting to train/fine-tune LLMs on device, in a standalone or federated manner.
 
 ### Papers
+
+### 2024
+
+- **[Privacy in Natural Language Processing @ ACL'24]** PocketLLM: Enabling On-Device Fine-Tuning for Personalized LLMs ([paper](https://aclanthology.org/2024.privatenlp-1.10.pdf))
 
 #### 2023
 
