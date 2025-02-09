@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 29th December 2024
+Last update: 9th February 2025
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -138,6 +138,10 @@ This section focuses on techniques and optimisations that target mobile-specific
 
 ### Papers
 
+#### 2025
+
+- **[ASPLOS'25]** Fast On-device LLM Inference with NPUs ([paper](https://arxiv.org/abs/2407.05858), [code](https://github.com/UbiquitousLearning/mllm))
+
 #### 2024
 
 - Mixture of Cache-Conditional Experts for Efficient Mobile Device Inference ([paper](https://arxiv.org/abs/2412.00099))
@@ -185,6 +189,10 @@ This section refers to multimodal LLMs, which integrate vision or other modaliti
 This section includes survey papers on LLM efficiency, a topic very much related to deploying in constrained devices.
 
 ### Papers
+
+#### 2025
+
+- Small Language Models (SLMs) Can Still Pack a Punch: A survey ([paper](https://arxiv.org/abs/2501.05465))
 
 #### 2024
 
