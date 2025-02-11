@@ -31,11 +31,10 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
-| SmolLM2 | 2025 | 135M, 360M, 1.7B | Huggingface | - | [code](https://github.com/huggingface/smollm) |[huggingface](https://huggingface.co/collections/HuggingFaceTB/smollm2-6723884218bcda64b34d7db9) |
 | BlueLM-V | 2024 | 2.7B | CUHK, Vivo AI Lab | [paper](https://arxiv.org/abs/2411.10640) | [code](https://github.com/vivo-ai-lab/BlueLM) | - |
 | PhoneLM | 2024 | 0.5B, 1.5B | BUPT | [paper](https://arxiv.org/abs/2411.05046) | [code](https://github.com/UbiquitousLearning/PhoneLM) | [huggingface](https://huggingface.co/mllmTeam/PhoneLM-0.5B) |
 | AMD-Llama-135m | 2024 | 135M | AMD | [blog](https://community.amd.com/t5/ai/amd-unveils-its-first-small-language-model-amd-135m/ba-p/711368) | [code](https://github.com/AMD-AIG-AIMA/AMD-LLM) | [huggingface](https://huggingface.co/amd/AMD-Llama-135m) |
-| SmolLM2 | 2024 | 135M, 360M, 1.7B | Huggingface | - | - | [huggingface](https://huggingface.co/collections/HuggingFaceTB/smollm2-6723884218bcda64b34d7db9) |
+| SmolLM2 | 2024 | 135M, 360M, 1.7B | Huggingface | - | [code](https://github.com/huggingface/smollm) |[huggingface](https://huggingface.co/collections/HuggingFaceTB/smollm2-6723884218bcda64b34d7db9) |
 | Ministral | 2024 | 3B, ... | Mistral | [blog](https://mistral.ai/news/ministraux/) | - | [huggingface](https://huggingface.co/mistralai/Ministral-8B-Instruct-2410) |
 | Llama 3.2 | 2024 | 1B, 3B | Meta | [blog](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) | [code](https://github.com/meta-llama/llama-models) | [huggingface](https://huggingface.co/meta-llama/Llama-3.2-1B) |
 | OLMoE | 2024 | 7B (1B active) | AllenAI | [paper](https://arxiv.org/abs/2409.02060) | [code](https://github.com/allenai/OLMoE) | [huggingface](https://hf.co/allenai/OLMoE-1B-7B-0924) |
