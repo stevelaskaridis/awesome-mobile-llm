@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 11th February 2025
+Last update: 23rd March 2025
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -101,7 +101,11 @@ This section showcases frameworks and contributions for supporting LLM inference
 - [llama2.c](https://github.com/karpathy/llama2.c) (More educational, see [here](https://github.com/Manuel030/llama2.c-android) for android port)
 - [tinygrad](https://github.com/tinygrad/tinygrad): Simple neural network framework from tinycorp and [@geohot](https://github.com/geohot)
 - [TinyChatEngine](https://github.com/mit-han-lab/TinyChatEngine): Targeted at Nvidia, Apple M1 and RPi, from Song Han's (MIT) [group](https://hanlab.mit.edu/team).
+- [Llama Stack](https://github.com/meta-llama/llama-stack) ([swift](https://github.com/meta-llama/llama-stack-client-swift), [kotlin](https://github.com/meta-llama/llama-stack-client-kotlin)): These libraries are a set of SDKs that provide a simple and effective way to integrate AI capabilities into your iOS/Android app, whether it is local (on-device) or remote inference.
 - [OLMoE.Swift](https://github.com/allenai/OLMoE.swift): Ai2 OLMoE is an AI chatbot powered by the OLMoE model. Unlike cloud-based AI assistants, OLMoE runs entirely on your device, ensuring complete privacy and offline accessibility—even in Flight Mode.
+- [HuggingSnap](https://github.com/huggingface/HuggingSnap): HuggingSnap is an iOS app that lets users quickly learn more about the places and objects around them. HuggingSnap runs SmolVLM2, a compact open multimodal model that accepts arbitrary sequences of image, videos, and text inputs to produce text outputs.
+- [Flower Intelligence](https://flower.ai/docs/intelligence/): Flower Intelligence is a cross-platform inference library that lets users seamlessly interact with Large-Language Models both locally and remotely in a secure and private way. The library was created by the Flower Labs team. It supports TypeScript, JavaScript and Swift backends.
+
 
 ### Papers
 
