@@ -131,9 +131,12 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 ### Papers
 
+#### 2025
+
+- **[ICLR'25]** PalmBench: A Comprehensive Benchmark of Compressed Large Language Models on Mobile Platforms ([paper](https://arxiv.org/abs/2410.05315))
+
 #### 2024
 
-- PalmBench: A Comprehensive Benchmark of Compressed Large Language Models on Mobile Platforms ([paper](https://arxiv.org/abs/2410.05315))
 - Large Language Model Performance Benchmarking on Mobile Platforms: A Thorough Evaluation ([paper](https://arxiv.org/abs/2410.03613))
 - **[EdgeFM @ MobiSys'24]** Large Language Models on Mobile Devices: Measurements, Analysis, and Insights ([paper](https://dl.acm.org/doi/abs/10.1145/3662006.3662059?casa_token=lSWawSGkqzUAAAAA:QhHsJqnEw4i9v8dCGMtelbulm1PqwfbFW_28x4c64eTjuz4BKA76ag6s0NsnCZPm02UdMF68hd6F))
 - MobileAIBench: Benchmarking LLMs and LMMs for On-Device Use Cases ([paper](https://arxiv.org/abs/2406.10290))
