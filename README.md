@@ -131,9 +131,12 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 ### Papers
 
+#### 2025
+
+- **[ICLR'25]** PalmBench: A Comprehensive Benchmark of Compressed Large Language Models on Mobile Platforms ([paper](https://arxiv.org/abs/2410.05315))
+
 #### 2024
 
-- PalmBench: A Comprehensive Benchmark of Compressed Large Language Models on Mobile Platforms ([paper](https://arxiv.org/abs/2410.05315))
 - Large Language Model Performance Benchmarking on Mobile Platforms: A Thorough Evaluation ([paper](https://arxiv.org/abs/2410.03613))
 - **[EdgeFM @ MobiSys'24]** Large Language Models on Mobile Devices: Measurements, Analysis, and Insights ([paper](https://dl.acm.org/doi/abs/10.1145/3662006.3662059?casa_token=lSWawSGkqzUAAAAA:QhHsJqnEw4i9v8dCGMtelbulm1PqwfbFW_28x4c64eTjuz4BKA76ag6s0NsnCZPm02UdMF68hd6F))
 - MobileAIBench: Benchmarking LLMs and LMMs for On-Device Use Cases ([paper](https://arxiv.org/abs/2406.10290))
@@ -147,6 +150,7 @@ This section focuses on techniques and optimisations that target mobile-specific
 
 #### 2025
 
+- ROMA: a Read-Only-Memory-based Accelerator for QLoRA-based On-Device LLM ([paper](https://arxiv.org/abs/2502.20421))
 - **[ASPLOS'25]** Fast On-device LLM Inference with NPUs ([paper](https://arxiv.org/abs/2407.05858), [code](https://github.com/UbiquitousLearning/mllm))
 
 #### 2024
@@ -160,6 +164,7 @@ This section focuses on techniques and optimisations that target mobile-specific
 - Gemma: Open Models Based on Gemini Research and Technology ([paper](https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf), [code](https://github.com/google/gemma_pytorch))
 - MobiLlama: Towards Accurate and Lightweight Fully Transparent GPT ([paper](https://arxiv.org/abs/2402.16840), [code](https://github.com/mbzuai-oryx/MobiLlama))
 - **[ICML'24]** MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases ([paper](https://arxiv.org/abs/2402.14905), [code](https://github.com/facebookresearch/MobileLLM))
+- **[ICML'24]** Rethinking Optimization and Architecture for Tiny Language Models ([paper](https://arxiv.org/abs/2402.02791), [code](https://github.com/YuchuanTian/RethinkTinyLM))
 - TinyLlama: An Open-Source Small Language Model ([paper](https://arxiv.org/abs/2401.02385), [code](https://github.com/jzhang38/TinyLlama))
 
 ## Applications
@@ -199,6 +204,7 @@ This section includes survey papers on LLM efficiency, a topic very much related
 
 #### 2025
 
+- GenAI at the Edge: Comprehensive Survey on Empowering Edge Devices ([paper](https://arxiv.org/abs/2502.15816))
 - Small Language Models (SLMs) Can Still Pack a Punch: A survey ([paper](https://arxiv.org/abs/2501.05465))
 
 #### 2024
@@ -220,6 +226,10 @@ This section includes survey papers on LLM efficiency, a topic very much related
 This section refers to papers attempting to train/fine-tune LLMs on device, in a standalone or federated manner.
 
 ### Papers
+
+### 2025
+
+- MobiLLM: Enabling LLM Fine-Tuning on the Mobile Device via Server Assisted Side Tuning ([paper](https://arxiv.org/abs/2502.20421))
 
 ### 2024
 
