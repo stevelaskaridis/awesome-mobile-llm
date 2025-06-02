@@ -22,6 +22,7 @@ Let's try to make this list as useful as possible to researchers, engineers and 
 - [Benchmarks](#Benchmarks)
 - [Leaderboards](#Leaderboards)
 - [Industry Announcements](#Industry-Announcements)
+- [Related Organized Workshops](#Related-Organized-Workshops)
 - [Related Awesome Repositories](#Related-Awesome-Repositories)
 
 
@@ -286,6 +287,15 @@ This section includes paper that are mobile-related, but not necessarily run on 
 * [Google - LLMs On-Device with MediaPipe and TFLite](https://developers.googleblog.com/en/large-language-models-on-device-with-mediapipe-and-tensorflow-lite/)
 * [Qualcomm - The future of AI is Hybrid](https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Whitepaper-The-future-of-AI-is-hybrid-Part-1-Unlocking-the-generative-AI-future-with-on-device-and-hybrid-AI.pdf)
 * [ARM - Generative AI on mobile](https://community.arm.com/arm-community-blogs/b/ai-and-ml-blog/posts/generative-ai-on-mobile-on-arm-cpu)
+
+## Related Organized Workshops
+
+* [TTODLer-FM @ ICML'25](https://ttodlerfm.gitlab.io/): Tiny Titans: The next wave of On-Device Learning for Foundational Models (TTODLer-FM)
+* [ES-FoMO @ ICML'25](https://es-fomo.com/): Efficient Systems for Foundation Models
+* [Binary Networks @ ICCV'25](https://binarynetworks.io/): Binary and Extreme Quantization for Computer Vision
+* [SLLM @ ICLR'25](https://sites.google.com/view/sllm-iclr-2025): Workshop on Sparsity in LLMs: Deep Dive into Mixture of Experts, Quantization, Hardware, and Inference
+* [MCDC @ ICLR'25](https://sites.google.com/view/mcdc2025/): Workshop on Modularity for Collaborative, Decentralized, and Continual Deep Learning
+* [Adaptive Foundation Models @ NeurIPS'24](https://adaptive-foundation-models.org/)
 
 ## Related Awesome Repositories
 
