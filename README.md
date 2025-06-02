@@ -98,6 +98,7 @@ This section showcases frameworks and contributions for supporting LLM inference
 - [PyTorch ExecuTorch](https://github.com/pytorch/executorch): Solution for enabling on-device inference capabilities across mobile and edge devices including wearables, embedded devices and microcontrollers.
     - [TorchChat](https://github.com/pytorch/torchchat): Codebase showcasing the ability to run large language models (LLMs) seamlessly across iOS and Android
 - [Google MediaPipe](https://github.com/google/mediapipe): A suite of libraries and tools for you to quickly apply artificial intelligence (AI) and machine learning (ML) techniques in your applications. Support Android, iOS, Python and Web.
+    - [GoogleAI-Edge Gallery](https://github.com/google-ai-edge/gallery): Experimental app that puts the power of cutting-edge Generative AI models directly into your hands, running entirely on your Android and iOS devices.
 - [Apple MLX](https://github.com/ml-explore/mlx): MLX is an array framework for machine learning research on Apple silicon, brought to you by Apple machine learning research. Builds upon lazy evaluation and unified memory architecture.
     - [MLX Swift](https://github.com/ml-explore/mlx-swift): Swift API for MLX.
 - [HF Swift Transformers](https://github.com/huggingface/swift-transformers): Swift Package to implement a transformers-like API in Swift
