@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 23rd March 2025
+Last update: 2nd June 2025
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -22,6 +22,7 @@ Let's try to make this list as useful as possible to researchers, engineers and 
 - [Benchmarks](#Benchmarks)
 - [Leaderboards](#Leaderboards)
 - [Industry Announcements](#Industry-Announcements)
+- [Related Organized Workshops](#Related-Organized-Workshops)
 - [Related Awesome Repositories](#Related-Awesome-Repositories)
 
 
@@ -31,6 +32,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
+| Pareto-Q | 2025 | 125M, 350M, 600M, 1B, 1.5B, 3B | Meta | [paper](https://arxiv.org/abs/2502.02631) | [code](https://github.com/facebookresearch/ParetoQ) | [huggingface](https://huggingface.co/facebook/MobileLLM-ParetoQ-1.5B-1.58-bit) |
 | BlueLM-V | 2024 | 2.7B | CUHK, Vivo AI Lab | [paper](https://arxiv.org/abs/2411.10640) | [code](https://github.com/vivo-ai-lab/BlueLM) | - |
 | PhoneLM | 2024 | 0.5B, 1.5B | BUPT | [paper](https://arxiv.org/abs/2411.05046) | [code](https://github.com/UbiquitousLearning/PhoneLM) | [huggingface](https://huggingface.co/mllmTeam/PhoneLM-0.5B) |
 | AMD-Llama-135m | 2024 | 135M | AMD | [blog](https://community.amd.com/t5/ai/amd-unveils-its-first-small-language-model-amd-135m/ba-p/711368) | [code](https://github.com/AMD-AIG-AIMA/AMD-LLM) | [huggingface](https://huggingface.co/amd/AMD-Llama-135m) |
@@ -38,6 +40,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | Ministral | 2024 | 3B, ... | Mistral | [blog](https://mistral.ai/news/ministraux/) | - | [huggingface](https://huggingface.co/mistralai/Ministral-8B-Instruct-2410) |
 | Llama 3.2 | 2024 | 1B, 3B | Meta | [blog](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) | [code](https://github.com/meta-llama/llama-models) | [huggingface](https://huggingface.co/meta-llama/Llama-3.2-1B) |
 | OLMoE | 2024 | 7B (1B active) | AllenAI | [paper](https://arxiv.org/abs/2409.02060) | [code](https://github.com/allenai/OLMoE) | [huggingface](https://hf.co/allenai/OLMoE-1B-7B-0924) |
+| Spectra | 2024 | 99M - 3.9B | NolanoAI | [paper](https://arxiv.org/abs/2407.12327) | [code](https://github.com/NolanoOrg/SpectraSuite) | [huggingface](https://huggingface.co/collections/SpectraSuite/trilms-unpacked-668d5f62afe0f4036925b1d2) |
 | Gemma 2 | 2024 | 2B, ... | Google | [paper](https://arxiv.org/abs/2408.00118) [blog](https://developers.googleblog.com/en/smaller-safer-more-transparent-advancing-responsible-ai-with-gemma/) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/google/gemma-2-2b-it) |
 | Apple Intelligence Foundation LMs | 2024 | 3B | Apple | [paper](https://machinelearning.apple.com/research/apple-intelligence-foundation-language-models) | - | - |
 | SmolLM | 2024 | 135M, 360M, 1.7B | Huggingface | [blog](https://huggingface.co/blog/smollm) | - | [huggingface](https://huggingface.co/HuggingFaceTB/SmolLM-135M) |
@@ -46,6 +49,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | OpenELM | 2024 | 270M, 450M, 1.08B, 3.04B | Apple | [paper](https://arxiv.org/abs/2404.14619)  | [code](https://github.com/apple/corenet) | [huggingface](https://huggingface.co/apple/OpenELM) |
 | DCLM | 2024 | 400M, 1B, ... | Univerisy of Washington, Apple, Toyota Research Institute, ... | [paper](https://arxiv.org/abs/2406.11794) | [code](https://github.com/mlfoundations/dclm) | [huggingface](https://huggingface.co/TRI-ML/DCLM-1B) |
 | Phi-3 | 2024 | 3.8B | Microsoft | [whitepaper](https://arxiv.org/abs/2404.14219) | [code](https://github.com/microsoft/Phi-3CookBook) | [huggingface](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct) |
+| BitNet-b1.58 | 2024 | 1.3B, 3B, ... | Microsoft | [paper](https://arxiv.org/abs/2402.17764) | [code](https://github.com/microsoft/BitNet) | [huggingface](https://huggingface.co/microsoft/bitnet-b1.58-2B-4T) |
 | OLMo | 2024 | 1B, ... | AllenAI | [paper](https://arxiv.org/abs/2402.00838) | [code](https://github.com/allenai/OLMo) | [huggingface](https://huggingface.co/allenai/OLMo-7B) |
 | Mobile LLMs | 2024 | 125M, 250M | Meta                                      | [paper](https://arxiv.org/abs/2402.14905)   | [code](https://github.com/facebookresearch/MobileLLM)                           | -                                                           |
 | Gemma | 2024 | 2B, ...             | Google                                          | [paper](https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf), [website](https://ai.google.dev/gemma)      | [code](https://github.com/google-deepmind/gemma), [gemma.cpp](https://github.com/google/gemma.cpp) | [huggingface](https://huggingface.co/google/gemma-2b) |
@@ -150,6 +154,7 @@ This section focuses on techniques and optimisations that target mobile-specific
 
 #### 2025
 
+- **[CVPR'25 EDGE Workshop]** Scaling On-Device GPU Inference for Large Generative Models ([paper](https://arxiv.org/abs/2505.00232))
 - ROMA: a Read-Only-Memory-based Accelerator for QLoRA-based On-Device LLM ([paper](https://arxiv.org/abs/2502.20421))
 - **[ASPLOS'25]** Fast On-device LLM Inference with NPUs ([paper](https://arxiv.org/abs/2407.05858), [code](https://github.com/UbiquitousLearning/mllm))
 
@@ -229,6 +234,7 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
 
 ### 2025
 
+- **[ICML'25]**On-device collaborative language modeling via a mixture of generalists and specialists ([paper](https://arxiv.org/abs/2409.13931))
 - MobiLLM: Enabling LLM Fine-Tuning on the Mobile Device via Server Assisted Side Tuning ([paper](https://arxiv.org/abs/2502.20421))
 
 ### 2024
@@ -283,6 +289,15 @@ This section includes paper that are mobile-related, but not necessarily run on 
 * [Google - LLMs On-Device with MediaPipe and TFLite](https://developers.googleblog.com/en/large-language-models-on-device-with-mediapipe-and-tensorflow-lite/)
 * [Qualcomm - The future of AI is Hybrid](https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Whitepaper-The-future-of-AI-is-hybrid-Part-1-Unlocking-the-generative-AI-future-with-on-device-and-hybrid-AI.pdf)
 * [ARM - Generative AI on mobile](https://community.arm.com/arm-community-blogs/b/ai-and-ml-blog/posts/generative-ai-on-mobile-on-arm-cpu)
+
+## Related Organized Workshops
+
+* [TTODLer-FM @ ICML'25](https://ttodlerfm.gitlab.io/): Tiny Titans: The next wave of On-Device Learning for Foundational Models (TTODLer-FM)
+* [ES-FoMO @ ICML'25](https://es-fomo.com/): Efficient Systems for Foundation Models
+* [Binary Networks @ ICCV'25](https://binarynetworks.io/): Binary and Extreme Quantization for Computer Vision
+* [SLLM @ ICLR'25](https://sites.google.com/view/sllm-iclr-2025): Workshop on Sparsity in LLMs: Deep Dive into Mixture of Experts, Quantization, Hardware, and Inference
+* [MCDC @ ICLR'25](https://sites.google.com/view/mcdc2025/): Workshop on Modularity for Collaborative, Decentralized, and Continual Deep Learning
+* [Adaptive Foundation Models @ NeurIPS'24](https://adaptive-foundation-models.org/)
 
 ## Related Awesome Repositories
 
