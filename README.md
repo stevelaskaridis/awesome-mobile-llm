@@ -154,6 +154,7 @@ This section focuses on techniques and optimisations that target mobile-specific
 
 #### 2025
 
+- **[CVPR'25 EDGE Workshop]** Scaling On-Device GPU Inference for Large Generative Models ([paper](https://arxiv.org/abs/2505.00232))
 - ROMA: a Read-Only-Memory-based Accelerator for QLoRA-based On-Device LLM ([paper](https://arxiv.org/abs/2502.20421))
 - **[ASPLOS'25]** Fast On-device LLM Inference with NPUs ([paper](https://arxiv.org/abs/2407.05858), [code](https://github.com/UbiquitousLearning/mllm))
 
@@ -233,6 +234,7 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
 
 ### 2025
 
+- **[ICML'25]**On-device collaborative language modeling via a mixture of generalists and specialists ([paper](https://arxiv.org/abs/2409.13931))
 - MobiLLM: Enabling LLM Fine-Tuning on the Mobile Device via Server Assisted Side Tuning ([paper](https://arxiv.org/abs/2502.20421))
 
 ### 2024
