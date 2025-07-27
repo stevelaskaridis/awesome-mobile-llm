@@ -117,6 +117,11 @@ This section showcases frameworks and contributions for supporting LLM inference
 
 ### Papers
 
+#### 2025
+
+- Apple Intelligence Foundation Language Models: Tech Report 2025 ([paper](https://arxiv.org/abs/2507.13575))
+- **[ACM Queue]** Generative AI at the Edge: Challenges and Opportunities: The next phase in AI deployment ([paper](https://dl.acm.org/doi/abs/10.1145/3733702))
+
 #### 2024
 
 - PowerInfer-2: Fast Large Language Model Inference on a Smartphone ([paper](https://arxiv.org/abs/2406.06282), [code](https://github.com/SJTU-IPADS/PowerInfer))
@@ -197,6 +202,7 @@ This section refers to multimodal LLMs, which integrate vision or other modaliti
 
 #### 2024
 
+- **[CVPR 2024]** MobileCLIP: Fast Image-Text Models through Multi-Modal Reinforced Training ([paper](https://openaccess.thecvf.com/content/CVPR2024/html/Vasu_MobileCLIP_Fast_Image-Text_Models_through_Multi-Modal_Reinforced_Training_CVPR_2024_paper.html))
 - TinyLLaVA: A Framework of Small-scale Large Multimodal Models ([paper](https://arxiv.org/abs/2402.14289), [code](https://github.com/DLCV-BUAA/TinyLLaVABench))
 - MobileVLM V2: Faster and Stronger Baseline for Vision Language Model ([paper](https://arxiv.org/abs/2402.03766), [code](https://github.com/Meituan-AutoML/MobileVLM))
 
@@ -238,6 +244,7 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
 
 ### 2025
 
+- Computational Bottlenecks of Training Small-scale Large Language Models [paper](https://arxiv.org/abs/2410.19456)
 - **[ICML'25]**On-device collaborative language modeling via a mixture of generalists and specialists ([paper](https://arxiv.org/abs/2409.13931))
 - MobiLLM: Enabling LLM Fine-Tuning on the Mobile Device via Server Assisted Side Tuning ([paper](https://arxiv.org/abs/2502.20421))
 
@@ -258,6 +265,10 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
 This section includes paper that are mobile-related, but not necessarily run on device.
 
 ### Papers
+
+#### 2025
+
+- Small Language Models are the Future of Agentic AI ([paper](https://arxiv.org/abs/2506.02153))
 
 #### 2024
 
