@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 8th July 2025
+Last update: 27th July 2025
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -22,6 +22,7 @@ Let's try to make this list as useful as possible to researchers, engineers and 
 - [Benchmarks](#Benchmarks)
 - [Leaderboards](#Leaderboards)
 - [Industry Announcements](#Industry-Announcements)
+- [Books/Courses](#Books-and-Courses)
 - [Related Organized Workshops](#Related-Organized-Workshops)
 - [Related Awesome Repositories](#Related-Awesome-Repositories)
 
@@ -284,6 +285,11 @@ This section includes paper that are mobile-related, but not necessarily run on 
 * [HF Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)
 * [FlowerTune LLM Leaderboard](https://flower.ai/benchmarks/llm-leaderboard/)
 * [MLPerf Inference: Mobile Benchmark Suite](https://mlcommons.org/benchmarks/inference-mobile/)
+
+## Books and Courses
+
+* [Edge AI Engineering](https://mjrovai.github.io/EdgeML_Made_Ease_ebook/) by Marcelo Rovai
+* [Machine Learning Systems: Principles and Practices of Engineering Artificially Intelligent Systems](https://mlsysbook.ai/) by Vijay Janapa Reddi
 
 ## Industry Announcements
 
