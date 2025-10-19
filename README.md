@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 30th September 2025
+Last update: 19th October 2025
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -33,10 +33,13 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
+| **2025** | | | | | | |
+| MobileLLM-Pro | 2025 | 1B | Meta | - | - | [huggingface](https://huggingface.co/facebook/MobileLLM-Pro) |
 | MobileLLM-R1 | 2025 | 140M, 360M, 950M | Meta | [paper](https://arxiv.org/abs/2509.24945) | [code](https://github.com/facebookresearch/MobileLLM-R1) | [huggingface](https://huggingface.co/facebook/MobileLLM-R1-950M) |
 | SmolLM3 | 2025 | 3B | HuggingFace | [blog](https://huggingface.co/blog/smollm3) | [code](https://github.com/huggingface/transformers/tree/main/src/transformers/models/smollm3) | [huggingface](https://huggingface.co/HuggingFaceTB/SmolLM3-3B-Base) |
 | Qwen-3 | 2025 | 0.6B, 1.7B, ... | Qwen Team | [paper](https://arxiv.org/abs/2505.09388) | [code](https://github.com/QwenLM/Qwen3) | [huggingface](https://huggingface.co/Qwen/Qwen3-1.7B) |
 | Pareto-Q | 2025 | 125M, 350M, 600M, 1B, 1.5B, 3B | Meta | [paper](https://arxiv.org/abs/2502.02631) | [code](https://github.com/facebookresearch/ParetoQ) | [huggingface](https://huggingface.co/facebook/MobileLLM-ParetoQ-1.5B-1.58-bit) |
+| **2024** | | | | | | |
 | BlueLM-V | 2024 | 2.7B | CUHK, Vivo AI Lab | [paper](https://arxiv.org/abs/2411.10640) | [code](https://github.com/vivo-ai-lab/BlueLM) | - |
 | PhoneLM | 2024 | 0.5B, 1.5B | BUPT | [paper](https://arxiv.org/abs/2411.05046) | [code](https://github.com/UbiquitousLearning/PhoneLM) | [huggingface](https://huggingface.co/mllmTeam/PhoneLM-0.5B) |
 | AMD-Llama-135m | 2024 | 135M | AMD | [blog](https://community.amd.com/t5/ai/amd-unveils-its-first-small-language-model-amd-135m/ba-p/711368) | [code](https://github.com/AMD-AIG-AIMA/AMD-LLM) | [huggingface](https://huggingface.co/amd/AMD-Llama-135m) |
@@ -61,6 +64,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | Stable LM 2 (Zephyr) | 2024 | 1.6B | Stability.ai | [paper](https://drive.google.com/file/d/1JYJHszhS8EFChTbNAf8xmqhKjogWRrQF/view) | - | [huggingface](https://huggingface.co/stabilityai/stablelm-2-1_6b) |
 | TinyLlama | 2024 | 1.1B            | Singapore University of Technology and Design   | [paper](https://arxiv.org/abs/2401.02385)   | [code](https://github.com/jzhang38/TinyLlama)    | [huggingface](https://huggingface.co/TinyLlama)           |
 | Gemini-Nano | 2024 | 1.8B, 3.25B  | Google                                          | [paper](https://arxiv.org/abs/2312.11805)      | - | - |
+| **2023** | | | | | | |
 | Stable LM (Zephyr) | 2023 | 3B           | Stability | [blog](https://stability.ai/news/stablelm-zephyr-3b-stability-llm) | [code](https://github.com/Stability-AI/StableLM) | [huggingface](https://huggingface.co/stabilityai/stablelm-zephyr-3b) |
 | OpenLM | 2023 | 11M, 25M, 87M, 160M, 411M, 830M, 1B, 3B, ... | OpenLM team | - | [code](https://github.com/mlfoundations/open_lm/) | [huggingface](https://huggingface.co/mlfoundations/open_lm_1B) |
 | Phi-2  | 2023 | 2.7B               | Microsoft                                       | [website](https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/)      | - | [huggingface](https://huggingface.co/microsoft/phi-2) |
@@ -71,11 +75,15 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | OPT | 2022 | 125M, 350M, 1.3B, 2.7B, ...          | Meta                                            | [paper](https://arxiv.org/abs/2205.01068)   | [code](https://github.com/facebookresearch/metaseq) | [huggingface](https://huggingface.co/facebook/opt-350m) |
 | LaMini-LM | 2023 | 61M, 77M, 111M, 124M, 223M, 248M, 256M, 590M, 774M, 738M, 783M, 1.3B, 1.5B, ... | MBZUAI | [paper](https://arxiv.org/pdf/2304.14402.pdf) | [code](https://arxiv.org/pdf/2304.14402.pdf) | [huggingface](https://huggingface.co/MBZUAI/LaMini-T5-61M) |
 | Pythia | 2023 | 70M, 160M, 410M, 1B, 1.4B, 2.8B, ...         | EleutherAI                                      | [paper](https://arxiv.org/abs/2304.01373)   | [code](https://github.com/EleutherAI/pythia)     | [huggingface](https://huggingface.co/EleutherAI/pythia-70m-deduped) |
+| **2022** | | | | | | |
 | Galactica | 2022 | 125M, 1.3B, ... | Meta | [paper](https://arxiv.org/abs/2211.09085) | [code](https://github.com/facebookresearch/metaseq/) | [huggingface](https://huggingface.co/facebook/galactica-125m) |
 | BLOOM | 2022 | 560M, 1.1B, 1.7B, 3B, ... | BigScience | [paper](https://arxiv.org/abs/2211.05100) | [code](https://github.com/bigscience-workshop/bigscience/tree/master) | [huggingface](https://huggingface.co/docs/transformers/en/model_doc/bloom) |
+| **2021** | | | | | | |
 | XGLM | 2021 | 564M, 1.7B, 2.9B, ... | Meta | [paper](https://arxiv.org/abs/2112.10668) | [code](https://github.com/facebookresearch/fairseq/tree/main/examples/xglm) | [huggingface](https://huggingface.co/facebook/xglm-564M) |
 | GPT-Neo| 2021 | 125M, 350M, 1.3B, 2.7B | EleutherAI                                  | -  | [code](https://github.com/EleutherAI/gpt-neo), [gpt-neox](https://github.com/EleutherAI/gpt-neox/)    | [huggingface](https://huggingface.co/EleutherAI/gpt-neo-125m) |
+| **2020** | | | | | | |
 | MobileBERT | 2020 | 15.1M, 25.3M | CMU, Google | [paper](https://arxiv.org/abs/2004.02984) | [code](https://github.com/huggingface/transformers/blob/main/src/transformers/models/mobilebert/modeling_mobilebert.py) | [huggingface](https://huggingface.co/google/mobilebert-uncased) |
+| **2019** | | | | | | |
 | BART | 2019 | 140M, 400M           | Meta                                            | [paper](https://arxiv.org/abs/1910.13461)   | [code](https://github.com/facebookresearch/fairseq/tree/main/examples/bart) | [huggingface](https://huggingface.co/facebook/bart-base) |
 | DistilBERT | 2019 | 66M | HuggingFace | [paper](https://arxiv.org/pdf/1910.01108.pdf) | [code](https://github.com/huggingface/transformers/tree/main/examples/research_projects/distillation) | [huggingface](https://huggingface.co/distilbert/distilbert-base-uncased) |
 | T5 | 2019 | 60M, 220M, 770M, 3B, ... |  Google | [paper](https://arxiv.org/abs/1910.10683) | [code](https://github.com/google-research/text-to-text-transfer-transformer) | [huggingface](https://huggingface.co/google-t5/t5-small) |
