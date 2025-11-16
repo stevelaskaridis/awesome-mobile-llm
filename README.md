@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 19th October 2025
+Last update: 16th November 2025
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -34,7 +34,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
 | **2025** | | | | | | |
-| MobileLLM-Pro | 2025 | 1B | Meta | - | - | [huggingface](https://huggingface.co/facebook/MobileLLM-Pro) |
+| MobileLLM-Pro | 2025 | 1B | Meta | [paper](https://arxiv.org/abs/2511.06719) | - | [huggingface](https://huggingface.co/facebook/MobileLLM-Pro) |
 | MobileLLM-R1 | 2025 | 140M, 360M, 950M | Meta | [paper](https://arxiv.org/abs/2509.24945) | [code](https://github.com/facebookresearch/MobileLLM-R1) | [huggingface](https://huggingface.co/facebook/MobileLLM-R1-950M) |
 | SmolLM3 | 2025 | 3B | HuggingFace | [blog](https://huggingface.co/blog/smollm3) | [code](https://github.com/huggingface/transformers/tree/main/src/transformers/models/smollm3) | [huggingface](https://huggingface.co/HuggingFaceTB/SmolLM3-3B-Base) |
 | Qwen-3 | 2025 | 0.6B, 1.7B, ... | Qwen Team | [paper](https://arxiv.org/abs/2505.09388) | [code](https://github.com/QwenLM/Qwen3) | [huggingface](https://huggingface.co/Qwen/Qwen3-1.7B) |
