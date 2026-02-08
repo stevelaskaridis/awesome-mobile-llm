@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 28th November 2025
+Last update: 5th February 2026
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -281,6 +281,8 @@ This section includes paper that are mobile-related, but not necessarily run on 
 
 #### 2025
 
+- **[NeurIPS'25]** OmniDraft: A Cross-vocabulary, Online Adaptive Drafter for On-device Speculative Decoding ([paper](https://arxiv.org/abs/2507.02659))
+- Making Small Language Models Efficient Reasoners: Intervention, Supervision, Reinforcement ([paper](https://arxiv.org/abs/2505.07961))
 - Small Language Models are the Future of Agentic AI ([paper](https://arxiv.org/abs/2506.02153))
 
 #### 2024
