@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 8th February 2026
+Last update: 1st March 2026
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -10,21 +10,21 @@ Let's try to make this list as useful as possible to researchers, engineers and 
 
 ## Contents
 
-- [Mobile-First LLMs](#Mobile-First-LLMs)
-- [Infrastructure / Deployment of LLMs on Device](#Infrastructure-/-Deployment-of-LLMs-on-Device)
-- [Benchmarking LLMs on Device](#Benchmarking-LLMs-on-Device)
-- [Mobile-Specific Optimisations](#Mobile-Specific-Optimisations)
-- [Applications](#Applications)
-- [Multimodal LLMs](#Multimodal-LLMs)
-- [Surveys on Efficient LLMs](#Surveys-on-Efficient-LLMs)
-- [Training LLMs on Device](#Training-LLMs-on-Device)
-- [Mobile-Related Use-Cases](#Mobile-Related-Use-Cases)
-- [Benchmarks](#Benchmarks)
-- [Leaderboards](#Leaderboards)
-- [Industry Announcements](#Industry-Announcements)
-- [Books/Courses](#Books-and-Courses)
-- [Related Organized Workshops](#Related-Organized-Workshops)
-- [Related Awesome Repositories](#Related-Awesome-Repositories)
+- [Mobile-First LLMs](#mobile-first-llms)
+- [Infrastructure / Deployment of LLMs on Device](#infrastructure--deployment-of-llms-on-device)
+- [Benchmarking LLMs on Device](#benchmarking-llms-on-device)
+- [Mobile-Specific Optimisations](#mobile-specific-optimisations)
+- [Applications](#applications)
+- [Multimodal LLMs](#multimodal-llms)
+- [Surveys on Efficient LLMs](#surveys-on-efficient-llms)
+- [Training LLMs on Device](#training-llms-on-device)
+- [Mobile-Related Use-cases](#mobile-related-use-cases)
+- [Benchmarks](#benchmarks)
+- [Leaderboards](#leaderboards)
+- [Books and Courses](#books-and-courses)
+- [Industry Announcements](#industry-announcements)
+- [Related Organized Workshops](#related-organized-workshops)
+- [Related Awesome Repositories](#related-awesome-repositories)
 
 
 ## Mobile-First LLMs
@@ -35,7 +35,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
 | **2025** | | | | | | |
 | MobileLLM-R1.5 | 2025 | 140M, 360M, 950M | Meta | [paper](https://arxiv.org/abs/2509.24945) | [code](https://github.com/facebookresearch/MobileLLM-R1) | [huggingface](https://huggingface.co/facebook/MobileLLM-R1.5-950M) |
-| Nemotron-Flash | 2025 | 1B, 3B | Nvidia | [paper](https://arxiv.org/abs/2511.18890) | - | [huggingface](https://huggingface.co/nvidia/Nemotron-Flash-3B-Instruct) |
+| Nemotron-Flash | 2025 | 1B, 3B | Nvidia | [paper](https://arxiv.org/abs/2511.18890), [NeurIPS'25](https://neurips.cc/virtual/2025/poster/118640) | - | [huggingface](https://huggingface.co/nvidia/Nemotron-Flash-3B-Instruct) |
 | MobileLLM-Pro | 2025 | 1B | Meta | [paper](https://arxiv.org/abs/2511.06719) | - | [huggingface](https://huggingface.co/facebook/MobileLLM-Pro) |
 | MobileLLM-R1 | 2025 | 140M, 360M, 950M | Meta | [paper](https://arxiv.org/abs/2509.24945) | [code](https://github.com/facebookresearch/MobileLLM-R1) | [huggingface](https://huggingface.co/facebook/MobileLLM-R1-950M) |
 | SmolLM3 | 2025 | 3B | HuggingFace | [blog](https://huggingface.co/blog/smollm3) | [code](https://github.com/huggingface/transformers/tree/main/src/transformers/models/smollm3) | [huggingface](https://huggingface.co/HuggingFaceTB/SmolLM3-3B-Base) |
@@ -60,7 +60,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | Phi-3 | 2024 | 3.8B | Microsoft | [whitepaper](https://arxiv.org/abs/2404.14219) | [code](https://github.com/microsoft/Phi-3CookBook) | [huggingface](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct) |
 | BitNet-b1.58 | 2024 | 1.3B, 3B, ... | Microsoft | [paper](https://arxiv.org/abs/2402.17764) | [code](https://github.com/microsoft/BitNet) | [huggingface](https://huggingface.co/microsoft/bitnet-b1.58-2B-4T) |
 | OLMo | 2024 | 1B, ... | AllenAI | [paper](https://arxiv.org/abs/2402.00838) | [code](https://github.com/allenai/OLMo) | [huggingface](https://huggingface.co/allenai/OLMo-7B) |
-| Mobile LLMs | 2024 | 125M, 250M | Meta                                      | [paper](https://arxiv.org/abs/2402.14905)   | [code](https://github.com/facebookresearch/MobileLLM)                           | -                                                           |
+| Mobile LLMs | 2024 | 125M, 250M | Meta                                      | [paper](https://arxiv.org/abs/2402.14905), [ICML'24](https://proceedings.mlr.press/v235/liu24bx.html)   | [code](https://github.com/facebookresearch/MobileLLM)                           | -                                                           |
 | Gemma | 2024 | 2B, ...             | Google                                          | [paper](https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf), [website](https://ai.google.dev/gemma)      | [code](https://github.com/google-deepmind/gemma), [gemma.cpp](https://github.com/google/gemma.cpp) | [huggingface](https://huggingface.co/google/gemma-2b) |
 | MobiLlama | 2024 | 0.5B, 1B        | MBZUAI | [paper](https://arxiv.org/abs/2402.16840)   | [code](https://github.com/mbzuai-oryx/MobiLlama) | [huggingface](https://huggingface.co/MBZUAI/MobiLlama-1B) |
 | Stable LM 2 (Zephyr) | 2024 | 1.6B | Stability.ai | [paper](https://drive.google.com/file/d/1JYJHszhS8EFChTbNAf8xmqhKjogWRrQF/view) | - | [huggingface](https://huggingface.co/stabilityai/stablelm-2-1_6b) |
@@ -131,24 +131,42 @@ This section showcases frameworks and contributions for supporting LLM inference
 
 #### 2025
 
-- Apple Intelligence Foundation Language Models: Tech Report 2025 ([paper](https://arxiv.org/abs/2507.13575))
-- **[ACM Queue]** Generative AI at the Edge: Challenges and Opportunities: The next phase in AI deployment ([paper](https://dl.acm.org/doi/abs/10.1145/3733702))
+- Apple Intelligence Foundation Language Models: Tech Report 2025
+  <br>*Ethan Li, Anders Boesen Lindbo Larsen, Chen Zhang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.13575)
+- **[ACM Queue]** Generative AI at the Edge: Challenges and Opportunities: The next phase in AI deployment
+  <br>*Vijay Janapa Reddi*
+  <br>[![DOI](https://img.shields.io/badge/DOI-Paper-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3733702)
 
 #### 2024
 
-- PowerInfer-2: Fast Large Language Model Inference on a Smartphone ([paper](https://arxiv.org/abs/2406.06282), [code](https://github.com/SJTU-IPADS/PowerInfer))
-- **[MobiCom'24]** Mobile Foundation Model as Firmware ([paper](https://xumengwei.github.io/files/MobiCom24-MobileFM.pdf), [code](https://github.com/UbiquitousLearning/MobileFM))
-- Merino: Entropy-driven Design for Generative Language Models on IoT Devicess ([paper](https://arxiv.org/abs/2403.07921))
-- LLM as a System Service on Mobile Devices ([paper](https://arxiv.org/abs/2403.11805))
+- PowerInfer-2: Fast Large Language Model Inference on a Smartphone
+  <br>*Zhenliang Xue, Yixin Song, Zeyu Mi, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.06282) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/SJTU-IPADS/PowerInfer)
+- **[MobiCom'24]** Mobile Foundation Model as Firmware
+  <br>*Jinliang Yuan, Chen Yang, Dongqi Cai, et al.*
+  <br>[![Paper](https://img.shields.io/badge/Paper-Link-1f6feb?logo=readme&logoColor=white)](https://xumengwei.github.io/files/MobiCom24-MobileFM.pdf) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3636534.3649361) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/UbiquitousLearning/MobileFM)
+- Merino: Entropy-driven Design for Generative Language Models on IoT Devicess
+  <br>*Youpeng Zhao, Ming Lin, Huadong Tang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.07921)
+- LLM as a System Service on Mobile Devices
+  <br>*Wangsong Yin, Mengwei Xu, Yuanchun Li, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.11805)
 
 #### 2023
 
-- LLMCad: Fast and Scalable On-device Large Language Model Inference ([paper](https://arxiv.org/abs/2309.04255))
-- EdgeMoE: Fast On-Device Inference of MoE-based Large Language Models ([paper](https://arxiv.org/abs/2308.14352))
+- LLMCad: Fast and Scalable On-device Large Language Model Inference
+  <br>*Daliang Xu, Wangsong Yin, Xin Jin, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2309.04255)
+- EdgeMoE: Fast On-Device Inference of MoE-based Large Language Models
+  <br>*Rongjie Yi, Liwei Guo, Shiyun Wei, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.14352)
 
 #### 2022
 
-- **[IEEE Pervasive Computing]** The Future of Consumer Edge-AI Computing ([paper](https://arxiv.org/abs/2210.10514), [talk](https://www.youtube.com/watch?v=WyKxGKy_rnk))
+- **[IEEE Pervasive Computing]** The Future of Consumer Edge-AI Computing
+  <br>*Stefanos Laskaridis, Stylianos I. Venieris, Alexandros Kouris, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.10514) [![Talk](https://img.shields.io/badge/Talk-Video-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=WyKxGKy_rnk)
 
 ## Benchmarking LLMs on Device
 
@@ -158,15 +176,27 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 #### 2025
 
-- **** Intelligence Per Watt: Measuring Intelligence Efficiency of Local AI ([paper](https://arxiv.org/abs/2511.07885))
-- **[ICLR'25]** PalmBench: A Comprehensive Benchmark of Compressed Large Language Models on Mobile Platforms ([paper](https://arxiv.org/abs/2410.05315))
+- Intelligence Per Watt: Measuring Intelligence Efficiency of Local AI
+  <br>*Jon Saad-Falcon, Avanika Narayan, Hakki Orhun Akengin, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.07885)
+- **[ICLR'25]** PalmBench: A Comprehensive Benchmark of Compressed Large Language Models on Mobile Platforms
+  <br>*Yilong Li, Jingyu Liu, Hao Zhang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.05315) [![Publication](https://img.shields.io/badge/Publication-Official-0a7f2e?logo=googlescholar&logoColor=white)](https://proceedings.iclr.cc/paper_files/paper/2025/hash/98eae0f76f52ca57f4f6f7f2f5f1784f-Abstract-Conference.html)
 
 #### 2024
 
-- Large Language Model Performance Benchmarking on Mobile Platforms: A Thorough Evaluation ([paper](https://arxiv.org/abs/2410.03613))
-- **[EdgeFM @ MobiSys'24]** Large Language Models on Mobile Devices: Measurements, Analysis, and Insights ([paper](https://dl.acm.org/doi/abs/10.1145/3662006.3662059?casa_token=lSWawSGkqzUAAAAA:QhHsJqnEw4i9v8dCGMtelbulm1PqwfbFW_28x4c64eTjuz4BKA76ag6s0NsnCZPm02UdMF68hd6F))
-- MobileAIBench: Benchmarking LLMs and LMMs for On-Device Use Cases ([paper](https://arxiv.org/abs/2406.10290))
-- **[MobiCom'24]** MELTing point: Mobile Evaluation of Language Transformers ([paper](https://arxiv.org/abs/2403.12844), [talk](https://www.youtube.com/watch?feature=shared&t=326&v=sohvvDFT3DU), [code](https://github.com/brave-experiments/MELT-public))
+- Large Language Model Performance Benchmarking on Mobile Platforms: A Thorough Evaluation
+  <br>*Jie Xiao, Qianyi Huang, Xu Chen, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.03613)
+- **[EdgeFM @ MobiSys'24]** Large Language Models on Mobile Devices: Measurements, Analysis, and Insights
+  <br>*Xiang Li, Zhenyan Lu, Dongqi Cai, et al.*
+  <br>[![DOI](https://img.shields.io/badge/DOI-Paper-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3662006.3662059?casa_token=lSWawSGkqzUAAAAA:QhHsJqnEw4i9v8dCGMtelbulm1PqwfbFW_28x4c64eTjuz4BKA76ag6s0NsnCZPm02UdMF68hd6F)
+- MobileAIBench: Benchmarking LLMs and LMMs for On-Device Use Cases
+  <br>*Rithesh Murthy, Liangwei Yang, Juntao Tan, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.10290)
+- **[MobiCom'24]** MELTing point: Mobile Evaluation of Language Transformers
+  <br>*Stefanos Laskaridis, Kleomenis Katevas, Lorenzo Minto, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.12844) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3636534.3690668) [![Talk](https://img.shields.io/badge/Talk-Video-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/watch?feature=shared&t=326&v=sohvvDFT3DU) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/brave-experiments/MELT-public)
 
 ## Mobile-Specific Optimisations
 
@@ -176,27 +206,63 @@ This section focuses on techniques and optimisations that target mobile-specific
 
 #### 2025
 
-- **[NeurIPS'25]** Nemotron-Flash: Towards Latency-Optimal Hybrid Small Language Models ([paper](https://arxiv.org/abs/2511.18890))
-- **[MobiCom '25]** Elastic On-Device LLM Service ([paper](https://arxiv.org/abs/2409.09071))
-- **[MobiCom '25]** Confidant: Customizing Transformer-based LLMs via Collaborative Training on Mobile Devices ([paper](https://dl.acm.org/doi/10.1145/3680207.3723487))
-- **[MobiCom '25]** D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving ([paper](https://arxiv.org/abs/2504.15299))
-- **[CVPR'25 EDGE Workshop]** Scaling On-Device GPU Inference for Large Generative Models ([paper](https://arxiv.org/abs/2505.00232))
-- ROMA: a Read-Only-Memory-based Accelerator for QLoRA-based On-Device LLM ([paper](https://arxiv.org/abs/2502.20421))
-- **[ASPLOS'25]** Fast On-device LLM Inference with NPUs ([paper](https://arxiv.org/abs/2407.05858), [code](https://github.com/UbiquitousLearning/mllm))
+- **[NeurIPS'25]** Nemotron-Flash: Towards Latency-Optimal Hybrid Small Language Models
+  <br>*Yonggan Fu, Xin Dong, Shizhe Diao, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.18890) [![Publication](https://img.shields.io/badge/Publication-Official-0a7f2e?logo=googlescholar&logoColor=white)](https://neurips.cc/virtual/2025/poster/118640)
+- **[MobiCom '25]** Elastic On-Device LLM Service
+  <br>*Wangsong Yin, Rongjie Yi, Daliang Xu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2409.09071) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3680207.3765259)
+- **[MobiCom '25]** Confidant: Customizing Transformer-based LLMs via Collaborative Training on Mobile Devices
+  <br>*Yuhao Chen, Yuxuan Yan, Shuowei Ge, et al.*
+  <br>[![DOI](https://img.shields.io/badge/DOI-Paper-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/10.1145/3680207.3723487)
+- **[MobiCom '25]** D2MoE: Dual Routing and Dynamic Scheduling for Efficient On-Device MoE-based LLM Serving
+  <br>*Haodong Wang, Qihua Zhou, Zicong Hong, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.15299) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3680207.3723493)
+- **[CVPR'25 EDGE Workshop]** Scaling On-Device GPU Inference for Large Generative Models
+  <br>*Jiuqiang Tang, Raman Sarokin, Ekaterina Ignasheva, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.00232) [![Publication](https://img.shields.io/badge/Publication-Official-0a7f2e?logo=googlescholar&logoColor=white)](https://openaccess.thecvf.com/content/CVPR2025W/EDGE/html/Tang_Scaling_On-Device_GPU_Inference_for_Large_Generative_Models_CVPRW_2025_paper.html)
+- ROMA: a Read-Only-Memory-based Accelerator for QLoRA-based On-Device LLM
+  <br>*Liang Li, Xingke Yang, Wen Wu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.20421)
+- **[ASPLOS'25]** Fast On-device LLM Inference with NPUs
+  <br>*Daliang Xu, Hao Zhang, Liming Yang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.05858) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3669940.3707239) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/UbiquitousLearning/mllm)
 
 #### 2024
 
-- Mixture of Cache-Conditional Experts for Efficient Mobile Device Inference ([paper](https://arxiv.org/abs/2412.00099))
-- PhoneLM: An Efficient and Capable Small Language Model Family through Principled Pre-training ([paper](https://arxiv.org/abs/2411.05046), [code](https://github.com/UbiquitousLearning/PhoneLM))
-- MobileQuant: Mobile-friendly Quantization for On-device Language Models ([paper](https://arxiv.org/abs/2408.13933), [code](https://github.com/saic-fi/MobileQuant))
-- Gemma 2: Improving Open Language Models at a Practical Size ([paper](https://arxiv.org/abs/2408.00118), [code](https://github.com/google/gemma_pytorch))
-- Apple Intelligence Foundation Language Models ([paper](https://arxiv.org/abs/2407.21075))
-- Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone ([paper](https://arxiv.org/abs/2404.14219), [code](https://github.com/microsoft/Phi-3CookBook))
-- Gemma: Open Models Based on Gemini Research and Technology ([paper](https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf), [code](https://github.com/google/gemma_pytorch))
-- MobiLlama: Towards Accurate and Lightweight Fully Transparent GPT ([paper](https://arxiv.org/abs/2402.16840), [code](https://github.com/mbzuai-oryx/MobiLlama))
-- **[ICML'24]** MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases ([paper](https://arxiv.org/abs/2402.14905), [code](https://github.com/facebookresearch/MobileLLM))
-- **[ICML'24]** Rethinking Optimization and Architecture for Tiny Language Models ([paper](https://arxiv.org/abs/2402.02791), [code](https://github.com/YuchuanTian/RethinkTinyLM))
-- TinyLlama: An Open-Source Small Language Model ([paper](https://arxiv.org/abs/2401.02385), [code](https://github.com/jzhang38/TinyLlama))
+- Mixture of Cache-Conditional Experts for Efficient Mobile Device Inference
+  <br>*Andrii Skliar, Ties van Rozendaal, Romain Lepert, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.00099)
+- PhoneLM: An Efficient and Capable Small Language Model Family through Principled Pre-training
+  <br>*Rongjie Yi, Xiang Li, Weikai Xie, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2411.05046) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/UbiquitousLearning/PhoneLM)
+- MobileQuant: Mobile-friendly Quantization for On-device Language Models
+  <br>*Fuwen Tan, Royson Lee, Łukasz Dudziak, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.13933) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/saic-fi/MobileQuant)
+- Gemma 2: Improving Open Language Models at a Practical Size
+  <br>*Gemma Team, Morgane Riviere, Shreya Pathak, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.00118) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/google/gemma_pytorch)
+- Apple Intelligence Foundation Language Models
+  <br>*Tom Gunter, Zirui Wang, Chong Wang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.21075)
+- Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone
+  <br>*Marah Abdin, Jyoti Aneja, Hany Awadalla, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.14219) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/microsoft/Phi-3CookBook)
+- Gemma: Open Models Based on Gemini Research and Technology
+  <br>*Gemma Team, Google DeepMind*
+  <br>[![Paper](https://img.shields.io/badge/Paper-Link-1f6feb?logo=readme&logoColor=white)](https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/google/gemma_pytorch)
+- MobiLlama: Towards Accurate and Lightweight Fully Transparent GPT
+  <br>*Omkar Thawakar, Ashmal Vayani, Salman Khan, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.16840) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/mbzuai-oryx/MobiLlama)
+- **[ICML'24]** MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases
+  <br>*Zechun Liu, Changsheng Zhao, Forrest Iandola, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.14905) [![Publication](https://img.shields.io/badge/Publication-Official-0a7f2e?logo=googlescholar&logoColor=white)](https://proceedings.mlr.press/v235/liu24bx.html) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/facebookresearch/MobileLLM)
+- **[ICML'24]** Rethinking Optimization and Architecture for Tiny Language Models
+  <br>*Yehui Tang, Kai Han, Fangcheng Liu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.02791) [![Publication](https://img.shields.io/badge/Publication-Official-0a7f2e?logo=googlescholar&logoColor=white)](https://proceedings.mlr.press/v235/tian24b.html) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/YuchuanTian/RethinkTinyLM)
+- TinyLlama: An Open-Source Small Language Model
+  <br>*Peiyuan Zhang, Guangtao Zeng, Tianduo Wang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.02385) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/jzhang38/TinyLlama)
 
 ## Applications
 
@@ -204,12 +270,18 @@ This section focuses on techniques and optimisations that target mobile-specific
 
 #### 2024
 
-- Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent ([paper](https://arxiv.org/abs/2404.11459))
-- Octopus v2: On-device language model for super agent ([paper](https://arxiv.org/abs/2404.01744))
+- Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent
+  <br>*Wei Chen, Zhiyuan Li*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.11459)
+- Octopus v2: On-device language model for super agent
+  <br>*Wei Chen, Zhiyuan Li*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.01744)
 
 #### 2023
 
-- Towards an On-device Agent for Text Rewriting ([paper](https://arxiv.org/abs/2308.11807))
+- Towards an On-device Agent for Text Rewriting
+  <br>*Yun Zhu, Yinxiao Liu, Felix Stahlberg, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.11807)
 
 ## Multimodal LLMs
 
@@ -219,13 +291,21 @@ This section refers to multimodal LLMs, which integrate vision or other modaliti
 
 #### 2024
 
-- **[CVPR 2024]** MobileCLIP: Fast Image-Text Models through Multi-Modal Reinforced Training ([paper](https://openaccess.thecvf.com/content/CVPR2024/html/Vasu_MobileCLIP_Fast_Image-Text_Models_through_Multi-Modal_Reinforced_Training_CVPR_2024_paper.html))
-- TinyLLaVA: A Framework of Small-scale Large Multimodal Models ([paper](https://arxiv.org/abs/2402.14289), [code](https://github.com/DLCV-BUAA/TinyLLaVABench))
-- MobileVLM V2: Faster and Stronger Baseline for Vision Language Model ([paper](https://arxiv.org/abs/2402.03766), [code](https://github.com/Meituan-AutoML/MobileVLM))
+- **[CVPR 2024]** MobileCLIP: Fast Image-Text Models through Multi-Modal Reinforced Training
+  <br>*Vasu, Pavan Kumar Anasosalu, Pouransari, Hadi, Faghri, Fartash, et al.*
+  <br>[![CVF](https://img.shields.io/badge/CVF-Paper-0A66C2?logo=opencv&logoColor=white)](https://openaccess.thecvf.com/content/CVPR2024/html/Vasu_MobileCLIP_Fast_Image-Text_Models_through_Multi-Modal_Reinforced_Training_CVPR_2024_paper.html)
+- TinyLLaVA: A Framework of Small-scale Large Multimodal Models
+  <br>*Baichuan Zhou, Ying Hu, Xi Weng, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.14289) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/DLCV-BUAA/TinyLLaVABench)
+- MobileVLM V2: Faster and Stronger Baseline for Vision Language Model
+  <br>*Xiangxiang Chu, Limeng Qiao, Xinyu Zhang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.03766) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/Meituan-AutoML/MobileVLM)
 
 #### 2023
 
-- MobileVLM : A Fast, Strong and Open Vision Language Assistant for Mobile Devices ([paper](https://arxiv.org/abs/2312.16886), [code](https://github.com/Meituan-AutoML/MobileVLM))
+- MobileVLM : A Fast, Strong and Open Vision Language Assistant for Mobile Devices
+  <br>*Xiangxiang Chu, Limeng Qiao, Xinyang Lin, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.16886) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/Meituan-AutoML/MobileVLM)
 
 
 ## Surveys on Efficient LLMs
@@ -236,21 +316,39 @@ This section includes survey papers on LLM efficiency, a topic very much related
 
 #### 2025
 
-- GenAI at the Edge: Comprehensive Survey on Empowering Edge Devices ([paper](https://arxiv.org/abs/2502.15816))
-- Small Language Models (SLMs) Can Still Pack a Punch: A survey ([paper](https://arxiv.org/abs/2501.05465))
+- GenAI at the Edge: Comprehensive Survey on Empowering Edge Devices
+  <br>*Mozhgan Navardi, Romina Aalishah, Yuzhe Fu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.15816)
+- Small Language Models (SLMs) Can Still Pack a Punch: A survey
+  <br>*Shreyas Subramanian, Vikram Elango, Mecit Gungor*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2501.05465)
 
 #### 2024
 
-- A Comprehensive Survey of Small Language Models in the Era of Large Language Models: Techniques, Enhancements, Applications, Collaboration with LLMs, and Trustworthiness ([paper](https://arxiv.org/abs/2411.03350))
-- Small Language Models: Survey, Measurements, and Insights ([paper](https://arxiv.org/abs/2409.15790))
-- On-Device Language Models: A Comprehensive Review ([paper](https://arxiv.org/abs/2409.00088))
-- A Survey of Resource-efficient LLM and Multimodal Foundation Models ([paper](https://arxiv.org/pdf/2401.08092.pdf))
+- A Comprehensive Survey of Small Language Models in the Era of Large Language Models: Techniques, Enhancements, Applications, Collaboration with LLMs, and Trustworthiness
+  <br>*Fali Wang, Zhiwei Zhang, Xianren Zhang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2411.03350)
+- Small Language Models: Survey, Measurements, and Insights
+  <br>*Zhenyan Lu, Xiang Li, Dongqi Cai, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2409.15790)
+- On-Device Language Models: A Comprehensive Review
+  <br>*Jiajun Xu, Zhiyuan Li, Wei Chen, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2409.00088)
+- A Survey of Resource-efficient LLM and Multimodal Foundation Models
+  <br>*Mengwei Xu, Wangsong Yin, Dongqi Cai, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2401.08092.pdf)
 
 #### 2023
 
-- Efficient Large Language Models: A Survey ([paper](https://arxiv.org/abs/2312.03863), [code](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey))
-- Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems ([paper](https://arxiv.org/abs/2312.15234))
-- A Survey on Model Compression for Large Language Models ([paper](https://arxiv.org/abs/2308.07633))
+- Efficient Large Language Models: A Survey
+  <br>*Zhongwei Wan, Xin Wang, Che Liu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.03863) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/AIoT-MLSys-Lab/Efficient-LLMs-Survey)
+- Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems
+  <br>*Xupeng Miao, Gabriele Oliaro, Zhihao Zhang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.15234)
+- A Survey on Model Compression for Large Language Models
+  <br>*Xunyu Zhu, Jian Li, Yong Liu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.07633)
 
 
 ## Training LLMs on Device
@@ -261,21 +359,39 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
 
 ### 2025
 
-- Computational Bottlenecks of Training Small-scale Large Language Models [paper](https://arxiv.org/abs/2410.19456)
-- **[ICML'25]**On-device collaborative language modeling via a mixture of generalists and specialists ([paper](https://arxiv.org/abs/2409.13931))
-- MobiLLM: Enabling LLM Fine-Tuning on the Mobile Device via Server Assisted Side Tuning ([paper](https://arxiv.org/abs/2502.20421))
+- Computational Bottlenecks of Training Small-scale Large Language Models
+  <br>*Saleh Ashkboos, Iman Mirzadeh, Keivan Alizadeh, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.19456)
+- **[ICML'25]** On-device collaborative language modeling via a mixture of generalists and specialists
+  <br>*Dongyang Fan, Bettina Messmer, Nikita Doikov, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2409.13931) [![Publication](https://img.shields.io/badge/Publication-Official-0a7f2e?logo=googlescholar&logoColor=white)](https://proceedings.mlr.press/v267/fan25h.html)
+- MobiLLM: Enabling LLM Fine-Tuning on the Mobile Device via Server Assisted Side Tuning
+  <br>*Liang Li, Xingke Yang, Wen Wu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.20421)
 
 ### 2024
 
-- **[Privacy in Natural Language Processing @ ACL'24]** PocketLLM: Enabling On-Device Fine-Tuning for Personalized LLMs ([paper](https://aclanthology.org/2024.privatenlp-1.10.pdf))
+- **[Privacy in Natural Language Processing @ ACL'24]** PocketLLM: Enabling On-Device Fine-Tuning for Personalized LLMs
+  <br>*Dan Peng, Zhihui Fu*
+  <br>[![ACL](https://img.shields.io/badge/ACL-Paper-4B6BFB?logo=bookstack&logoColor=white)](https://aclanthology.org/2024.privatenlp-1.10.pdf)
 
 #### 2023
 
-- **[MobiCom'23]** Federated Few-Shot Learning for Mobile NLP ([paper](https://arxiv.org/abs/2212.05974), [code](https://github.com/UbiquitousLearning/FeS))
-- FwdLLM: Efficient FedLLM using Forward Gradient ([paper](https://arxiv.org/abs/2308.13894), [code](https://github.com/UbiquitousLearning/FwdLLM))
-- **[Electronics'24]** Forward Learning of Large Language Models by Consumer Devices ([paper](https://www.mdpi.com/2079-9292/13/2/402))
-- Federated Fine-Tuning of LLMs on the Very Edge: The Good, the Bad, the Ugly ([paper](https://arxiv.org/pdf/2310.03150.pdf))
-- Federated Full-Parameter Tuning of Billion-Sized Language Models with Communication Cost under 18 Kilobytes ([paper](https://arxiv.org/abs/2312.06353), [code](https://github.com/alibaba/FederatedScope/tree/FedKSeed))
+- **[MobiCom'23]** Federated Few-Shot Learning for Mobile NLP
+  <br>*Dongqi Cai, Shangguang Wang, Yaozong Wu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2212.05974) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3570361.3613277) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/UbiquitousLearning/FeS)
+- FwdLLM: Efficient FedLLM using Forward Gradient
+  <br>*Mengwei Xu, Dongqi Cai, Yaozong Wu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.13894) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/UbiquitousLearning/FwdLLM)
+- **[Electronics'24]** Forward Learning of Large Language Models by Consumer Devices
+  <br>*Danilo Pietro Pau, Fabrizio Maria Aymone*
+  <br>[![Paper](https://img.shields.io/badge/Paper-Link-1f6feb?logo=readme&logoColor=white)](https://www.mdpi.com/2079-9292/13/2/402)
+- Federated Fine-Tuning of LLMs on the Very Edge: The Good, the Bad, the Ugly
+  <br>*Herbert Woisetschläger, Alexander Isenko, Shiqiang Wang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2310.03150.pdf)
+- Federated Full-Parameter Tuning of Billion-Sized Language Models with Communication Cost under 18 Kilobytes
+  <br>*Zhen Qin, Daoyuan Chen, Bingchen Qian, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.06353) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/alibaba/FederatedScope/tree/FedKSeed)
 
 ## Mobile-Related Use-cases
 
@@ -285,25 +401,45 @@ This section includes paper that are mobile-related, but not necessarily run on 
 
 #### 2025
 
-- **[NeurIPS'25]** OmniDraft: A Cross-vocabulary, Online Adaptive Drafter for On-device Speculative Decoding ([paper](https://arxiv.org/abs/2507.02659))
-- Making Small Language Models Efficient Reasoners: Intervention, Supervision, Reinforcement ([paper](https://arxiv.org/abs/2505.07961))
-- Small Language Models are the Future of Agentic AI ([paper](https://arxiv.org/abs/2506.02153))
+- **[NeurIPS'25]** OmniDraft: A Cross-vocabulary, Online Adaptive Drafter for On-device Speculative Decoding
+  <br>*Ramchalam Kinattinkara Ramakrishnan, Zhaocong Yuan, Shaojie Zhuo, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.02659) [![Publication](https://img.shields.io/badge/Publication-Official-0a7f2e?logo=googlescholar&logoColor=white)](https://neurips.cc/virtual/2025/poster/118052)
+- Making Small Language Models Efficient Reasoners: Intervention, Supervision, Reinforcement
+  <br>*Xuechen Zhang, Zijian Huang, Chenshun Ni, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.07961)
+- Small Language Models are the Future of Agentic AI
+  <br>*Peter Belcak, Greg Heinrich, Shizhe Diao, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.02153)
 
 #### 2024
 
-- Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs ([paper](https://arxiv.org/abs/2404.05719))
-- Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception ([paper](https://arxiv.org/abs/2401.16158), [code](https://github.com/X-PLUG/MobileAgent))
-- **[MobiCom'24]** MobileGPT: Augmenting LLM with Human-like App Memory for Mobile Task Automation ([paper](https://arxiv.org/abs/2312.03003))
-- **[MobiCom'24]** AutoDroid: LLM-powered Task Automation in Android ([paper](https://arxiv.org/abs/2308.15272), [code](https://github.com/MobileLLM/AutoDroid))
+- Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs
+  <br>*Keen You, Haotian Zhang, Eldon Schoop, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.05719)
+- Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception
+  <br>*Junyang Wang, Haiyang Xu, Jiabo Ye, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.16158) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/X-PLUG/MobileAgent)
+- **[MobiCom'24]** MobileGPT: Augmenting LLM with Human-like App Memory for Mobile Task Automation
+  <br>*Sunjae Lee, Junyoung Choi, Jungjae Lee, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.03003) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3636534.3690682)
+- **[MobiCom'24]** AutoDroid: LLM-powered Task Automation in Android
+  <br>*Hao Wen, Yuanchun Li, Guohong Liu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.15272) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3636534.3649379) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/MobileLLM/AutoDroid)
 
 #### 2023
 
-- [NeurIPS'23] AndroidInTheWild: A Large-Scale Dataset For Android Device Control ([paper](https://arxiv.org/abs/2307.10088), [code](https://github.com/google-research/google-research/tree/master/android_in_the_wild))
-- GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation ([paper](https://arxiv.org/abs/2311.07562), [code](https://github.com/zzxslp/MM-Navigator))
+- [NeurIPS'23] AndroidInTheWild: A Large-Scale Dataset For Android Device Control
+  <br>*Christopher Rawles, Alice Li, Daniel Rodriguez, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.10088) [![Publication](https://img.shields.io/badge/Publication-Official-0a7f2e?logo=googlescholar&logoColor=white)](https://proceedings.neurips.cc/paper_files/paper/2023/hash/bbbb6308b402fe909c39dd29950c32e0-Abstract-Datasets_and_Benchmarks.html) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/google-research/google-research/tree/master/android_in_the_wild)
+- GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation
+  <br>*An Yan, Zhengyuan Yang, Wanrong Zhu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.07562) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/zzxslp/MM-Navigator)
 
 #### Older
 
-- [ACL'20] Mapping Natural Language Instructions to Mobile UI Action Sequences ([paper](https://arxiv.org/abs/2005.03776))
+- [ACL'20] Mapping Natural Language Instructions to Mobile UI Action Sequences
+  <br>*Yang Li, Jiacong He, Xin Zhou, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2005.03776) [![Publication](https://img.shields.io/badge/Publication-Official-0a7f2e?logo=googlescholar&logoColor=white)](https://aclanthology.org/2020.acl-main.729/)
 
 ## Benchmarks
 
