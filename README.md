@@ -176,6 +176,9 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 #### 2025
 
+- Sometimes Painful but Promising: Feasibility and Trade-Offs of On-Device Language Model Inference
+  <br>*Maximilian Abstreiter, Sasu Tarkoma, Roberto Morabito*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.09114) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3788870)
 - Intelligence Per Watt: Measuring Intelligence Efficiency of Local AI
   <br>*Jon Saad-Falcon, Avanika Narayan, Hakki Orhun Akengin, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.07885)
@@ -318,7 +321,10 @@ This section includes survey papers on LLM efficiency, a topic very much related
 
 - GenAI at the Edge: Comprehensive Survey on Empowering Edge Devices
   <br>*Mozhgan Navardi, Romina Aalishah, Yuzhe Fu, et al.*
-  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.15816)
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.15816) [![Publication](https://img.shields.io/badge/Publication-Official-0a7f2e?logo=googlescholar&logoColor=white)](https://ojs.aaai.org/index.php/AAAI-SS/article/view/35586)
+- Demystifying Small Language Models for Edge Deployment
+  <br>*Zhenyan Lu, Xiang Li, Dongqi Cai, et al.*
+  <br>[![ACL](https://img.shields.io/badge/ACL-Paper-4B6BFB?logo=bookstack&logoColor=white)](https://aclanthology.org/2025.acl-long.718/) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.18653/v1/2025.acl-long.718)
 - Small Language Models (SLMs) Can Still Pack a Punch: A survey
   <br>*Shreyas Subramanian, Vikram Elango, Mecit Gungor*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2501.05465)
@@ -401,6 +407,12 @@ This section includes paper that are mobile-related, but not necessarily run on 
 
 #### 2025
 
+- Slm-mux: Orchestrating small language models for reasoning
+  <br>*Chenyu Wang, Zishen Wan, Hao Kang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.05077)
+- Ferret-UI Lite: Lessons from Building Small On-Device GUI Agents
+  <br>*Zhen Yang, Zi-Yi Dou, Di Feng, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.26539)
 - **[NeurIPS'25]** OmniDraft: A Cross-vocabulary, Online Adaptive Drafter for On-device Speculative Decoding
   <br>*Ramchalam Kinattinkara Ramakrishnan, Zhaocong Yuan, Shaojie Zhuo, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.02659) [![Publication](https://img.shields.io/badge/Publication-Official-0a7f2e?logo=googlescholar&logoColor=white)](https://neurips.cc/virtual/2025/poster/118052)
