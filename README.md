@@ -10,21 +10,21 @@ Let's try to make this list as useful as possible to researchers, engineers and 
 
 ## Contents
 
-- [Mobile-First LLMs](#Mobile-First-LLMs)
-- [Infrastructure / Deployment of LLMs on Device](#Infrastructure-/-Deployment-of-LLMs-on-Device)
-- [Benchmarking LLMs on Device](#Benchmarking-LLMs-on-Device)
-- [Mobile-Specific Optimisations](#Mobile-Specific-Optimisations)
-- [Applications](#Applications)
-- [Multimodal LLMs](#Multimodal-LLMs)
-- [Surveys on Efficient LLMs](#Surveys-on-Efficient-LLMs)
-- [Training LLMs on Device](#Training-LLMs-on-Device)
-- [Mobile-Related Use-Cases](#Mobile-Related-Use-Cases)
-- [Benchmarks](#Benchmarks)
-- [Leaderboards](#Leaderboards)
-- [Industry Announcements](#Industry-Announcements)
-- [Books/Courses](#Books-and-Courses)
-- [Related Organized Workshops](#Related-Organized-Workshops)
-- [Related Awesome Repositories](#Related-Awesome-Repositories)
+- [Mobile-First LLMs](#mobile-first-llms)
+- [Infrastructure / Deployment of LLMs on Device](#infrastructure--deployment-of-llms-on-device)
+- [Benchmarking LLMs on Device](#benchmarking-llms-on-device)
+- [Mobile-Specific Optimisations](#mobile-specific-optimisations)
+- [Applications](#applications)
+- [Multimodal LLMs](#multimodal-llms)
+- [Surveys on Efficient LLMs](#surveys-on-efficient-llms)
+- [Training LLMs on Device](#training-llms-on-device)
+- [Mobile-Related Use-cases](#mobile-related-use-cases)
+- [Benchmarks](#benchmarks)
+- [Leaderboards](#leaderboards)
+- [Books and Courses](#books-and-courses)
+- [Industry Announcements](#industry-announcements)
+- [Related Organized Workshops](#related-organized-workshops)
+- [Related Awesome Repositories](#related-awesome-repositories)
 
 
 ## Mobile-First LLMs
