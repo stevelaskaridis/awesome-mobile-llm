@@ -116,6 +116,7 @@ This section showcases frameworks and contributions for supporting LLM inference
     - [GoogleAI-Edge Gallery](https://github.com/google-ai-edge/gallery): Experimental app that puts the power of cutting-edge Generative AI models directly into your hands, running entirely on your Android and iOS devices.
 - [Apple MLX](https://github.com/ml-explore/mlx): MLX is an array framework for machine learning research on Apple silicon, brought to you by Apple machine learning research. Builds upon lazy evaluation and unified memory architecture.
     - [MLX Swift](https://github.com/ml-explore/mlx-swift): Swift API for MLX.
+* [Apple Foundation Models SDK](https://github.com/apple/python-apple-fm-sdk): Python bindings for Apple's Foundation Models framework, providing access to the on-device foundation model at the core of Apple Intelligence on macOS.
 - [HF Swift Transformers](https://github.com/huggingface/swift-transformers): Swift Package to implement a transformers-like API in Swift
 - [Alibaba MNN](https://github.com/alibaba/MNN): MNN supports inference and training of deep learning models and for inference and training on-device.
 - [llama2.c](https://github.com/karpathy/llama2.c) (More educational, see [here](https://github.com/Manuel030/llama2.c-android) for android port)
