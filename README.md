@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 1st March 2026
+Last update: 3rd March 2026
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -33,6 +33,8 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
+| **2026** | | | | | | |
+| Qwen-3.5 | 2026 | 0.8B, 2B, ... | Qwen Team | [blog](https://qwen.ai/blog?id=qwen3.5) | [code](https://github.com/QwenLM/Qwen3.5) | [huggingface](https://huggingface.co/collections/Qwen/qwen35) |
 | **2025** | | | | | | |
 | MobileLLM-R1.5 | 2025 | 140M, 360M, 950M | Meta | [paper](https://arxiv.org/abs/2509.24945) | [code](https://github.com/facebookresearch/MobileLLM-R1) | [huggingface](https://huggingface.co/facebook/MobileLLM-R1.5-950M) |
 | Nemotron-Flash | 2025 | 1B, 3B | Nvidia | [paper](https://arxiv.org/abs/2511.18890), [NeurIPS'25](https://neurips.cc/virtual/2025/poster/118640) | - | [huggingface](https://huggingface.co/nvidia/Nemotron-Flash-3B-Instruct) |
