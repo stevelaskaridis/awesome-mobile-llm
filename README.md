@@ -158,6 +158,9 @@ This section showcases frameworks and contributions for supporting LLM inference
 
 #### 2023
 
+- LinguaLinked: A Distributed Large Language Model Inference System for Mobile Devices
+  <br>*Junchen Zhao, Yurun Song, Simeng Liu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.00388)
 - LLMCad: Fast and Scalable On-device Large Language Model Inference
   <br>*Daliang Xu, Wangsong Yin, Xin Jin, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2309.04255)
@@ -251,9 +254,15 @@ This section focuses on techniques and optimisations that target mobile-specific
 - Apple Intelligence Foundation Language Models
   <br>*Tom Gunter, Zirui Wang, Chong Wang, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.21075)
+- EDGE-LLM: Enabling Efficient Large Language Model Adaptation on Edge Devices via Layerwise Unified Compression and Adaptive Layer Tuning and Voting
+  <br>*Zhongzhi Yu, Zheng Wang, Yuhan Li, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.15758) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/GATECH-EIC/Edge-LLM)
 - Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone
   <br>*Marah Abdin, Jyoti Aneja, Hany Awadalla, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.14219) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/microsoft/Phi-3CookBook)
+- Transformer-Lite: High-efficiency Deployment of Large Language Models on Mobile Phone GPUs
+  <br>*Luchang Li, Sheng Qian, Jie Lu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.20041)
 - Gemma: Open Models Based on Gemini Research and Technology
   <br>*Gemma Team, Google DeepMind*
   <br>[![Paper](https://img.shields.io/badge/Paper-Link-1f6feb?logo=readme&logoColor=white)](https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/google/gemma_pytorch)
