@@ -434,6 +434,9 @@ This section includes paper that are mobile-related, but not necessarily run on 
 
 #### 2024
 
+- Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration
+  <br>*Junyang Wang, Haiyang Xu, Haitao Jia, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01014) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/X-PLUG/MobileAgent) [![Demo](https://img.shields.io/badge/Demo-Hugging%20Face-FF9D00?logo=huggingface&logoColor=white)](https://huggingface.co/spaces/junyangwang0410/Mobile-Agent)
 - Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs
   <br>*Keen You, Haotian Zhang, Eldon Schoop, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.05719)
