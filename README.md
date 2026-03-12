@@ -512,6 +512,7 @@ This section includes paper that are mobile-related, but not necessarily run on 
 If you want to read more about related topics, here are some tangential awesome repositories to visit:
 
 * [NexaAI/Awesome-LLMs-on-device](https://github.com/NexaAI/Awesome-LLMs-on-device) on LLMs on Device
+* [FairyFali/SLMs-Survey](https://github.com/FairyFali/SLMs-Survey) on Small Language Models
 * [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) on Large Language Models
 * [KennethanCeyer/awesome-llm](https://github.com/KennethanCeyer/awesome-llm) on  Large Language Models
 * [HuangOwen/Awesome-LLM-Compression](https://github.com/HuangOwen/Awesome-LLM-Compression) on Large Language Model Compression
