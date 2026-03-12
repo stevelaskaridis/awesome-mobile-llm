@@ -282,9 +282,15 @@ This section focuses on techniques and optimisations that target mobile-specific
 - Octopus v2: On-device language model for super agent
   <br>*Wei Chen, Zhiyuan Li*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.01744)
+- Octopus: On-device language model for function calling of software APIs
+  <br>*Wei Chen, Zhiyuan Li, Mingyuan Ma*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.01549) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Model-FF9D00?logo=huggingface&logoColor=white)](https://huggingface.co/NexaAIDev/Octopus-v1-gemma-7B)
 
 #### 2023
 
+- Revolutionizing Mobile Interaction: Enabling a 3 Billion Parameter GPT LLM on Mobile
+  <br>*Samuel Carreira, Tomas Marques, Jose Ribeiro, Carlos Grilo*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.01434)
 - Towards an On-device Agent for Text Rewriting
   <br>*Yun Zhu, Yinxiao Liu, Felix Stahlberg, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.11807)
