@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 20th March 2026
+Last update: 3rd April 2026
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -34,6 +34,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
 | **2026** | | | | | | |
+| Gemma 4 | 2026 | E2B, E4B, 26B, 31B | Google DeepMind | [website](https://deepmind.google/models/gemma/gemma-4/) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/collections/google/gemma-4) |
 | MobileLLM-Flash | 2026 | 350M, 650M, 1.4B | Meta | [paper](https://arxiv.org/abs/2603.15954) | - | - |
 | Qwen-3.5 | 2026 | 0.8B, 2B, ... | Qwen Team | [blog](https://qwen.ai/blog?id=qwen3.5) | [code](https://github.com/QwenLM/Qwen3.5) | [huggingface](https://huggingface.co/collections/Qwen/qwen35) |
 | **2025** | | | | | | |
@@ -104,6 +105,10 @@ This section showcases frameworks and contributions for supporting LLM inference
 
 ### Deployment Frameworks
 
+#### On-Device Inference Frameworks
+
+These frameworks are primarily used to run models directly on-device, inside mobile apps, edge deployments, or tightly integrated local runtimes.
+
 - [llama.cpp](https://github.com/ggerganov/llama.cpp): Inference of Meta's LLaMA model (and others) in pure C/C++. Supports various platforms and builds on top of ggml (now gguf format).
     - [LLMFarm](https://github.com/guinmoon/LLMFarm): iOS frontend for llama.cpp
     - [LLM.swift](https://github.com/eastriverlee/LLM.swift): iOS frontend for llama.cpp
@@ -131,6 +136,18 @@ This section showcases frameworks and contributions for supporting LLM inference
 - [OLMoE.Swift](https://github.com/allenai/OLMoE.swift): Ai2 OLMoE is an AI chatbot powered by the OLMoE model. Unlike cloud-based AI assistants, OLMoE runs entirely on your device, ensuring complete privacy and offline accessibility—even in Flight Mode.
 - [HuggingSnap](https://github.com/huggingface/HuggingSnap): HuggingSnap is an iOS app that lets users quickly learn more about the places and objects around them. HuggingSnap runs SmolVLM2, a compact open multimodal model that accepts arbitrary sequences of image, videos, and text inputs to produce text outputs.
 - [Flower Intelligence](https://flower.ai/docs/intelligence/): Flower Intelligence is a cross-platform inference library that lets users seamlessly interact with Large-Language Models both locally and remotely in a secure and private way. The library was created by the Flower Labs team. It supports TypeScript, JavaScript and Swift backends.
+
+#### Local Network Model Serving
+
+These frameworks are primarily used to host models on a laptop, desktop, or workstation and expose them over a local API to other devices on the same LAN.
+
+- [LM Studio](https://lmstudio.ai/): Desktop application and local inference server for hosting models on your machine, with an OpenAI-compatible local API.
+- [Ollama](https://ollama.com/): Local model runner and server for hosting and serving models through a simple CLI and HTTP API.
+- [Lemonade](https://lemonade-server.ai/): Open-source local AI server for text, image, and speech workloads, designed to run privately on local PCs and compatible with OpenAI-style APIs.
+- [llama.cpp](https://github.com/ggerganov/llama.cpp): Can also be used as a lightweight local inference server for hosting GGUF models via CLI and HTTP server modes.
+- [LocalAI](https://localai.io/getting-started/index.html): Self-hosted local inference server and OpenAI-compatible REST API for running LLM, vision, image, and audio workloads on local or on-prem hardware.
+- [vLLM](https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html): High-throughput inference and serving engine that can expose OpenAI-compatible local APIs, better suited to stronger desktops and workstations.
+- [SGLang](https://docs.sglang.io/get_started/install.html): High-performance model serving framework for local and distributed deployments, designed for low-latency and high-throughput inference.
 
 
 ### Papers
@@ -183,23 +200,35 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 ### Papers
 
+#### 2026
+
+- LLM Inference at the Edge: Mobile, NPU, and GPU Performance Efficiency Trade-offs Under Sustained Load
+  <br>*Pranay Tummalapalli, Sahil Arayakandy, Ritam Pal, Kautuk Kundan*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.23640)
+
 #### 2025
 
-- Sometimes Painful but Promising: Feasibility and Trade-Offs of On-Device Language Model Inference
-  <br>*Maximilian Abstreiter, Sasu Tarkoma, Roberto Morabito*
-  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.09114) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3788870)
 - Intelligence Per Watt: Measuring Intelligence Efficiency of Local AI
   <br>*Jon Saad-Falcon, Avanika Narayan, Hakki Orhun Akengin, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.07885)
+- P/D-Device: Disaggregated Large Language Model between Cloud and Devices
+  <br>*Yibo Jin, Yixu Xu, Yue Chen, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.09035)
+- Sometimes Painful but Promising: Feasibility and Trade-Offs of On-Device Language Model Inference
+  <br>*Maximilian Abstreiter, Sasu Tarkoma, Roberto Morabito*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.09114) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3788870)
 - **[ICLR'25]** PalmBench: A Comprehensive Benchmark of Compressed Large Language Models on Mobile Platforms
   <br>*Yilong Li, Jingyu Liu, Hao Zhang, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.05315) [![Publication](https://img.shields.io/badge/Publication-Official-0a7f2e?logo=googlescholar&logoColor=white)](https://proceedings.iclr.cc/paper_files/paper/2025/hash/98eae0f76f52ca57f4f6f7f2f5f1784f-Abstract-Conference.html)
+- **[SEC'25]** lm-Meter: Unveiling Runtime Inference Latency for On-Device Language Models
+  <br>*Haoxin Wang, Xiaolong Tu, Hongyu Ke, et al.*
+  <br>[![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3769102.3770614)
 
 #### 2024
 
 - Large Language Model Performance Benchmarking on Mobile Platforms: A Thorough Evaluation
   <br>*Jie Xiao, Qianyi Huang, Xu Chen, et al.*
-  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.03613)
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.03613) [![Publication](https://img.shields.io/badge/Publication-IEEE-00629b?logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/abstract/document/11440122)
 - **[EdgeFM @ MobiSys'24]** Large Language Models on Mobile Devices: Measurements, Analysis, and Insights
   <br>*Xiang Li, Zhenyan Lu, Dongqi Cai, et al.*
   <br>[![DOI](https://img.shields.io/badge/DOI-Paper-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3662006.3662059?casa_token=lSWawSGkqzUAAAAA:QhHsJqnEw4i9v8dCGMtelbulm1PqwfbFW_28x4c64eTjuz4BKA76ag6s0NsnCZPm02UdMF68hd6F)
