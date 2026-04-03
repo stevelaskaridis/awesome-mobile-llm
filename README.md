@@ -200,23 +200,35 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 ### Papers
 
+#### 2026
+
+- LLM Inference at the Edge: Mobile, NPU, and GPU Performance Efficiency Trade-offs Under Sustained Load
+  <br>*Pranay Tummalapalli, Sahil Arayakandy, Ritam Pal, Kautuk Kundan*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.23640)
+
 #### 2025
 
-- Sometimes Painful but Promising: Feasibility and Trade-Offs of On-Device Language Model Inference
-  <br>*Maximilian Abstreiter, Sasu Tarkoma, Roberto Morabito*
-  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.09114) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3788870)
 - Intelligence Per Watt: Measuring Intelligence Efficiency of Local AI
   <br>*Jon Saad-Falcon, Avanika Narayan, Hakki Orhun Akengin, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.07885)
+- P/D-Device: Disaggregated Large Language Model between Cloud and Devices
+  <br>*Yibo Jin, Yixu Xu, Yue Chen, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.09035)
+- Sometimes Painful but Promising: Feasibility and Trade-Offs of On-Device Language Model Inference
+  <br>*Maximilian Abstreiter, Sasu Tarkoma, Roberto Morabito*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.09114) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3788870)
 - **[ICLR'25]** PalmBench: A Comprehensive Benchmark of Compressed Large Language Models on Mobile Platforms
   <br>*Yilong Li, Jingyu Liu, Hao Zhang, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.05315) [![Publication](https://img.shields.io/badge/Publication-Official-0a7f2e?logo=googlescholar&logoColor=white)](https://proceedings.iclr.cc/paper_files/paper/2025/hash/98eae0f76f52ca57f4f6f7f2f5f1784f-Abstract-Conference.html)
+- **[SEC'25]** lm-Meter: Unveiling Runtime Inference Latency for On-Device Language Models
+  <br>*Haoxin Wang, Xiaolong Tu, Hongyu Ke, et al.*
+  <br>[![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3769102.3770614)
 
 #### 2024
 
 - Large Language Model Performance Benchmarking on Mobile Platforms: A Thorough Evaluation
   <br>*Jie Xiao, Qianyi Huang, Xu Chen, et al.*
-  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.03613)
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.03613) [![Publication](https://img.shields.io/badge/Publication-IEEE-00629b?logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/abstract/document/11440122)
 - **[EdgeFM @ MobiSys'24]** Large Language Models on Mobile Devices: Measurements, Analysis, and Insights
   <br>*Xiang Li, Zhenyan Lu, Dongqi Cai, et al.*
   <br>[![DOI](https://img.shields.io/badge/DOI-Paper-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3662006.3662059?casa_token=lSWawSGkqzUAAAAA:QhHsJqnEw4i9v8dCGMtelbulm1PqwfbFW_28x4c64eTjuz4BKA76ag6s0NsnCZPm02UdMF68hd6F)
