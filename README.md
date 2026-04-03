@@ -105,6 +105,10 @@ This section showcases frameworks and contributions for supporting LLM inference
 
 ### Deployment Frameworks
 
+#### On-Device Inference Frameworks
+
+These frameworks are primarily used to run models directly on-device, inside mobile apps, edge deployments, or tightly integrated local runtimes.
+
 - [llama.cpp](https://github.com/ggerganov/llama.cpp): Inference of Meta's LLaMA model (and others) in pure C/C++. Supports various platforms and builds on top of ggml (now gguf format).
     - [LLMFarm](https://github.com/guinmoon/LLMFarm): iOS frontend for llama.cpp
     - [LLM.swift](https://github.com/eastriverlee/LLM.swift): iOS frontend for llama.cpp
@@ -132,6 +136,18 @@ This section showcases frameworks and contributions for supporting LLM inference
 - [OLMoE.Swift](https://github.com/allenai/OLMoE.swift): Ai2 OLMoE is an AI chatbot powered by the OLMoE model. Unlike cloud-based AI assistants, OLMoE runs entirely on your device, ensuring complete privacy and offline accessibility—even in Flight Mode.
 - [HuggingSnap](https://github.com/huggingface/HuggingSnap): HuggingSnap is an iOS app that lets users quickly learn more about the places and objects around them. HuggingSnap runs SmolVLM2, a compact open multimodal model that accepts arbitrary sequences of image, videos, and text inputs to produce text outputs.
 - [Flower Intelligence](https://flower.ai/docs/intelligence/): Flower Intelligence is a cross-platform inference library that lets users seamlessly interact with Large-Language Models both locally and remotely in a secure and private way. The library was created by the Flower Labs team. It supports TypeScript, JavaScript and Swift backends.
+
+#### Local Network Model Serving
+
+These frameworks are primarily used to host models on a laptop, desktop, or workstation and expose them over a local API to other devices on the same LAN.
+
+- [LM Studio](https://lmstudio.ai/): Desktop application and local inference server for hosting models on your machine, with an OpenAI-compatible local API.
+- [Ollama](https://ollama.com/): Local model runner and server for hosting and serving models through a simple CLI and HTTP API.
+- [Lemonade](https://lemonade-server.ai/): Open-source local AI server for text, image, and speech workloads, designed to run privately on local PCs and compatible with OpenAI-style APIs.
+- [llama.cpp](https://github.com/ggerganov/llama.cpp): Can also be used as a lightweight local inference server for hosting GGUF models via CLI and HTTP server modes.
+- [LocalAI](https://localai.io/getting-started/index.html): Self-hosted local inference server and OpenAI-compatible REST API for running LLM, vision, image, and audio workloads on local or on-prem hardware.
+- [vLLM](https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html): High-throughput inference and serving engine that can expose OpenAI-compatible local APIs, better suited to stronger desktops and workstations.
+- [SGLang](https://docs.sglang.io/get_started/install.html): High-performance model serving framework for local and distributed deployments, designed for low-latency and high-throughput inference.
 
 
 ### Papers
