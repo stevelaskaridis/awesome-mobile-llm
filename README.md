@@ -147,6 +147,7 @@ These frameworks are primarily used to host models on a laptop, desktop, or work
 - [Lemonade](https://lemonade-server.ai/): Open-source local AI server for text, image, and speech workloads, designed to run privately on local PCs and compatible with OpenAI-style APIs.
 - [llama.cpp](https://github.com/ggerganov/llama.cpp): Can also be used as a lightweight local inference server for hosting GGUF models via CLI and HTTP server modes.
 - [LocalAI](https://localai.io/getting-started/index.html): Self-hosted local inference server and OpenAI-compatible REST API for running LLM, vision, image, and audio workloads on local or on-prem hardware.
+- [Locally AI](https://locallyai.app/): Native Apple-platform app for running AI models fully offline on iPhone, iPad, and Mac, optimized for Apple Silicon and on-device privacy.
 - [vLLM](https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html): High-throughput inference and serving engine that can expose OpenAI-compatible local APIs, better suited to stronger desktops and workstations.
 - [SGLang](https://docs.sglang.io/get_started/install.html): High-performance model serving framework for local and distributed deployments, designed for low-latency and high-throughput inference.
 
