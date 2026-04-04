@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 3rd April 2026
+Last update: 4th April 2026
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -35,6 +35,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
 | **2026** | | | | | | |
 | Gemma 4 | 2026 | E2B, E4B, 26B, 31B | Google DeepMind | [website](https://deepmind.google/models/gemma/gemma-4/) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/collections/google/gemma-4) |
+| LFM2.5 | 2026 | 350M, 1.2B, 1.5B, 1.6B | Liquid AI | [website](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai) | - | [huggingface](https://huggingface.co/collections/LiquidAI/lfm25) |
 | MobileLLM-Flash | 2026 | 350M, 650M, 1.4B | Meta | [paper](https://arxiv.org/abs/2603.15954) | - | - |
 | Qwen-3.5 | 2026 | 0.8B, 2B, ... | Qwen Team | [blog](https://qwen.ai/blog?id=qwen3.5) | [code](https://github.com/QwenLM/Qwen3.5) | [huggingface](https://huggingface.co/collections/Qwen/qwen35) |
 | **2025** | | | | | | |
@@ -146,6 +147,7 @@ These frameworks are primarily used to host models on a laptop, desktop, or work
 - [Lemonade](https://lemonade-server.ai/): Open-source local AI server for text, image, and speech workloads, designed to run privately on local PCs and compatible with OpenAI-style APIs.
 - [llama.cpp](https://github.com/ggerganov/llama.cpp): Can also be used as a lightweight local inference server for hosting GGUF models via CLI and HTTP server modes.
 - [LocalAI](https://localai.io/getting-started/index.html): Self-hosted local inference server and OpenAI-compatible REST API for running LLM, vision, image, and audio workloads on local or on-prem hardware.
+- [Locally AI](https://locallyai.app/): Native Apple-platform app for running AI models fully offline on iPhone, iPad, and Mac, optimized for Apple Silicon and on-device privacy.
 - [vLLM](https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html): High-throughput inference and serving engine that can expose OpenAI-compatible local APIs, better suited to stronger desktops and workstations.
 - [SGLang](https://docs.sglang.io/get_started/install.html): High-performance model serving framework for local and distributed deployments, designed for low-latency and high-throughput inference.
 
