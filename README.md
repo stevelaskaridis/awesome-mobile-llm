@@ -244,6 +244,8 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 ## Mobile-Specific Optimisations
 
+- [OneComp (arXiv:2603.28845)](https://arxiv.org/abs/2603.28845) — Fujitsu Research's ILP-based mixed-precision PTQ (AutoBit) automatically estimates bitwidth from available VRAM, fitting mobile/edge deployment budgets. [Code](https://github.com/FujitsuResearch/OneCompression).
+
 This section focuses on techniques and optimisations that target mobile-specific deployment.
 
 ### Papers
