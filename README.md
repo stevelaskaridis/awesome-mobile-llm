@@ -131,6 +131,7 @@ These frameworks are primarily used to run models directly on-device, inside mob
 * [Apple Foundation Models SDK](https://github.com/apple/python-apple-fm-sdk): Python bindings for Apple's Foundation Models framework, providing access to the on-device foundation model at the core of Apple Intelligence on macOS.
 - [HF Swift Transformers](https://github.com/huggingface/swift-transformers): Swift Package to implement a transformers-like API in Swift
 - [Alibaba MNN](https://github.com/alibaba/MNN): MNN supports inference and training of deep learning models and for inference and training on-device.
+- [OmniInfer](https://github.com/omnimind-ai/OmniInfer): Cross-platform local LLM/VLM inference engine with CLI and an OpenAI-compatible HTTP API, with easy demos through [OmniStudio](https://omnimind.com.cn/omnistudio) on Windows/macOS and [OpenOmniBot](https://github.com/omnimind-ai/OpenOmniBot) on Android.
 - [llama2.c](https://github.com/karpathy/llama2.c) (More educational, see [here](https://github.com/Manuel030/llama2.c-android) for android port)
 - [tinygrad](https://github.com/tinygrad/tinygrad): Simple neural network framework from tinycorp and [@geohot](https://github.com/geohot)
 - [TinyChatEngine](https://github.com/mit-han-lab/TinyChatEngine): Targeted at Nvidia, Apple M1 and RPi, from Song Han's (MIT) [group](https://hanlab.mit.edu/team).
