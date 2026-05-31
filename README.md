@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 4th April 2026
+Last update: 1st June 2026
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -82,7 +82,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | RWKV | 2023 |  169M, 430M, 1.5B, 3B, ... | EleutherAI | [paper](https://arxiv.org/abs/2305.13048) | [code](https://github.com/BlinkDL/RWKV-LM) | [huggingface](https://huggingface.co/RWKV) |
 | Cerebras-GPT | 2023 | 111M, 256M, 590M, 1.3B, 2.7B ... | Cerebras | [paper](https://arxiv.org/abs/2304.03208) | [code](https://github.com/Cerebras/modelzoo) | [huggingface](https://huggingface.co/cerebras) |
 | OPT | 2022 | 125M, 350M, 1.3B, 2.7B, ...          | Meta                                            | [paper](https://arxiv.org/abs/2205.01068)   | [code](https://github.com/facebookresearch/metaseq) | [huggingface](https://huggingface.co/facebook/opt-350m) |
-| LaMini-LM | 2023 | 61M, 77M, 111M, 124M, 223M, 248M, 256M, 590M, 774M, 738M, 783M, 1.3B, 1.5B, ... | MBZUAI | [paper](https://arxiv.org/pdf/2304.14402.pdf) | [code](https://arxiv.org/pdf/2304.14402.pdf) | [huggingface](https://huggingface.co/MBZUAI/LaMini-T5-61M) |
+| LaMini-LM | 2023 | 61M, 77M, 111M, 124M, 223M, 248M, 256M, 590M, 774M, 738M, 783M, 1.3B, 1.5B, ... | MBZUAI | [paper](https://arxiv.org/abs/2304.14402.pdf) | [code](https://arxiv.org/abs/2304.14402.pdf) | [huggingface](https://huggingface.co/MBZUAI/LaMini-T5-61M) |
 | Pythia | 2023 | 70M, 160M, 410M, 1B, 1.4B, 2.8B, ...         | EleutherAI                                      | [paper](https://arxiv.org/abs/2304.01373)   | [code](https://github.com/EleutherAI/pythia)     | [huggingface](https://huggingface.co/EleutherAI/pythia-70m-deduped) |
 | **2022** | | | | | | |
 | Galactica | 2022 | 125M, 1.3B, ... | Meta | [paper](https://arxiv.org/abs/2211.09085) | [code](https://github.com/facebookresearch/metaseq/) | [huggingface](https://huggingface.co/facebook/galactica-125m) |
@@ -94,7 +94,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | MobileBERT | 2020 | 15.1M, 25.3M | CMU, Google | [paper](https://arxiv.org/abs/2004.02984) | [code](https://github.com/huggingface/transformers/blob/main/src/transformers/models/mobilebert/modeling_mobilebert.py) | [huggingface](https://huggingface.co/google/mobilebert-uncased) |
 | **2019** | | | | | | |
 | BART | 2019 | 140M, 400M           | Meta                                            | [paper](https://arxiv.org/abs/1910.13461)   | [code](https://github.com/facebookresearch/fairseq/tree/main/examples/bart) | [huggingface](https://huggingface.co/facebook/bart-base) |
-| DistilBERT | 2019 | 66M | HuggingFace | [paper](https://arxiv.org/pdf/1910.01108.pdf) | [code](https://github.com/huggingface/transformers/tree/main/examples/research_projects/distillation) | [huggingface](https://huggingface.co/distilbert/distilbert-base-uncased) |
+| DistilBERT | 2019 | 66M | HuggingFace | [paper](https://arxiv.org/abs/1910.01108.pdf) | [code](https://github.com/huggingface/transformers/tree/main/examples/research_projects/distillation) | [huggingface](https://huggingface.co/distilbert/distilbert-base-uncased) |
 | T5 | 2019 | 60M, 220M, 770M, 3B, ... |  Google | [paper](https://arxiv.org/abs/1910.10683) | [code](https://github.com/google-research/text-to-text-transfer-transformer) | [huggingface](https://huggingface.co/google-t5/t5-small) |
 | TinyBERT | 2019 | 14.5M | Huawei | [paper](https://arxiv.org/abs/1909.10351) | [code](https://github.com/huawei-noah/Pretrained-Language-Model/tree/master/TinyBERT) | [huggingface](https://huggingface.co/huawei-noah/TinyBERT_General_4L_312D) |
 | Megatron-LM | 2019 | 336M, 1.3B, ... | Nvidia | [paper](https://arxiv.org/abs/1909.08053) | [code](https://github.com/NVIDIA/Megatron-LM) | - |
@@ -154,6 +154,12 @@ These frameworks are primarily used to host models on a laptop, desktop, or work
 
 
 ### Papers
+
+#### 2026
+
+- **[SenSys'26]** An Efficient Context Management System for On-Device LLMaaS
+  <br>*Wangsong Yin et al.*
+  <br>[![DOI](https://img.shields.io/badge/DOI-Paper-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/full/10.1145/3774906.3800479)
 
 #### 2025
 
@@ -247,6 +253,15 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 This section focuses on techniques and optimisations that target mobile-specific deployment.
 
 ### Papers
+
+#### 2026
+
+- MobileMoE: Scaling On-Device Mixture of Experts
+  <br>*Yanbei Chen et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.27358)
+- Quant.npu: Enabling Efficient Mobile NPU Inference for on-device LLMs via Fully Static Quantization
+  <br>*Jinghe Zhang et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.20295)
 
 #### 2025
 
@@ -345,6 +360,12 @@ This section refers to multimodal LLMs, which integrate vision or other modaliti
 
 ### Papers
 
+#### 2026
+
+- Small Vision-Language Models are Smart Compressors for Long Video Understanding
+  <br>*Junjie Fei et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.08120)
+
 #### 2024
 
 - **[CVPR 2024]** MobileCLIP: Fast Image-Text Models through Multi-Modal Reinforced Training
@@ -395,7 +416,7 @@ This section includes survey papers on LLM efficiency, a topic very much related
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2409.00088)
 - A Survey of Resource-efficient LLM and Multimodal Foundation Models
   <br>*Mengwei Xu, Wangsong Yin, Dongqi Cai, et al.*
-  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2401.08092.pdf)
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.08092.pdf)
 
 #### 2023
 
@@ -447,7 +468,7 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
   <br>[![Paper](https://img.shields.io/badge/Paper-Link-1f6feb?logo=readme&logoColor=white)](https://www.mdpi.com/2079-9292/13/2/402)
 - Federated Fine-Tuning of LLMs on the Very Edge: The Good, the Bad, the Ugly
   <br>*Herbert Woisetschläger, Alexander Isenko, Shiqiang Wang, et al.*
-  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2310.03150.pdf)
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.03150.pdf)
 - Federated Full-Parameter Tuning of Billion-Sized Language Models with Communication Cost under 18 Kilobytes
   <br>*Zhen Qin, Daoyuan Chen, Bingchen Qian, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.06353) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/alibaba/FederatedScope/tree/FedKSeed)
