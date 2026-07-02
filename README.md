@@ -533,6 +533,7 @@ This section includes paper that are mobile-related, but not necessarily run on 
 ## Benchmarks
 
 * [ExoLabs Benchmarks](https://benchmarks.exolabs.net/)
+* [llm-speed](https://llm-speed.com)
 * [Qualcomm AI Hub](https://aihub.qualcomm.com/mobile/models)
 
 ## Leaderboards
