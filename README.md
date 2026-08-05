@@ -447,6 +447,12 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
 
 ### Papers
 
+### 2026
+
+- **[MobiSys'26]** FBLayout: Optimizing Memory Layout for Efficient LLM Finetuning on Mobile GPUs
+  <br>*Kahou Tam, Wei Niu, Yu Bao, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.21624) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3745756.3809214)
+
 ### 2025
 
 - Computational Bottlenecks of Training Small-scale Large Language Models
