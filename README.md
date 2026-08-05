@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 1st June 2026
+Last update: 5th August 2026
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -34,9 +34,10 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
 | **2026** | | | | | | |
-| Gemma 4 | 2026 | E2B, E4B, 26B, 31B | Google DeepMind | [website](https://deepmind.google/models/gemma/gemma-4/) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/collections/google/gemma-4) |
-| LFM2.5 | 2026 | 350M, 1.2B, 1.5B, 1.6B | Liquid AI | [website](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai) | - | [huggingface](https://huggingface.co/collections/LiquidAI/lfm25) |
+| Gemma 4 | 2026 | E2B, E4B, 26B | Google DeepMind | [website](https://deepmind.google/models/gemma/gemma-4/) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/collections/google/gemma-4) |
+| LFM2.5 | 2026 | 350M, 1.2B, 1.5B, 1.6B, 2.6B | Liquid AI | [website](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai), [LFM2.5-2.6B blog](https://www.liquid.ai/blog/lfm2-5-2-6b) | - | [huggingface](https://huggingface.co/collections/LiquidAI/lfm25) |
 | MobileLLM-Flash | 2026 | 350M, 650M, 1.4B | Meta | [paper](https://arxiv.org/abs/2603.15954) | - | - |
+| Apertus Mini | 2026 | 0.5B, 1.5B, 4B | Swiss AI (EPFL, ETH Zurich, CSCS) | [paper](https://arxiv.org/abs/2509.14233) | [code](https://github.com/swiss-ai/apertus-tech-report) | [huggingface](https://huggingface.co/collections/swiss-ai/apertus-mini) |
 | Qwen-3.5 | 2026 | 0.8B, 2B, ... | Qwen Team | [blog](https://qwen.ai/blog?id=qwen3.5) | [code](https://github.com/QwenLM/Qwen3.5) | [huggingface](https://huggingface.co/collections/Qwen/qwen35) |
 | **2025** | | | | | | |
 | LFM2 | 2025 | 350M, 700M, 1.2B, 2.6B, 8.3B (1.5B active) | Liquid AI | [paper](https://arxiv.org/abs/2511.23404), [website](https://www.liquid.ai/research/lfm2-technical-report) | - | [huggingface](https://huggingface.co/collections/LiquidAI/lfm2) |
@@ -160,6 +161,9 @@ These frameworks are primarily used to host models on a laptop, desktop, or work
 - **[SenSys'26]** An Efficient Context Management System for On-Device LLMaaS
   <br>*Wangsong Yin et al.*
   <br>[![DOI](https://img.shields.io/badge/DOI-Paper-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/full/10.1145/3774906.3800479)
+- FlexServe: A Fast and Secure LLM Serving System for Mobile Devices with Flexible Resource Isolation
+  <br>*Yinpeng Wu, Yitong Chen, Lixiang Wang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.09046)
 
 #### 2025
 
@@ -262,6 +266,12 @@ This section focuses on techniques and optimisations that target mobile-specific
 - Quant.npu: Enabling Efficient Mobile NPU Inference for on-device LLMs via Fully Static Quantization
   <br>*Jinghe Zhang et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.20295)
+- **[MobiSys'26]** ShadowNPU: System and Algorithm Co-design for NPU-Centric On-Device LLM Inference
+  <br>*Wangsong Yin, Daliang Xu, Mengwei Xu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.16703) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3745756.3809205)
+- Efficient On-Device Diffusion LLM Inference with Mobile NPU
+  <br>*Tuowei Wang, Yanfan Sun, Ju Ren*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.13740)
 
 #### 2025
 
@@ -437,6 +447,12 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
 
 ### Papers
 
+### 2026
+
+- **[MobiSys'26]** FBLayout: Optimizing Memory Layout for Efficient LLM Finetuning on Mobile GPUs
+  <br>*Kahou Tam, Wei Niu, Yu Bao, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.21624) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3745756.3809214)
+
 ### 2025
 
 - Computational Bottlenecks of Training Small-scale Large Language Models
@@ -478,6 +494,45 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
 This section includes paper that are mobile-related, but not necessarily run on device.
 
 ### Papers
+
+#### 2026
+
+- Xiaomi-GUI-0 Technical Report
+  <br>*Wanxia Cao, Chengzhen Duan, Pei Fu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.31410)
+- MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management
+  <br>*Guangyi Liu, Gao Wu, Congxiao Liu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.19926)
+- Beyond the GUI Paradigm: Do Mobile Agents Need the Phone Screen?
+  <br>*Li Gu, Zihuan Jiang, Linqiang Guo, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.19388)
+- CAPED: Context-Aware Privacy Exposure Defense for Mobile GUI Agents
+  <br>*Siyu Shen, Fenghao Xu, Wenrui Diao, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.12666)
+- iOSWorld: A Benchmark for Personally Intelligent Phone Agents
+  <br>*Lawrence Keunho Jang, Mareks Woodside, Geronimo Carom, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.09764)
+- MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents
+  <br>*Ziyun Zeng, Hang Hua, Bocheng Zou, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.18652)
+- How Mobile World Model Guides GUI Agents?
+  <br>*Weikai Xu, Kun Huang, Yunren Feng, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.10347)
+- Mem-W: Latent Memory-Native GUI Agents
+  <br>*Guibin Zhang, Yaohui Ling, Fanci Meng, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.09317)
+- ClawMobile: Rethinking Smartphone-Native Agentic Systems
+  <br>*Lepeng Zhao, Zhenhua Zou, Shuo Li, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.22942)
+- Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents
+  <br>*Haiyang Xu, Xi Zhang, Haowei Liu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.16855)
+- Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible
+  <br>*Hongchao Du, Shangyu Wu, Qiao Li, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.10139)
+- MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments
+  <br>*Guangyi Liu, Pengxiang Zhao, Yaozhen Liang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.06075)
 
 #### 2025
 
