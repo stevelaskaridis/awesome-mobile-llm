@@ -495,6 +495,45 @@ This section includes paper that are mobile-related, but not necessarily run on 
 
 ### Papers
 
+#### 2026
+
+- Xiaomi-GUI-0 Technical Report
+  <br>*Wanxia Cao, Chengzhen Duan, Pei Fu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.31410)
+- MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management
+  <br>*Guangyi Liu, Gao Wu, Congxiao Liu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.19926)
+- Beyond the GUI Paradigm: Do Mobile Agents Need the Phone Screen?
+  <br>*Li Gu, Zihuan Jiang, Linqiang Guo, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.19388)
+- CAPED: Context-Aware Privacy Exposure Defense for Mobile GUI Agents
+  <br>*Siyu Shen, Fenghao Xu, Wenrui Diao, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.12666)
+- iOSWorld: A Benchmark for Personally Intelligent Phone Agents
+  <br>*Lawrence Keunho Jang, Mareks Woodside, Geronimo Carom, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.09764)
+- MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents
+  <br>*Ziyun Zeng, Hang Hua, Bocheng Zou, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.18652)
+- How Mobile World Model Guides GUI Agents?
+  <br>*Weikai Xu, Kun Huang, Yunren Feng, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.10347)
+- Mem-W: Latent Memory-Native GUI Agents
+  <br>*Guibin Zhang, Yaohui Ling, Fanci Meng, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.09317)
+- ClawMobile: Rethinking Smartphone-Native Agentic Systems
+  <br>*Lepeng Zhao, Zhenhua Zou, Shuo Li, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.22942)
+- Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents
+  <br>*Haiyang Xu, Xi Zhang, Haowei Liu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.16855)
+- Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible
+  <br>*Hongchao Du, Shangyu Wu, Qiao Li, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.10139)
+- MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments
+  <br>*Guangyi Liu, Pengxiang Zhao, Yaozhen Liang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.06075)
+
 #### 2025
 
 - Slm-mux: Orchestrating small language models for reasoning
