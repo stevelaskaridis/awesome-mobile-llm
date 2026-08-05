@@ -34,9 +34,10 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
 | **2026** | | | | | | |
-| Gemma 4 | 2026 | E2B, E4B, 26B, 31B | Google DeepMind | [website](https://deepmind.google/models/gemma/gemma-4/) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/collections/google/gemma-4) |
-| LFM2.5 | 2026 | 350M, 1.2B, 1.5B, 1.6B | Liquid AI | [website](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai) | - | [huggingface](https://huggingface.co/collections/LiquidAI/lfm25) |
+| Gemma 4 | 2026 | E2B, E4B, 26B | Google DeepMind | [website](https://deepmind.google/models/gemma/gemma-4/) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/collections/google/gemma-4) |
+| LFM2.5 | 2026 | 350M, 1.2B, 1.5B, 1.6B, 2.6B | Liquid AI | [website](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai), [LFM2.5-2.6B blog](https://www.liquid.ai/blog/lfm2-5-2-6b) | - | [huggingface](https://huggingface.co/collections/LiquidAI/lfm25) |
 | MobileLLM-Flash | 2026 | 350M, 650M, 1.4B | Meta | [paper](https://arxiv.org/abs/2603.15954) | - | - |
+| Apertus Mini | 2026 | 0.5B, 1.5B, 4B | Swiss AI (EPFL, ETH Zurich, CSCS) | [paper](https://arxiv.org/abs/2509.14233) | [code](https://github.com/swiss-ai/apertus-tech-report) | [huggingface](https://huggingface.co/collections/swiss-ai/apertus-mini) |
 | Qwen-3.5 | 2026 | 0.8B, 2B, ... | Qwen Team | [blog](https://qwen.ai/blog?id=qwen3.5) | [code](https://github.com/QwenLM/Qwen3.5) | [huggingface](https://huggingface.co/collections/Qwen/qwen35) |
 | **2025** | | | | | | |
 | LFM2 | 2025 | 350M, 700M, 1.2B, 2.6B, 8.3B (1.5B active) | Liquid AI | [paper](https://arxiv.org/abs/2511.23404), [website](https://www.liquid.ai/research/lfm2-technical-report) | - | [huggingface](https://huggingface.co/collections/LiquidAI/lfm2) |
