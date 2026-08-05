@@ -161,6 +161,9 @@ These frameworks are primarily used to host models on a laptop, desktop, or work
 - **[SenSys'26]** An Efficient Context Management System for On-Device LLMaaS
   <br>*Wangsong Yin et al.*
   <br>[![DOI](https://img.shields.io/badge/DOI-Paper-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/full/10.1145/3774906.3800479)
+- FlexServe: A Fast and Secure LLM Serving System for Mobile Devices with Flexible Resource Isolation
+  <br>*Yinpeng Wu, Yitong Chen, Lixiang Wang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.09046)
 
 #### 2025
 
