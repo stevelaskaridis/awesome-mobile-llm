@@ -266,6 +266,12 @@ This section focuses on techniques and optimisations that target mobile-specific
 - Quant.npu: Enabling Efficient Mobile NPU Inference for on-device LLMs via Fully Static Quantization
   <br>*Jinghe Zhang et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.20295)
+- **[MobiSys'26]** ShadowNPU: System and Algorithm Co-design for NPU-Centric On-Device LLM Inference
+  <br>*Wangsong Yin, Daliang Xu, Mengwei Xu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.16703) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3745756.3809205)
+- Efficient On-Device Diffusion LLM Inference with Mobile NPU
+  <br>*Tuowei Wang, Yanfan Sun, Ju Ren*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.13740)
 
 #### 2025
 
