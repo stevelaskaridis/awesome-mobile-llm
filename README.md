@@ -139,6 +139,7 @@ These frameworks are primarily used to run models directly on-device, inside mob
 - [OLMoE.Swift](https://github.com/allenai/OLMoE.swift): Ai2 OLMoE is an AI chatbot powered by the OLMoE model. Unlike cloud-based AI assistants, OLMoE runs entirely on your device, ensuring complete privacy and offline accessibility—even in Flight Mode.
 - [HuggingSnap](https://github.com/huggingface/HuggingSnap): HuggingSnap is an iOS app that lets users quickly learn more about the places and objects around them. HuggingSnap runs SmolVLM2, a compact open multimodal model that accepts arbitrary sequences of image, videos, and text inputs to produce text outputs.
 - [Flower Intelligence](https://flower.ai/docs/intelligence/): Flower Intelligence is a cross-platform inference library that lets users seamlessly interact with Large-Language Models both locally and remotely in a secure and private way. The library was created by the Flower Labs team. It supports TypeScript, JavaScript and Swift backends.
+- [ONNX Runtime](https://github.com/microsoft/onnxruntime): Cross-platform inference and training engine for ONNX models, with a Mobile package and execution providers (NNAPI, Core ML, XNNPACK, QNN) for on-device deployment on Android and iOS. See the [Mobile deployment guide](https://onnxruntime.ai/docs/tutorials/mobile/).
 
 #### Local Network Model Serving
 
@@ -452,6 +453,9 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
 - **[MobiSys'26]** FBLayout: Optimizing Memory Layout for Efficient LLM Finetuning on Mobile GPUs
   <br>*Kahou Tam, Wei Niu, Yu Bao, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.21624) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3745756.3809214)
+- Online-SDFT: Fine-Tuning Small Language Models for Continual Learning On-Device with Self-Distillation
+  <br>*I-Ju Lin, Zhang-Wei Hong*
+  <br>[![Blog Post](https://img.shields.io/badge/Paper-Link-1f6feb?logo=readme&logoColor=white)](https://lin826.github.io/SLM-Online-SDFT/) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/lin826/SLM-Online-SDFT)
 
 ### 2025
 
