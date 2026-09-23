@@ -141,6 +141,7 @@ These frameworks are primarily used to run models directly on-device, inside mob
 - [HuggingSnap](https://github.com/huggingface/HuggingSnap): HuggingSnap is an iOS app that lets users quickly learn more about the places and objects around them. HuggingSnap runs SmolVLM2, a compact open multimodal model that accepts arbitrary sequences of image, videos, and text inputs to produce text outputs.
 - [Flower Intelligence](https://flower.ai/docs/intelligence/): Flower Intelligence is a cross-platform inference library that lets users seamlessly interact with Large-Language Models both locally and remotely in a secure and private way. The library was created by the Flower Labs team. It supports TypeScript, JavaScript and Swift backends.
 - [ONNX Runtime](https://github.com/microsoft/onnxruntime): Cross-platform inference and training engine for ONNX models, with a Mobile package and execution providers (NNAPI, Core ML, XNNPACK, QNN) for on-device deployment on Android and iOS. See the [Mobile deployment guide](https://onnxruntime.ai/docs/tutorials/mobile/).
+- [NobodyWho](https://github.com/nobodywho-ooo/nobodywho): On-device LLM inference engine in Rust (built on llama.cpp) for embedding local text generation, embeddings, GBNF grammar-constrained output, and Whisper speech-to-text into games and apps, with bindings for Godot, Flutter, React Native, Swift, Kotlin, and Python.
 
 #### Local Network Model Serving
 
