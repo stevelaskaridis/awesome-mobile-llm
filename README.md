@@ -154,6 +154,7 @@ These frameworks are primarily used to host models on a laptop, desktop, or work
 - [Locally AI](https://locallyai.app/): Native Apple-platform app for running AI models fully offline on iPhone, iPad, and Mac, optimized for Apple Silicon and on-device privacy.
 - [vLLM](https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html): High-throughput inference and serving engine that can expose OpenAI-compatible local APIs, better suited to stronger desktops and workstations.
 - [SGLang](https://docs.sglang.io/get_started/install.html): High-performance model serving framework for local and distributed deployments, designed for low-latency and high-throughput inference.
+- [jevos](https://github.com/feder-cr/jev): Open-source 1B yes/no decision model (pruned to 17 layers, GGUF q4_k_m, 619 MB) served over a Jev-compatible HTTP API via llama.cpp, ~50-220ms per decision on a laptop CPU, no GPU required.
 
 
 ### Papers
