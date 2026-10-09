@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 3rd September 2026
+Last update: 9th October 2026
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -29,7 +29,7 @@ Let's try to make this list as useful as possible to researchers, engineers and 
 
 ## Mobile-First LLMs
 
-The following Table shows sub-3B models designed for on-device deployments, sorted by year.
+The following table shows small models designed for on-device deployments, primarily with sub-3B variants, sorted by year. For models with larger total parameter counts, active or effective sizes are labeled explicitly.
 
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
@@ -41,14 +41,21 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | Apertus Mini | 2026 | 0.5B, 1.5B, 4B | Swiss AI (EPFL, ETH Zurich, CSCS) | [paper](https://arxiv.org/abs/2509.14233) | [code](https://github.com/swiss-ai/apertus-tech-report) | [huggingface](https://huggingface.co/collections/swiss-ai/apertus-mini) |
 | Qwen-3.5 | 2026 | 0.8B, 2B, ... | Qwen Team | [blog](https://qwen.ai/blog?id=qwen3.5) | [code](https://github.com/QwenLM/Qwen3.5) | [huggingface](https://huggingface.co/collections/Qwen/qwen35) |
 | **2025** | | | | | | |
+| FunctionGemma | 2025 | 270M | Google DeepMind | [blog](https://blog.google/innovation-and-ai/technology/developers-tools/functiongemma/) | - | [huggingface](https://huggingface.co/google/functiongemma-270m-it) |
 | LFM2 | 2025 | 350M, 700M, 1.2B, 2.6B, 8.3B (1.5B active) | Liquid AI | [paper](https://arxiv.org/abs/2511.23404), [website](https://www.liquid.ai/research/lfm2-technical-report) | - | [huggingface](https://huggingface.co/collections/LiquidAI/lfm2) |
+| Granite 4.0 Nano | 2025 | 350M, 1B (dense and hybrid variants) | IBM | [website](https://www.ibm.com/granite/docs/models/granite4-0) | - | [huggingface](https://huggingface.co/collections/ibm-granite/granite-40-nano-language-models) |
+| Qwen3-VL | 2025 | 2B | Qwen Team | [paper](https://arxiv.org/abs/2511.21631) | [code](https://github.com/QwenLM/Qwen3-VL) | [huggingface](https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct) |
 | MobileLLM-R1.5 | 2025 | 140M, 360M, 950M | Meta | [paper](https://arxiv.org/abs/2509.24945) | [code](https://github.com/facebookresearch/MobileLLM-R1) | [huggingface](https://huggingface.co/facebook/MobileLLM-R1.5-950M) |
 | Nemotron-Flash | 2025 | 1B, 3B | Nvidia | [paper](https://arxiv.org/abs/2511.18890), [NeurIPS'25](https://neurips.cc/virtual/2025/poster/118640) | - | [huggingface](https://huggingface.co/nvidia/Nemotron-Flash-3B-Instruct) |
 | MobileLLM-Pro | 2025 | 1B | Meta | [paper](https://arxiv.org/abs/2511.06719) | - | [huggingface](https://huggingface.co/facebook/MobileLLM-Pro) |
 | MobileLLM-R1 | 2025 | 140M, 360M, 950M | Meta | [paper](https://arxiv.org/abs/2509.24945) | [code](https://github.com/facebookresearch/MobileLLM-R1) | [huggingface](https://huggingface.co/facebook/MobileLLM-R1-950M) |
 | SmolLM3 | 2025 | 3B | HuggingFace | [blog](https://huggingface.co/blog/smollm3) | [code](https://github.com/huggingface/transformers/tree/main/src/transformers/models/smollm3) | [huggingface](https://huggingface.co/HuggingFaceTB/SmolLM3-3B-Base) |
-| Gemma 3 | 2025 | 1B, 4B, ... | Google DeepMind | [paper](https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/google/gemma-3-1b-it) |
+| Gemma 3n | 2025 | E2B effective (5B total), E4B effective (8B total) | Google DeepMind | [developer guide](https://developers.googleblog.com/en/introducing-gemma-3n-developer-guide/) | - | [huggingface](https://huggingface.co/google/gemma-3n-E2B-it) |
+| Falcon-H1 | 2025 | 0.5B, 1.5B, 1.5B-Deep, ... | Technology Innovation Institute | [paper](https://arxiv.org/abs/2507.22448) | - | [huggingface](https://huggingface.co/collections/tiiuae/falcon-h1) |
+| Falcon-Edge | 2025 | 1B, 3B (1.58-bit) | Technology Innovation Institute | [blog](https://huggingface.co/blog/tiiuae/falcon-edge) | [code](https://github.com/tiiuae/onebitllms) | [huggingface](https://huggingface.co/collections/tiiuae/falcon-edge-series) |
+| Gemma 3 | 2025 | 270M, 1B, 4B, ... | Google DeepMind | [paper](https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf), [270M blog](https://developers.googleblog.com/introducing-gemma-3-270m/) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/google/gemma-3-270m-it) |
 | Qwen-3 | 2025 | 0.6B, 1.7B, ... | Qwen Team | [paper](https://arxiv.org/abs/2505.09388) | [code](https://github.com/QwenLM/Qwen3) | [huggingface](https://huggingface.co/Qwen/Qwen3-1.7B) |
+| SmolVLM2 | 2025 | 256M, 500M, 2.2B | Hugging Face | [blog](https://huggingface.co/blog/smolvlm2) | [code](https://github.com/huggingface/smollm/tree/main/vision/smolvlm2) | [huggingface](https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct) |
 | Pareto-Q | 2025 | 125M, 350M, 600M, 1B, 1.5B, 3B | Meta | [paper](https://arxiv.org/abs/2502.02631) | [code](https://github.com/facebookresearch/ParetoQ) | [huggingface](https://huggingface.co/facebook/MobileLLM-ParetoQ-1.5B-1.58-bit) |
 | **2024** | | | | | | |
 | BlueLM-V | 2024 | 2.7B | CUHK, Vivo AI Lab | [paper](https://arxiv.org/abs/2411.10640) | [code](https://github.com/vivo-ai-lab/BlueLM) | - |
@@ -63,6 +70,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | Apple Intelligence Foundation LMs | 2024 | 3B | Apple | [paper](https://machinelearning.apple.com/research/apple-intelligence-foundation-language-models) | - | - |
 | SmolLM | 2024 | 135M, 360M, 1.7B | Huggingface | [blog](https://huggingface.co/blog/smollm) | - | [huggingface](https://huggingface.co/HuggingFaceTB/SmolLM-135M) |
 | Fox | 2024 | 1.6B | TensorOpera | [blog](https://blog.tensoropera.ai/tensoropera-unveils-fox-foundation-model-a-pioneering-open-source-slm-leading-the-way-against-tech-giants/) | - | [huggingface](https://huggingface.co/tensoropera/Fox-1-1.6B) |
+| Qwen2.5 | 2024 | 0.5B, 1.5B, 3B, ... | Qwen Team | [blog](https://qwenlm.github.io/blog/qwen2.5/) | [code](https://github.com/QwenLM/Qwen2.5) | [huggingface](https://huggingface.co/collections/Qwen/qwen25) |
 | Qwen2 | 2024 | 500M, 1.5B, ... | Qwen Team | [paper](https://arxiv.org/abs/2309.16609) | [code](https://github.com/QwenLM/Qwen2) | [huggingface](https://huggingface.co/Qwen/Qwen2-0.5B) |
 | OpenELM | 2024 | 270M, 450M, 1.08B, 3.04B | Apple | [paper](https://arxiv.org/abs/2404.14619)  | [code](https://github.com/apple/corenet) | [huggingface](https://huggingface.co/apple/OpenELM) |
 | DCLM | 2024 | 400M, 1B, ... | Univerisy of Washington, Apple, Toyota Research Institute, ... | [paper](https://arxiv.org/abs/2406.11794) | [code](https://github.com/mlfoundations/dclm) | [huggingface](https://huggingface.co/TRI-ML/DCLM-1B) |
@@ -160,6 +168,18 @@ These frameworks are primarily used to host models on a laptop, desktop, or work
 
 #### 2026
 
+- **[MobiCom'26]** ExoMem: OS-Governed Memory for Local Large-LLM Inference on Mobile Edge Devices
+  <br>*Jun You, Kun Wang, Jiesong Chen, et al.*
+  <br>[![Paper](https://img.shields.io/badge/Paper-Link-1f6feb?logo=readme&logoColor=white)](https://www.cs.cityu.edu.hk/~zhenjili/2026-MobiCom-ExoMem.pdf) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3795866.3844471)
+- **[MobiCom'26]** mzCache: On-Device LLM Memory Management under Multitasking
+  <br>*Hongseung Yu, Minsung Kim, Jongseok Park, Kyunghan Lee*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.01338)
+- **[MobiSys'26]** SAIL: Redesigning Collaborative Language Inference with a Single Server-to-Mobile Handoff
+  <br>*Gibum Park, Sanghyun Han, Yonghwa Cho, et al.*
+  <br>[![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3745756.3809224)
+- **[MobiSys'26]** KVSwap: Disk-aware KV Cache Offloading for Long-Context On-device Inference
+  <br>*Huawei Zhang, Chunwei Xia, Zheng Wang*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.11907)
 - **[SenSys'26]** An Efficient Context Management System for On-Device LLMaaS
   <br>*Wangsong Yin et al.*
   <br>[![DOI](https://img.shields.io/badge/DOI-Paper-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/full/10.1145/3774906.3800479)
@@ -169,6 +189,9 @@ These frameworks are primarily used to host models on a laptop, desktop, or work
 
 #### 2025
 
+- **[MobiSys'25]** EdgeLoRA: An Efficient Multi-Tenant LLM Serving System on Edge Devices
+  <br>*Zheyu Shen, Yexiao He, Ziyao Wang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.01438) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3711875.3729141)
 - Apple Intelligence Foundation Language Models: Tech Report 2025
   <br>*Ethan Li, Anders Boesen Lindbo Larsen, Chen Zhang, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.13575)
@@ -217,6 +240,9 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 #### 2026
 
+- Is Your NPU Ready for LLMs? Dissecting the Hidden Efficiency Bottlenecks in Mobile LLM Inference
+  <br>*Guanyu Cai, Ruiming Tian, Lang Yang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.05475)
 - LLM Inference at the Edge: Mobile, NPU, and GPU Performance Efficiency Trade-offs Under Sustained Load
   <br>*Pranay Tummalapalli, Sahil Arayakandy, Ritam Pal, Kautuk Kundan*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.23640)
@@ -262,6 +288,15 @@ This section focuses on techniques and optimisations that target mobile-specific
 
 #### 2026
 
+- **[MobiCom'26]** LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference
+  <br>*Renyuan Liu, Yuyang Leng, Kaiyan Liu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.03079)
+- **[MobiCom'26]** NPUGen: NPU as KV Generator for Stable Long-Context Mobile LLM Inference
+  <br>*Kun Wang, Jiani Cao, Zhenjiang Li*
+  <br>[![Conference](https://img.shields.io/badge/Conference-Program-1f6feb?logo=readme&logoColor=white)](https://www.sigmobile.org/mobicom/2026/accepted_papers_schedule.html)
+- **[MobiSys'26]** Act Before It's Too Late: Power-Efficient LLM Inference on Mobile Device
+  <br>*Haolin Chu, Jinxiao Fan, Jiabin Deng, et al.*
+  <br>[![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3745756.3809208)
 - MobileMoE: Scaling On-Device Mixture of Experts
   <br>*Yanbei Chen et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.27358)
@@ -374,6 +409,9 @@ This section refers to multimodal LLMs, which integrate vision or other modaliti
 
 #### 2026
 
+- **[MobiSys'26]** VLMCache: Efficient On-Device Vision-Language Model Inference
+  <br>*Yinyuan Zhang, Daliang Xu, Zhiyang Chen, et al.*
+  <br>[![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3745756.3809243)
 - Small Vision-Language Models are Smart Compressors for Long Video Understanding
   <br>*Junjie Fei et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.08120)
@@ -451,6 +489,9 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
 
 ### 2026
 
+- **[MobiCom'26, accepted]** Prism: Efficient Zeroth-Order Fine-Tuning for On-Device LLMs
+  <br>*Yongjian Fu, Wenyu Qi, Yizhe Zhao, et al.*
+  <br>[![Conference](https://img.shields.io/badge/Conference-Program-1f6feb?logo=readme&logoColor=white)](https://www.sigmobile.org/mobicom/2026/accepted_papers_schedule.html)
 - **[MobiSys'26]** FBLayout: Optimizing Memory Layout for Efficient LLM Finetuning on Mobile GPUs
   <br>*Kahou Tam, Wei Niu, Yu Bao, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.21624) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3745756.3809214)
@@ -460,6 +501,9 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
 
 ### 2025
 
+- **[MobiSys'25]** Never Start from Scratch: Expediting On-Device LLM Personalization via Explainable Model Selection
+  <br>*Haoming Wang, Boyuan Yang, Xiangyu Yin, Wei Gao*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.13938) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3711875.3729132)
 - Computational Bottlenecks of Training Small-scale Large Language Models
   <br>*Saleh Ashkboos, Iman Mirzadeh, Keivan Alizadeh, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.19456)
@@ -599,23 +643,34 @@ This section includes paper that are mobile-related, but not necessarily run on 
 
 * [HF Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)
 * [FlowerTune LLM Leaderboard](https://flower.ai/benchmarks/llm-leaderboard/)
-* [MLPerf Inference: Mobile Benchmark Suite](https://mlcommons.org/benchmarks/inference-mobile/)
+* [MLPerf Inference: Mobile Benchmark Suite](https://mlcommons.org/benchmarks/inference-mobile/) (includes [on-device LLM tests in v6.0](https://mlcommons.org/2026/06/mlperf-mobile-v6/))
+* [Pipette - On-Device Foundation Model Benchmarks](https://pipette.liquid.ai/)
+* [DeviceMark - On-Device LLM Leaderboard](https://devicemark.github.io/) (iPhone)
 
 ## Books and Courses
 
+* [MIT 6.5940: TinyML and Efficient AI Computing (Fall 2026)](https://hanlab.mit.edu/course)
+* [Introduction to On-Device AI](https://www.deeplearning.ai/courses/introduction-to-on-device-ai) by DeepLearning.AI and Qualcomm
+* [AI at the Edge: Solving Real-World Problems with Embedded Machine Learning](https://www.oreilly.com/library/view/ai-at-the/9781098120191/titlepage01.html) by Daniel Situnayake and Jenny Plunkett
 * [Edge AI Engineering](https://mjrovai.github.io/EdgeML_Made_Ease_ebook/) by Marcelo Rovai
 * [Machine Learning Systems: Principles and Practices of Engineering Artificially Intelligent Systems](https://mlsysbook.ai/) by Vijay Janapa Reddi
 
 ## Industry Announcements
 
+* [Apple - Third Generation of Apple Foundation Models (2026)](https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models)
+* [Apple - Updates to On-Device and Server Foundation Language Models (2025)](https://machinelearning.apple.com/research/apple-foundation-models-2025-updates)
 * [WWDC'24 - Apple Foundation Models](https://machinelearning.apple.com/research/introducing-apple-foundation-models)
-* [PyTorch Executorch Alpha](https://pytorch.org/blog/executorch-alpha/)
+* [PyTorch - ExecuTorch 1.0](https://pytorch.org/blog/introducing-executorch-1-0/)
+* [Google AI Edge - Small Language Models, Multimodality, RAG, and Function Calling](https://developers.googleblog.com/google-ai-edge-small-language-models-multimodality-rag-function-calling/)
 * [Google - LLMs On-Device with MediaPipe and TFLite](https://developers.googleblog.com/en/large-language-models-on-device-with-mediapipe-and-tensorflow-lite/)
 * [Qualcomm - The future of AI is Hybrid](https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Whitepaper-The-future-of-AI-is-hybrid-Part-1-Unlocking-the-generative-AI-future-with-on-device-and-hybrid-AI.pdf)
 * [ARM - Generative AI on mobile](https://community.arm.com/arm-community-blogs/b/ai-and-ml-blog/posts/generative-ai-on-mobile-on-arm-cpu)
 
 ## Related Organized Workshops
 
+* [On-Device Intelligence @ NeurIPS'26](https://odi2026.github.io/): Foundation Models under Real-World Constraints
+* [EDGE @ CVPR'26](https://cvpr26-edge.github.io/): Efficient and On-Device Generation
+* [EdgeFM @ MobiCom'25](https://edgefm.github.io/2025/index.html): Edge and Mobile Foundation Models
 * [TTODLer-FM @ ICML'25](https://ttodlerfm.gitlab.io/): Tiny Titans: The next wave of On-Device Learning for Foundational Models (TTODLer-FM)
 * [ES-FoMO @ ICML'25](https://es-fomo.com/): Efficient Systems for Foundation Models
 * [Binary Networks @ ICCV'25](https://binarynetworks.io/): Binary and Extreme Quantization for Computer Vision
