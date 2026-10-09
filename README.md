@@ -29,7 +29,7 @@ Let's try to make this list as useful as possible to researchers, engineers and 
 
 ## Mobile-First LLMs
 
-The following Table shows sub-3B models designed for on-device deployments, sorted by year.
+The following table shows small models designed for on-device deployments, primarily with sub-3B variants, sorted by year. For models with larger total parameter counts, active or effective sizes are labeled explicitly.
 
 | Name   | Year | Sizes               | Primary Group/Affiliation                               | Publication                                 | Code Repository                                  | HF Repository                                             |
 | ---    | --- | ---                | ---                                             | ---                                           | ---                                              | ---                                                       |
@@ -41,14 +41,21 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | Apertus Mini | 2026 | 0.5B, 1.5B, 4B | Swiss AI (EPFL, ETH Zurich, CSCS) | [paper](https://arxiv.org/abs/2509.14233) | [code](https://github.com/swiss-ai/apertus-tech-report) | [huggingface](https://huggingface.co/collections/swiss-ai/apertus-mini) |
 | Qwen-3.5 | 2026 | 0.8B, 2B, ... | Qwen Team | [blog](https://qwen.ai/blog?id=qwen3.5) | [code](https://github.com/QwenLM/Qwen3.5) | [huggingface](https://huggingface.co/collections/Qwen/qwen35) |
 | **2025** | | | | | | |
+| FunctionGemma | 2025 | 270M | Google DeepMind | [blog](https://blog.google/innovation-and-ai/technology/developers-tools/functiongemma/) | - | [huggingface](https://huggingface.co/google/functiongemma-270m-it) |
 | LFM2 | 2025 | 350M, 700M, 1.2B, 2.6B, 8.3B (1.5B active) | Liquid AI | [paper](https://arxiv.org/abs/2511.23404), [website](https://www.liquid.ai/research/lfm2-technical-report) | - | [huggingface](https://huggingface.co/collections/LiquidAI/lfm2) |
+| Granite 4.0 Nano | 2025 | 350M, 1B (dense and hybrid variants) | IBM | [website](https://www.ibm.com/granite/docs/models/granite4-0) | - | [huggingface](https://huggingface.co/collections/ibm-granite/granite-40-nano-language-models) |
+| Qwen3-VL | 2025 | 2B | Qwen Team | [paper](https://arxiv.org/abs/2511.21631) | [code](https://github.com/QwenLM/Qwen3-VL) | [huggingface](https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct) |
 | MobileLLM-R1.5 | 2025 | 140M, 360M, 950M | Meta | [paper](https://arxiv.org/abs/2509.24945) | [code](https://github.com/facebookresearch/MobileLLM-R1) | [huggingface](https://huggingface.co/facebook/MobileLLM-R1.5-950M) |
 | Nemotron-Flash | 2025 | 1B, 3B | Nvidia | [paper](https://arxiv.org/abs/2511.18890), [NeurIPS'25](https://neurips.cc/virtual/2025/poster/118640) | - | [huggingface](https://huggingface.co/nvidia/Nemotron-Flash-3B-Instruct) |
 | MobileLLM-Pro | 2025 | 1B | Meta | [paper](https://arxiv.org/abs/2511.06719) | - | [huggingface](https://huggingface.co/facebook/MobileLLM-Pro) |
 | MobileLLM-R1 | 2025 | 140M, 360M, 950M | Meta | [paper](https://arxiv.org/abs/2509.24945) | [code](https://github.com/facebookresearch/MobileLLM-R1) | [huggingface](https://huggingface.co/facebook/MobileLLM-R1-950M) |
 | SmolLM3 | 2025 | 3B | HuggingFace | [blog](https://huggingface.co/blog/smollm3) | [code](https://github.com/huggingface/transformers/tree/main/src/transformers/models/smollm3) | [huggingface](https://huggingface.co/HuggingFaceTB/SmolLM3-3B-Base) |
-| Gemma 3 | 2025 | 1B, 4B, ... | Google DeepMind | [paper](https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/google/gemma-3-1b-it) |
+| Gemma 3n | 2025 | E2B effective (5B total), E4B effective (8B total) | Google DeepMind | [developer guide](https://developers.googleblog.com/en/introducing-gemma-3n-developer-guide/) | - | [huggingface](https://huggingface.co/google/gemma-3n-E2B-it) |
+| Falcon-H1 | 2025 | 0.5B, 1.5B, 1.5B-Deep, ... | Technology Innovation Institute | [paper](https://arxiv.org/abs/2507.22448) | - | [huggingface](https://huggingface.co/collections/tiiuae/falcon-h1) |
+| Falcon-Edge | 2025 | 1B, 3B (1.58-bit) | Technology Innovation Institute | [blog](https://huggingface.co/blog/tiiuae/falcon-edge) | [code](https://github.com/tiiuae/onebitllms) | [huggingface](https://huggingface.co/collections/tiiuae/falcon-edge-series) |
+| Gemma 3 | 2025 | 270M, 1B, 4B, ... | Google DeepMind | [paper](https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf), [270M blog](https://developers.googleblog.com/introducing-gemma-3-270m/) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/google/gemma-3-270m-it) |
 | Qwen-3 | 2025 | 0.6B, 1.7B, ... | Qwen Team | [paper](https://arxiv.org/abs/2505.09388) | [code](https://github.com/QwenLM/Qwen3) | [huggingface](https://huggingface.co/Qwen/Qwen3-1.7B) |
+| SmolVLM2 | 2025 | 256M, 500M, 2.2B | Hugging Face | [blog](https://huggingface.co/blog/smolvlm2) | [code](https://github.com/huggingface/smollm/tree/main/vision/smolvlm2) | [huggingface](https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct) |
 | Pareto-Q | 2025 | 125M, 350M, 600M, 1B, 1.5B, 3B | Meta | [paper](https://arxiv.org/abs/2502.02631) | [code](https://github.com/facebookresearch/ParetoQ) | [huggingface](https://huggingface.co/facebook/MobileLLM-ParetoQ-1.5B-1.58-bit) |
 | **2024** | | | | | | |
 | BlueLM-V | 2024 | 2.7B | CUHK, Vivo AI Lab | [paper](https://arxiv.org/abs/2411.10640) | [code](https://github.com/vivo-ai-lab/BlueLM) | - |
@@ -63,6 +70,7 @@ The following Table shows sub-3B models designed for on-device deployments, sort
 | Apple Intelligence Foundation LMs | 2024 | 3B | Apple | [paper](https://machinelearning.apple.com/research/apple-intelligence-foundation-language-models) | - | - |
 | SmolLM | 2024 | 135M, 360M, 1.7B | Huggingface | [blog](https://huggingface.co/blog/smollm) | - | [huggingface](https://huggingface.co/HuggingFaceTB/SmolLM-135M) |
 | Fox | 2024 | 1.6B | TensorOpera | [blog](https://blog.tensoropera.ai/tensoropera-unveils-fox-foundation-model-a-pioneering-open-source-slm-leading-the-way-against-tech-giants/) | - | [huggingface](https://huggingface.co/tensoropera/Fox-1-1.6B) |
+| Qwen2.5 | 2024 | 0.5B, 1.5B, 3B, ... | Qwen Team | [blog](https://qwenlm.github.io/blog/qwen2.5/) | [code](https://github.com/QwenLM/Qwen2.5) | [huggingface](https://huggingface.co/collections/Qwen/qwen25) |
 | Qwen2 | 2024 | 500M, 1.5B, ... | Qwen Team | [paper](https://arxiv.org/abs/2309.16609) | [code](https://github.com/QwenLM/Qwen2) | [huggingface](https://huggingface.co/Qwen/Qwen2-0.5B) |
 | OpenELM | 2024 | 270M, 450M, 1.08B, 3.04B | Apple | [paper](https://arxiv.org/abs/2404.14619)  | [code](https://github.com/apple/corenet) | [huggingface](https://huggingface.co/apple/OpenELM) |
 | DCLM | 2024 | 400M, 1B, ... | Univerisy of Washington, Apple, Toyota Research Institute, ... | [paper](https://arxiv.org/abs/2406.11794) | [code](https://github.com/mlfoundations/dclm) | [huggingface](https://huggingface.co/TRI-ML/DCLM-1B) |
