@@ -643,7 +643,9 @@ This section includes paper that are mobile-related, but not necessarily run on 
 
 * [HF Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)
 * [FlowerTune LLM Leaderboard](https://flower.ai/benchmarks/llm-leaderboard/)
-* [MLPerf Inference: Mobile Benchmark Suite](https://mlcommons.org/benchmarks/inference-mobile/)
+* [MLPerf Inference: Mobile Benchmark Suite](https://mlcommons.org/benchmarks/inference-mobile/) (includes [on-device LLM tests in v6.0](https://mlcommons.org/2026/06/mlperf-mobile-v6/))
+* [Pipette - On-Device Foundation Model Benchmarks](https://pipette.liquid.ai/)
+* [DeviceMark - On-Device LLM Leaderboard](https://devicemark.github.io/) (iPhone)
 
 ## Books and Courses
 
