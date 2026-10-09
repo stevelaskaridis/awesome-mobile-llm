@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 3rd September 2026
+Last update: 9th October 2026
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -160,6 +160,18 @@ These frameworks are primarily used to host models on a laptop, desktop, or work
 
 #### 2026
 
+- **[MobiCom'26]** ExoMem: OS-Governed Memory for Local Large-LLM Inference on Mobile Edge Devices
+  <br>*Jun You, Kun Wang, Jiesong Chen, et al.*
+  <br>[![Paper](https://img.shields.io/badge/Paper-Link-1f6feb?logo=readme&logoColor=white)](https://www.cs.cityu.edu.hk/~zhenjili/2026-MobiCom-ExoMem.pdf) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3795866.3844471)
+- **[MobiCom'26]** mzCache: On-Device LLM Memory Management under Multitasking
+  <br>*Hongseung Yu, Minsung Kim, Jongseok Park, Kyunghan Lee*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.01338)
+- **[MobiSys'26]** SAIL: Redesigning Collaborative Language Inference with a Single Server-to-Mobile Handoff
+  <br>*Gibum Park, Sanghyun Han, Yonghwa Cho, et al.*
+  <br>[![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3745756.3809224)
+- **[MobiSys'26]** KVSwap: Disk-aware KV Cache Offloading for Long-Context On-device Inference
+  <br>*Huawei Zhang, Chunwei Xia, Zheng Wang*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.11907)
 - **[SenSys'26]** An Efficient Context Management System for On-Device LLMaaS
   <br>*Wangsong Yin et al.*
   <br>[![DOI](https://img.shields.io/badge/DOI-Paper-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/full/10.1145/3774906.3800479)
@@ -169,6 +181,9 @@ These frameworks are primarily used to host models on a laptop, desktop, or work
 
 #### 2025
 
+- **[MobiSys'25]** EdgeLoRA: An Efficient Multi-Tenant LLM Serving System on Edge Devices
+  <br>*Zheyu Shen, Yexiao He, Ziyao Wang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.01438) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3711875.3729141)
 - Apple Intelligence Foundation Language Models: Tech Report 2025
   <br>*Ethan Li, Anders Boesen Lindbo Larsen, Chen Zhang, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.13575)
@@ -217,6 +232,9 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 #### 2026
 
+- Is Your NPU Ready for LLMs? Dissecting the Hidden Efficiency Bottlenecks in Mobile LLM Inference
+  <br>*Guanyu Cai, Ruiming Tian, Lang Yang, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.05475)
 - LLM Inference at the Edge: Mobile, NPU, and GPU Performance Efficiency Trade-offs Under Sustained Load
   <br>*Pranay Tummalapalli, Sahil Arayakandy, Ritam Pal, Kautuk Kundan*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.23640)
@@ -262,6 +280,15 @@ This section focuses on techniques and optimisations that target mobile-specific
 
 #### 2026
 
+- **[MobiCom'26]** LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference
+  <br>*Renyuan Liu, Yuyang Leng, Kaiyan Liu, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.03079)
+- **[MobiCom'26]** NPUGen: NPU as KV Generator for Stable Long-Context Mobile LLM Inference
+  <br>*Kun Wang, Jiani Cao, Zhenjiang Li*
+  <br>[![Conference](https://img.shields.io/badge/Conference-Program-1f6feb?logo=readme&logoColor=white)](https://www.sigmobile.org/mobicom/2026/accepted_papers_schedule.html)
+- **[MobiSys'26]** Act Before It's Too Late: Power-Efficient LLM Inference on Mobile Device
+  <br>*Haolin Chu, Jinxiao Fan, Jiabin Deng, et al.*
+  <br>[![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3745756.3809208)
 - MobileMoE: Scaling On-Device Mixture of Experts
   <br>*Yanbei Chen et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.27358)
@@ -374,6 +401,9 @@ This section refers to multimodal LLMs, which integrate vision or other modaliti
 
 #### 2026
 
+- **[MobiSys'26]** VLMCache: Efficient On-Device Vision-Language Model Inference
+  <br>*Yinyuan Zhang, Daliang Xu, Zhiyang Chen, et al.*
+  <br>[![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3745756.3809243)
 - Small Vision-Language Models are Smart Compressors for Long Video Understanding
   <br>*Junjie Fei et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.08120)
@@ -451,6 +481,9 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
 
 ### 2026
 
+- **[MobiCom'26, accepted]** Prism: Efficient Zeroth-Order Fine-Tuning for On-Device LLMs
+  <br>*Yongjian Fu, Wenyu Qi, Yizhe Zhao, et al.*
+  <br>[![Conference](https://img.shields.io/badge/Conference-Program-1f6feb?logo=readme&logoColor=white)](https://www.sigmobile.org/mobicom/2026/accepted_papers_schedule.html)
 - **[MobiSys'26]** FBLayout: Optimizing Memory Layout for Efficient LLM Finetuning on Mobile GPUs
   <br>*Kahou Tam, Wei Niu, Yu Bao, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.21624) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://dl.acm.org/doi/abs/10.1145/3745756.3809214)
@@ -460,6 +493,9 @@ This section refers to papers attempting to train/fine-tune LLMs on device, in a
 
 ### 2025
 
+- **[MobiSys'25]** Never Start from Scratch: Expediting On-Device LLM Personalization via Explainable Model Selection
+  <br>*Haoming Wang, Boyuan Yang, Xiangyu Yin, Wei Gao*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.13938) [![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3711875.3729132)
 - Computational Bottlenecks of Training Small-scale Large Language Models
   <br>*Saleh Ashkboos, Iman Mirzadeh, Keivan Alizadeh, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.19456)
