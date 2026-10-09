@@ -665,6 +665,9 @@ This section includes paper that are mobile-related, but not necessarily run on 
 
 ## Related Organized Workshops
 
+* [On-Device Intelligence @ NeurIPS'26](https://odi2026.github.io/): Foundation Models under Real-World Constraints
+* [EDGE @ CVPR'26](https://cvpr26-edge.github.io/): Efficient and On-Device Generation
+* [EdgeFM @ MobiCom'25](https://edgefm.github.io/2025/index.html): Edge and Mobile Foundation Models
 * [TTODLer-FM @ ICML'25](https://ttodlerfm.gitlab.io/): Tiny Titans: The next wave of On-Device Learning for Foundational Models (TTODLer-FM)
 * [ES-FoMO @ ICML'25](https://es-fomo.com/): Efficient Systems for Foundation Models
 * [Binary Networks @ ICCV'25](https://binarynetworks.io/): Binary and Extreme Quantization for Computer Vision
