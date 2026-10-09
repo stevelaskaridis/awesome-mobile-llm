@@ -649,6 +649,9 @@ This section includes paper that are mobile-related, but not necessarily run on 
 
 ## Books and Courses
 
+* [MIT 6.5940: TinyML and Efficient AI Computing (Fall 2026)](https://hanlab.mit.edu/course)
+* [Introduction to On-Device AI](https://www.deeplearning.ai/courses/introduction-to-on-device-ai) by DeepLearning.AI and Qualcomm
+* [AI at the Edge: Solving Real-World Problems with Embedded Machine Learning](https://www.oreilly.com/library/view/ai-at-the/9781098120191/titlepage01.html) by Daniel Situnayake and Jenny Plunkett
 * [Edge AI Engineering](https://mjrovai.github.io/EdgeML_Made_Ease_ebook/) by Marcelo Rovai
 * [Machine Learning Systems: Principles and Practices of Engineering Artificially Intelligent Systems](https://mlsysbook.ai/) by Vijay Janapa Reddi
 
