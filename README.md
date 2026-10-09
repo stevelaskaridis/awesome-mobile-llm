@@ -652,8 +652,11 @@ This section includes paper that are mobile-related, but not necessarily run on 
 
 ## Industry Announcements
 
+* [Apple - Third Generation of Apple Foundation Models (2026)](https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models)
+* [Apple - Updates to On-Device and Server Foundation Language Models (2025)](https://machinelearning.apple.com/research/apple-foundation-models-2025-updates)
 * [WWDC'24 - Apple Foundation Models](https://machinelearning.apple.com/research/introducing-apple-foundation-models)
-* [PyTorch Executorch Alpha](https://pytorch.org/blog/executorch-alpha/)
+* [PyTorch - ExecuTorch 1.0](https://pytorch.org/blog/introducing-executorch-1-0/)
+* [Google AI Edge - Small Language Models, Multimodality, RAG, and Function Calling](https://developers.googleblog.com/google-ai-edge-small-language-models-multimodality-rag-function-calling/)
 * [Google - LLMs On-Device with MediaPipe and TFLite](https://developers.googleblog.com/en/large-language-models-on-device-with-mediapipe-and-tensorflow-lite/)
 * [Qualcomm - The future of AI is Hybrid](https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/Whitepaper-The-future-of-AI-is-hybrid-Part-1-Unlocking-the-generative-AI-future-with-on-device-and-hybrid-AI.pdf)
 * [ARM - Generative AI on mobile](https://community.arm.com/arm-community-blogs/b/ai-and-ml-blog/posts/generative-ai-on-mobile-on-arm-cpu)
