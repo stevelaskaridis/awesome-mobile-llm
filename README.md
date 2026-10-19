@@ -36,7 +36,6 @@ The following table shows small models designed for on-device deployments, prima
 | **2026** | | | | | | |
 | MobileMoE | 2026 | 0.3B, 0.5B, 0.9B active (1.3B, 2.8B, 5.3B total) | Meta AI | [paper](https://arxiv.org/abs/2605.27358) | - | - |
 | Gemma 4 | 2026 | E2B, E4B, 26B | Google DeepMind | [website](https://deepmind.google/models/gemma/gemma-4/) | [code](https://github.com/google/gemma_pytorch) | [huggingface](https://huggingface.co/collections/google/gemma-4) |
-| Gauss | 2026 | 1B, 3B | Samsung Research | [paper](https://arxiv.org/abs/2604.18655) | - | - |
 | LFM2.5 | 2026 | 350M, 1.2B, 1.5B, 1.6B, 2.6B | Liquid AI | [website](https://www.liquid.ai/blog/introducing-lfm2-5-the-next-generation-of-on-device-ai), [LFM2.5-2.6B blog](https://www.liquid.ai/blog/lfm2-5-2-6b) | - | [huggingface](https://huggingface.co/collections/LiquidAI/lfm25) |
 | MobileLLM-Flash | 2026 | 350M, 650M, 1.4B | Meta | [paper](https://arxiv.org/abs/2603.15954) | - | - |
 | Apertus Mini | 2026 | 0.5B, 1.5B, 4B | Swiss AI (EPFL, ETH Zurich, CSCS) | [paper](https://arxiv.org/abs/2509.14233) | [code](https://github.com/swiss-ai/apertus-tech-report) | [huggingface](https://huggingface.co/collections/swiss-ai/apertus-mini) |
