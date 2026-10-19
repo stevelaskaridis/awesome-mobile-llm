@@ -128,6 +128,7 @@ These frameworks are primarily used to run models directly on-device, inside mob
     - [dusty-nv's llama.cpp](https://github.com/dusty-nv/jetson-containers/tree/master/packages/llm/llama_cpp): Containers for Jetson deployment of llama.cpp
     - [Off Grid](https://github.com/alichherawalla/off-grid-mobile): Open-source React Native app for on-device LLM chat, vision models (SmolVLM, LLaVA), and Stable Diffusion image generation on iOS & Android.
     - [Airgap](https://github.com/xmpuspus/airgap): Open-source React Native framework for on-device, offline-first customer support chatbots. Runs Gemma 4 E2B locally via llama.rn. Seven industry templates (telco, retail, healthcare, banking, education, insurance, airlines) ship in the repo.
+    - [Pocket AI](https://apps.apple.com/us/app/pocket-ai-no-internet/id6759989702): Closed-source iPhone/iPad app that runs GGUF models on-device with llama.cpp and Metal, fully offline after download. 39-model catalogue, on-device Whisper voice input, and Apple's on-device Foundation Model on supported devices.
 - [MLC-LLM](https://github.com/mlc-ai/mlc-llm): MLC LLM is a machine learning compiler and high-performance deployment engine for large language models. Supports various platforms and build on top of TVM.
     - [Android App](https://llm.mlc.ai/#android): MLC Android app
     - [iOS App](https://llm.mlc.ai/#ios): MLC iOS app
