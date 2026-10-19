@@ -2,7 +2,7 @@
 
 > A curated list of LLMs and related studies targeted at mobile and embedded hardware
 
-Last update: 9th October 2026
+Last update: 19th October 2026
 
 If your publication/work is not included - and you think it should - please open an issue or reach out directly to [@stevelaskaridis](https://github.com/stevelaskaridis).
 
@@ -301,6 +301,9 @@ This section focuses on techniques and optimisations that target mobile-specific
 - **[MobiSys'26]** Act Before It's Too Late: Power-Efficient LLM Inference on Mobile Device
   <br>*Haolin Chu, Jinxiao Fan, Jiabin Deng, et al.*
   <br>[![DOI](https://img.shields.io/badge/Publication-DOI-555555?logo=doi&logoColor=white)](https://doi.org/10.1145/3745756.3809208)
+- **[ACL'26]** Unlocking the Edge deployment and ondevice acceleration of multi-LoRA enabled one-for-all foundational LLM
+  <br>*Sravanth Kodavanti, Sowmya Vajrala, Srinivas Miriyala, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.18655)
 - MobileMoE: Scaling On-Device Mixture of Experts
   <br>*Yanbei Chen et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.27358)
