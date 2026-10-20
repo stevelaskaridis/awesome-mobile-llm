@@ -653,6 +653,7 @@ This section includes paper that are mobile-related, but not necessarily run on 
 * [MLPerf Inference: Mobile Benchmark Suite](https://mlcommons.org/benchmarks/inference-mobile/) (includes [on-device LLM tests in v6.0](https://mlcommons.org/2026/06/mlperf-mobile-v6/))
 * [Pipette - On-Device Foundation Model Benchmarks](https://pipette.liquid.ai/)
 * [DeviceMark - On-Device LLM Leaderboard](https://devicemark.github.io/) (iPhone)
+* [EdgeLLM Bench](https://edgellm-bench.vercel.app) (Raspberry Pi, Jetson, RK3588)
 
 ## Books and Courses
 
