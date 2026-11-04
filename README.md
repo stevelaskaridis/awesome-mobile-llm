@@ -245,6 +245,9 @@ This section focuses on measurements and benchmarking efforts for assessing LLM 
 
 #### 2026
 
+- Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution
+  <br>*Pengcheng Huang, Zhenghao Liu, Shixin Ren, et al.*
+  <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.17816) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github&logoColor=white)](https://github.com/OpenBMB/EC2-Bench)
 - Is Your NPU Ready for LLMs? Dissecting the Hidden Efficiency Bottlenecks in Mobile LLM Inference
   <br>*Guanyu Cai, Ruiming Tian, Lang Yang, et al.*
   <br>[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.05475)
