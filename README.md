@@ -129,6 +129,7 @@ These frameworks are primarily used to run models directly on-device, inside mob
     - [dusty-nv's llama.cpp](https://github.com/dusty-nv/jetson-containers/tree/master/packages/llm/llama_cpp): Containers for Jetson deployment of llama.cpp
     - [Off Grid](https://github.com/alichherawalla/off-grid-mobile): Open-source React Native app for on-device LLM chat, vision models (SmolVLM, LLaVA), and Stable Diffusion image generation on iOS & Android.
     - [Airgap](https://github.com/xmpuspus/airgap): Open-source React Native framework for on-device, offline-first customer support chatbots. Runs Gemma 4 E2B locally via llama.rn. Seven industry templates (telco, retail, healthcare, banking, education, insurance, airlines) ship in the repo.
+    - [Onira](https://onirahypno.com/guides/running-an-llm-on-a-phone/): Android app that writes and narrates personalized self-hypnosis sessions with a Gemma 4 E2B fine-tune (Q4_K_M GGUF) run through llama.cpp over JNI; weights stay mmapped and the model is unloaded after the last block, about 1.6 GB resident on a 6 GB phone. The model, [hypnos-e2b-enfres](https://huggingface.co/oytaub/hypnos-e2b-enfres-GGUF), is Apache-2.0; the app itself is closed source.
 - [MLC-LLM](https://github.com/mlc-ai/mlc-llm): MLC LLM is a machine learning compiler and high-performance deployment engine for large language models. Supports various platforms and build on top of TVM.
     - [Android App](https://llm.mlc.ai/#android): MLC Android app
     - [iOS App](https://llm.mlc.ai/#ios): MLC iOS app
